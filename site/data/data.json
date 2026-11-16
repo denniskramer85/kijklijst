@@ -1,0 +1,6413 @@
+{
+ "version": 1,
+ "generatedAt": "2026-11-16T10:32:35.025Z",
+ "region": "NL",
+ "nick": "denniskramer-490-543377",
+ "stats": {
+  "watchlist": 116,
+  "ratings": 841,
+  "skipped": 0
+ },
+ "defaultServices": [],
+ "catalog": [
+  8,
+  119,
+  350,
+  337,
+  2791,
+  76,
+  223,
+  297,
+  72,
+  71,
+  2,
+  1773,
+  389,
+  381,
+  35,
+  175,
+  100,
+  396,
+  360,
+  451,
+  190,
+  472,
+  475,
+  498,
+  546,
+  548,
+  551,
+  554,
+  559,
+  563,
+  444,
+  567,
+  569,
+  315,
+  10,
+  639,
+  677,
+  688,
+  692,
+  697,
+  1771,
+  309,
+  283,
+  1986,
+  538,
+  2141,
+  1899,
+  2275,
+  2063,
+  1968,
+  2330,
+  2478,
+  464,
+  11,
+  296,
+  201,
+  608,
+  1890,
+  196,
+  2243,
+  2555,
+  2565,
+  2603,
+  2620,
+  2623,
+  603,
+  1825,
+  2685,
+  2358,
+  2709,
+  2716,
+  2765,
+  604,
+  2799,
+  1710,
+  2801,
+  2266
+ ],
+ "providers": {
+  "2": {
+   "name": "Apple TV Store",
+   "logo": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+  },
+  "3": {
+   "name": "Google Play Movies",
+   "logo": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+  },
+  "8": {
+   "name": "Netflix",
+   "logo": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+  },
+  "10": {
+   "name": "Amazon Video",
+   "logo": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+  },
+  "11": {
+   "name": "MUBI",
+   "logo": "/k7iSlvgWzZuO4zU5PcBjhABMuia.png"
+  },
+  "35": {
+   "name": "Rakuten TV",
+   "logo": "/872dfVu1biZISJ8rO143CZZutPR.png"
+  },
+  "71": {
+   "name": "Pathé Thuis",
+   "logo": "/oB7QrPnusUtIpKr8k0YQ12INLeP.png"
+  },
+  "72": {
+   "name": "Videoland",
+   "logo": "/3IdfSLRjSoDoo9lrpvX4oxZmnVi.png"
+  },
+  "76": {
+   "name": "Viaplay",
+   "logo": "/c1J9PGGowXwW5AxAaZaGipeFu7U.png"
+  },
+  "100": {
+   "name": "GuideDoc",
+   "logo": "/zlgqOma3er9QTv5r8g4nhkZCqeN.png"
+  },
+  "119": {
+   "name": "Amazon Prime Video",
+   "logo": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+  },
+  "175": {
+   "name": "Netflix Kids",
+   "logo": "/rjPaInWHH1nPgtRFF17BbHN2gu.png"
+  },
+  "190": {
+   "name": "Curiosity Stream",
+   "logo": "/oPrhlrmvdq8QDWVXgHLAZz8B2Of.png"
+  },
+  "196": {
+   "name": "AcornTV Amazon Channel",
+   "logo": "/7BBOk6Av1TFqWqEhxBYyTJucGuL.png"
+  },
+  "201": {
+   "name": "MUBI Amazon Channel",
+   "logo": "/w1hl8HszsPf5aAGT0mVY0O6LYP4.png"
+  },
+  "223": {
+   "name": "Hayu",
+   "logo": "/rQt1hWSiUthS3vDuIEO9NiJa3nN.png"
+  },
+  "283": {
+   "name": "Crunchyroll",
+   "logo": "/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png"
+  },
+  "296": {
+   "name": "Hayu Amazon Channel",
+   "logo": "/7j9bf0UmdxxmZtPsLggYLnGqrqS.png"
+  },
+  "297": {
+   "name": "Ziggo TV",
+   "logo": "/96DBWDlJw9X0EnP22cOahM8Fdpn.png"
+  },
+  "309": {
+   "name": "Sun Nxt",
+   "logo": "/1T9VcLknesOZZen9ZgLfcDdm5Ys.png"
+  },
+  "315": {
+   "name": "Hoichoi",
+   "logo": "/8dgAD4EzQWMsyudVwWCFg19998L.png"
+  },
+  "337": {
+   "name": "Disney Plus",
+   "logo": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+  },
+  "350": {
+   "name": "Apple TV",
+   "logo": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+  },
+  "360": {
+   "name": "NPO Start",
+   "logo": "/iVAJklPcCjj15989GVJufXqsVtS.png"
+  },
+  "381": {
+   "name": "Canal+",
+   "logo": "/gliWKhLJVdm7QwL1braBCRko5dx.png"
+  },
+  "389": {
+   "name": "Sooner",
+   "logo": "/a9ZXOebUSXGUFxTi3N36sA8wSSh.png"
+  },
+  "396": {
+   "name": "Film1",
+   "logo": "/ulGGgH3Kq4waIZ1SKhyjRlsUrBI.png"
+  },
+  "444": {
+   "name": "Dekkoo",
+   "logo": "/pqiY6w53xNELS5Y16pYQYvCxgE.png"
+  },
+  "451": {
+   "name": "Picl",
+   "logo": "/m62nVQ48DNMgeeHRz3p2iZPFT9q.png"
+  },
+  "464": {
+   "name": "Kocowa",
+   "logo": "/tUXhi1QnIhdoPOTFUKKTrshUuiV.png"
+  },
+  "472": {
+   "name": "NLZIET",
+   "logo": "/jY3kxKfekzgpEDtghtK9elh4G6T.png"
+  },
+  "475": {
+   "name": "DOCSVILLE",
+   "logo": "/enoyK3NBsSCTpaJJJIR5x28mWHN.png"
+  },
+  "498": {
+   "name": "South Park",
+   "logo": "/1mN5bEUgoHk1L5YAMnB5DC3p4qb.png"
+  },
+  "538": {
+   "name": "Plex",
+   "logo": "/blAEhvx3XX8sV0fFVFk88FFjubs.png"
+  },
+  "546": {
+   "name": "WOW Presents Plus",
+   "logo": "/8pME6TzkiDzMnKZioeoqqvfaNya.png"
+  },
+  "548": {
+   "name": "IFFR Unleashed",
+   "logo": "/o3FAO61ibSSVoYKxeSPnM730bYd.png"
+  },
+  "551": {
+   "name": "Magellan TV",
+   "logo": "/hyo2pwkoGKt5Erpz9TfgNQbN8uq.png"
+  },
+  "554": {
+   "name": "BroadwayHD",
+   "logo": "/aPhfGJf1ilFprLhUvpuBpkpHoO.png"
+  },
+  "559": {
+   "name": "Filmzie",
+   "logo": "/6tVbNdx7Yzvi6LThNW5Wo1yov6A.png"
+  },
+  "563": {
+   "name": "KPN",
+   "logo": "/79nAQ85lpvo9OZQ0oHpbjYhMt15.png"
+  },
+  "567": {
+   "name": "True Story",
+   "logo": "/4lNWw9zxVHvoxbas6SAO8X6J03f.png"
+  },
+  "569": {
+   "name": "DocAlliance Films",
+   "logo": "/dAna3PsNLAzPDJkEKWYzMlj94jF.png"
+  },
+  "603": {
+   "name": "CuriosityStream Amazon Channel",
+   "logo": "/lD5GM2RVquDG85ybCswioL1MXHU.png"
+  },
+  "604": {
+   "name": "DocuBay Amazon Channel",
+   "logo": "/mfqGHipFOVMtsdaFPDPRcV0we46.png"
+  },
+  "608": {
+   "name": "Love Nature Amazon Channel",
+   "logo": "/nfGvnsjqAOAPChbkdCBKX4c1MOh.png"
+  },
+  "639": {
+   "name": "CineMember",
+   "logo": "/gd0zMEph8WdBDaRd7LTqfCG53vI.png"
+  },
+  "677": {
+   "name": "Eventive",
+   "logo": "/3TLkIBBnZQ9KdjIjWU7NdqXincI.png"
+  },
+  "688": {
+   "name": "ShortsTV Amazon Channel",
+   "logo": "/gNQdc6Hdh5mr9AJkuyQEFEmphWW.png"
+  },
+  "692": {
+   "name": "Cultpix",
+   "logo": "/hBR1NB5z52BHMqowq0TgZqMcDBv.png"
+  },
+  "697": {
+   "name": "meJane",
+   "logo": "/sLa7ctMpAoKdxIS72mHl7xuhONL.png"
+  },
+  "1710": {
+   "name": "HistoryPlay Amazon Channel",
+   "logo": "/dNKOQAJPHqJs4t2SVq6WpVr5WHz.png"
+  },
+  "1771": {
+   "name": "Takflix",
+   "logo": "/exmycQN7BOW3d2Br5SGAQ1BMqjq.png"
+  },
+  "1773": {
+   "name": "SkyShowtime",
+   "logo": "/ube1pVpP3FklRkeyQjlDkkC3tL2.png"
+  },
+  "1825": {
+   "name": "HBO Max Amazon Channel",
+   "logo": "/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+  },
+  "1890": {
+   "name": "Hopster Amazon Channel",
+   "logo": "/p8eXYvEvVt78uSORrGhKbZG9jlS.png"
+  },
+  "1899": {
+   "name": "HBO Max",
+   "logo": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+  },
+  "1968": {
+   "name": "Crunchyroll Amazon Channel",
+   "logo": "/qHLLmKo7udRgiSnIASVTwP2IxfJ.png"
+  },
+  "1986": {
+   "name": "NPO Plus",
+   "logo": "/eIplw9Hv4Q5RyHtofKZwjeRufz6.png"
+  },
+  "2063": {
+   "name": "Crime+Investigation Play Amazon Channel ",
+   "logo": "/kRZDLwZvgtxoz0xNIVkQ3dd7tbE.png"
+  },
+  "2141": {
+   "name": "MGM Plus Amazon Channel",
+   "logo": "/gk7O3l9qHttE9F3hgDNnhbhlOs7.png"
+  },
+  "2243": {
+   "name": "Apple TV Amazon Channel",
+   "logo": "/rerVCu9auZrgxTTiZu1criqrQzg.png"
+  },
+  "2266": {
+   "name": "Qello Concerts by Stingray Amazon Channel",
+   "logo": "/4iLmGtD9ZFdZYFQ0ukrMFdZMrjm.png"
+  },
+  "2275": {
+   "name": "Stingray Karaoke Amazon Channel",
+   "logo": "/esBXsHrOOJ43hZfdPN9sm8vv3Z7.png"
+  },
+  "2330": {
+   "name": "Jolt Film",
+   "logo": "/br5xAl9fUmssOElX3ENWvymUtGx.png"
+  },
+  "2358": {
+   "name": "Lionsgate+ Amazon Channel",
+   "logo": "/1356slxu4QrHOMrEVDKHJXRo5sW.png"
+  },
+  "2478": {
+   "name": "FOUND TV",
+   "logo": "/2hAu4MUecOOMTtrlJ3XEqB4dhZr.png"
+  },
+  "2555": {
+   "name": "Bloodstream",
+   "logo": "/grSWrznc2QaymD5bM0MxMmcdrQl.png"
+  },
+  "2565": {
+   "name": "MovieMe",
+   "logo": "/pxmDUtLdaSCek4LUwme4h7wfsC9.png"
+  },
+  "2603": {
+   "name": "KableOne",
+   "logo": "/tXSfA8awn62PUBbGIGhejrTPwiG.png"
+  },
+  "2620": {
+   "name": "CaixaForum+",
+   "logo": "/5BBtkfnbubfLyPXDtscrgQHg1cq.png"
+  },
+  "2623": {
+   "name": "Artiflix",
+   "logo": "/hO4tZhtSJ7VrVnJusimkY3MltSx.png"
+  },
+  "2685": {
+   "name": "Artify",
+   "logo": "/j6yqJltFxcDIrWB9bBJ2TDQQC8X.png"
+  },
+  "2709": {
+   "name": "CJ ENM Selects Amazon Channel",
+   "logo": "/mT4URFPgO0MvKxTnjm6b5dkpaL7.png"
+  },
+  "2716": {
+   "name": "FEAR Amazon Channel",
+   "logo": "/fxK1BOygqXrmmgZdcseRRTIoHLL.png"
+  },
+  "2765": {
+   "name": "Pijama Films",
+   "logo": "/fy6GVs6ZtKluakv0Z5nuLesmTqx.png"
+  },
+  "2791": {
+   "name": "JustWatch TV Beta",
+   "logo": "/4VxJTXhTeHGMLPxnXdzE6Dfem5u.png"
+  },
+  "2799": {
+   "name": "Eye Film Player",
+   "logo": "/ojjtYm8XeAqcUOZvaEab7YJtSfD.png"
+  },
+  "2801": {
+   "name": "Sky Showtime Amazon Channel",
+   "logo": "/mMqTPUzGxa6vyi36qcwDH6LKslT.png"
+  }
+ },
+ "watchlist": [
+  {
+   "imdb": "tt3659388",
+   "pos": 0,
+   "title": "The Martian",
+   "orig": "The Martian",
+   "year": 2015,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 286217,
+   "runtime": 142,
+   "seasons": 0,
+   "genres": [
+    "Sciencefiction",
+    "Drama",
+    "Avontuur"
+   ],
+   "vote": 7.7,
+   "poster": "/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
+   "overview": "Zes dagen geleden werd astronaut Mark Watney een van de eerste mensen die een voet op Mars zette. Nu is hij er zeker van dat hij de eerste zal zijn die er zal sterven. Na een zandstorm blijft hij alleen achter.",
+   "directors": [
+    "Ridley Scott"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/286217-the-martian/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt1191111",
+   "pos": 1,
+   "title": "Enter the Void",
+   "orig": "Enter the Void",
+   "year": 2009,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 34647,
+   "runtime": 161,
+   "seasons": 0,
+   "genres": [
+    "Fantasie",
+    "Drama"
+   ],
+   "vote": 7.3,
+   "poster": "/krKnsfvSJM1PL40tLicRhVQ6kuG.jpg",
+   "overview": "Oscar en zijn zus Linda wonen sinds kort in Tokio. Oscar leeft van de inkomsten van kleine drugsdeals en Linda werkt als stripper in een nachtclub.",
+   "directors": [
+    "Gaspar Noé"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt11214590",
+   "pos": 2,
+   "title": "House of Gucci",
+   "orig": "House of Gucci",
+   "year": 2021,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 644495,
+   "runtime": 158,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 6.6,
+   "poster": "/oJCQjD2byiVF1EG408F9dBn9ndU.jpg",
+   "overview": "Patrizia Reggiani beraamt in het jaar 1995 het plan om haar voormalige echtgenoot uit de weg te ruimen. Hij is de Italiaanse zakenman Maurizio Gucci en staat aan het hoofd van het gelijknamige modehuis. Hij is tevens de kleinzoon van de befaamde modeontwerper Guccio. Reggiani laat een huurmoordenaar het vuile werk opknappen. Ze zou later opgepakt worden door de politie en in de gevangenis belanden.",
+   "directors": [
+    "Ridley Scott"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/644495-house-of-gucci/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt2948372",
+   "pos": 3,
+   "title": "Soul",
+   "orig": "Soul",
+   "year": 2020,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 508442,
+   "runtime": 101,
+   "seasons": 0,
+   "genres": [
+    "Animatie",
+    "Familie",
+    "Drama",
+    "Muziek",
+    "Fantasie"
+   ],
+   "vote": 8.1,
+   "poster": "/yNR6WH2weh95ps1vHj0WWvutdHP.jpg",
+   "overview": "Wat maakt jou nou eigenlijk jou?  In de gloednieuwe film 'Soul' van Pixar Animation Studios maak je kennis met Joe Gardner. Joe is muziekleraar op een middelbare school en krijgt de kans om in de beste jazzclub in de stad te spelen. Eén klein missertje zorgt er echter voor dat hij in The Great Before belandt, een magische plek waar nieuwe zielen hun persoonlijkheid, maniertjes en interesses krijgen voordat ze naar de aarde gaan. Joe is vastberaden om terug te keren naar zijn oude leven en schakelt de hulp in van de wijze ziel 22, die dat hele menselijke gedoe maar raar vindt. Terwijl Joe aan 22 wil laten zien wat er zo leuk is aan het leven, ontdekt hij wellicht antwoorden op een aantal leve",
+   "directors": [
+    "Pete Docter"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/508442-soul/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt0066206",
+   "pos": 4,
+   "title": "Patton",
+   "orig": "Patton",
+   "year": 1970,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 11202,
+   "runtime": 172,
+   "seasons": 0,
+   "genres": [
+    "Oorlog",
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 7.4,
+   "poster": "/rLM7jIEPTjj4CF7F1IrzzNjLUCu.jpg",
+   "overview": "De film vertelt het verhaal van generaal George S. Patton, tijdens zijn opmars van Noord-Afrika naar Duitsland, gedurende de Tweede Wereldoorlog. De generaal, beroemd (en berucht) om zijn geniale leiderschap en woede-uitbarstingen, ligt constant overhoop met zijn meerderen.",
+   "directors": [
+    "Franklin J. Schaffner"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/11202-patton/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt1832382",
+   "pos": 5,
+   "title": "A Separation",
+   "orig": "Jodaeiye Nader az Simin",
+   "year": 2011,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 60243,
+   "runtime": 123,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7.9,
+   "poster": "/xL4H7oX4l9EodgbrOT6kdXFX18A.jpg",
+   "overview": "De vrouw van Nader wil samen met hem en hun dochter Termeh Iran verlaten. Ze heeft alles al geregeld en staat erop om in het buitenland een nieuw leven te beginnen. Nader heeft echter zijn bedenkingen.",
+   "directors": [
+    "اصغر فرهادی"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/60243-jdyy-ndr-z-symyn/watch?locale=NL",
+    "flatrate": [
+     389,
+     639
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35
+    ],
+    "buy": [
+     2,
+     35
+    ]
+   }
+  },
+  {
+   "imdb": "tt14208870",
+   "pos": 6,
+   "title": "The Fabelmans",
+   "orig": "The Fabelmans",
+   "year": 2022,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 804095,
+   "runtime": 151,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7.6,
+   "poster": "/h7llKkqkkJtJrTOaDLuVeUYDQ7I.jpg",
+   "overview": "De kleine Sammy Fabelman groeit op in Arizona in de jonge jaren na het einde van de Tweede Wereldoorlog. Reeds in zijn kindertijd heeft hij een grote passie gevonden in de cinema en maakt hij films met zijn vrienden. Hij voelt zich hierin gesteund door zijn moeder, een bedreven pianiste. Zijn vader is informaticus wiens collega Benny de rol van oom voor Sammy en zijn zussen op zich neemt. Deze familiedynamiek leidt uiteindelijk tot spanningen die doorsijpelen in de audiovisuele creaties van Sammy.",
+   "directors": [
+    "Steven Spielberg"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/804095-the-fabelmans/watch?locale=NL",
+    "flatrate": [
+     72
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt5461944",
+   "pos": 7,
+   "title": "Hotel Mumbai",
+   "orig": "Hotel Mumbai",
+   "year": 2018,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 416144,
+   "runtime": 125,
+   "seasons": 0,
+   "genres": [
+    "Thriller",
+    "Historisch",
+    "Drama",
+    "Actie"
+   ],
+   "vote": 7.5,
+   "poster": "/v32SC4HFZtlDRWXMaR2V2dWqAXJ.jpg",
+   "overview": "De film vertelt het waargebeurde verhaal van de verwoestende aanvallen in Mumbai in 2008. Een groep zwaar bewapende Pakistaanse militanten opent de aanval op het iconische Taj Mahal Palace hotel in India.",
+   "directors": [
+    "Anthony Maras"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/416144-hotel-mumbai/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     35
+    ],
+    "buy": [
+     35
+    ]
+   }
+  },
+  {
+   "imdb": "tt9620292",
+   "pos": 8,
+   "title": "Promising Young Woman",
+   "orig": "Promising Young Woman",
+   "year": 2020,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 582014,
+   "runtime": 114,
+   "seasons": 0,
+   "genres": [
+    "Thriller",
+    "Misdaad",
+    "Drama"
+   ],
+   "vote": 7.4,
+   "poster": "/2h4EkRxy36zSsBDkijXSUMJFDaz.jpg",
+   "overview": "Cassie had een veelbelovende toekomst tot een mysterieus incident haar leven omgooide. Sindsdien is niets in haar leven nog wat het lijkt en leidt ze een dubbelleven.",
+   "directors": [
+    "Emerald Fennell"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/582014-promising-young-woman/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     697
+    ],
+    "buy": [
+     2,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt13845660",
+   "pos": 9,
+   "title": "Beautiful Beings",
+   "orig": "Berdreymi",
+   "year": 2022,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 879901,
+   "runtime": 123,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7,
+   "poster": "/h63OBiLezkA55QJtL8WtwoNhYh1.jpg",
+   "overview": "Een tienerjongen, opgevoed door een moeder die zichzelf als paranormaal begaafd beschouwt, neemt een gepest kind op in zijn groep gewelddadige buitenbeentjes. Terwijl de problemen van de groep escaleren in levensbedreigende situaties, ontwaakt er een innerlijke stem in de jongen en slaagt hij erin om, met de hulp van zijn moeder en zijn nieuwe vriend, zijn eigen weg te vinden.",
+   "directors": [
+    "Guðmundur Arnar Guðmundsson"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/879901-berdreymi/watch?locale=NL",
+    "flatrate": [
+     389,
+     639
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt17009710",
+   "pos": 10,
+   "title": "Anatomy of a Fall",
+   "orig": "Anatomie d'une chute",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 915935,
+   "runtime": 152,
+   "seasons": 0,
+   "genres": [
+    "Thriller",
+    "Mysterie",
+    "Misdaad"
+   ],
+   "vote": 7.5,
+   "poster": "/DcIG3nmee6atpdx81FZsQiUTeu.jpg",
+   "overview": "Sandra, Samuel en hun slechtziende zoon Daniel wonen sinds een jaar in een afgelegen chalet in de Franse Alpen. Wanneer Samuel onder verdachte omstandigheden dood wordt aangetroffen, wordt Sandra aangeklaagd. Want was zijn val een noodlottig ongeluk, zelfmoord of is hij door zijn echtgenote geduwd? In de rechtszaak die volgt wordt hun relatie tot op de pijnlijkste details ontleed.",
+   "directors": [
+    "Justine Triet"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/915935-anatomie-d-une-chute/watch?locale=NL",
+    "flatrate": [
+     72,
+     389,
+     396,
+     472,
+     639,
+     1986,
+     1899,
+     11,
+     201,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt7160372",
+   "pos": 11,
+   "title": "The Zone of Interest",
+   "orig": "The Zone of Interest",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 467244,
+   "runtime": 106,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch",
+    "Oorlog"
+   ],
+   "vote": 7,
+   "poster": "/qUNulNtvGr4vmHQCq8a62ZlIw56.jpg",
+   "overview": "Kampcommandant Rudolf Höss woont met zijn gezin in een mooie, ruime dienstwoning met een grote tuin, die grenst aan de muur van Auschwitz. Zijn vrouw Hedwig voelt zich de koning te rijk. In deze omgeving creëert ze een paradijs voor haar gezin, en dit laat ze zich niet meer afnemen.",
+   "directors": [
+    "Jonathan Glazer"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/467244-the-zone-of-interest/watch?locale=NL",
+    "flatrate": [
+     119,
+     72,
+     381,
+     396,
+     563,
+     639,
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt3612616",
+   "pos": 12,
+   "title": "Mommy",
+   "orig": "Mommy",
+   "year": 2014,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 265177,
+   "runtime": 139,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 8.2,
+   "poster": "/zR1oHk9seg14nBF7JqaYeOeeTeY.jpg",
+   "overview": "Een weduwe heeft als alleenstaande ouder de taak om voor haar moeilijk opvoedbare, gewelddadige zoon te zorgen. Ze vindt daarbij steun wanneer een mysterieuze buurvrouw zich in het huishouden van de twee begint te nestelen.",
+   "directors": [
+    "Xavier Dolan"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/265177-mommy/watch?locale=NL",
+    "flatrate": [
+     389
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt0208629",
+   "pos": 13,
+   "title": "Nuremberg",
+   "orig": "Nuremberg",
+   "year": 2000,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 7389,
+   "runtime": 0,
+   "seasons": 1,
+   "genres": [
+    "Drama",
+    "War & Politics"
+   ],
+   "vote": 7.4,
+   "poster": "/6ENHJzAqs6JKYWLZgtpWgPPKnSA.jpg",
+   "overview": "Mei 1945: De Tweede Wereldoorlog is voorbij, Nazi-Duitsland is verslagen en Hitler heeft zelfmoord gepleegd in zijn bunker te Berlijn. Terwijl de wereld roept om gerechtigheid, tracht de Amerikaanse rechter Robert Jackson, het 'proces van de eeuw' in goede banen te leiden. In Nuremberg wordt een tribunaal opgericht, waar vierentwintig Nazi's terecht staan voor hun misdaden tijdens de oorlog.",
+   "directors": [],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt16277242",
+   "pos": 14,
+   "title": "Society of the Snow",
+   "orig": "La sociedad de la nieve",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 906126,
+   "runtime": 144,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 8,
+   "poster": "/9tkJPQb4X4VoU3S5nqLDohZijPj.jpg",
+   "overview": "In 1972 stortte een vlucht uit Uruguay diep in de Andes neer. Dit dwong de overlevenden om hun hoop op elkaar te vestigen.",
+   "directors": [
+    "J. A. Bayona"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/906126-la-sociedad-de-la-nieve/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt10370644",
+   "pos": 15,
+   "title": "Helmut Newton: The Bad and the Beautiful",
+   "orig": "Helmut Newton: The Bad and the Beautiful",
+   "year": 2020,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 698369,
+   "runtime": 93,
+   "seasons": 0,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 6.2,
+   "poster": "/x84QK3FZ4zetIoxkAvXz67Anobl.jpg",
+   "overview": "Women were clearly at the core of legendary photographer Helmut Newton's work. The stars of his iconic portraits and fashion editorials – from Catherine Deneuve to Grace Jones, Charlotte Rampling to Isabella Rossellini – finally give their own interpretation of the life and work of this controversial genius. A portrait by the portrayed. Provocative, unconventional, subversive, his depiction of women still sparks the question: were they subjects or objects?",
+   "directors": [
+    "Gero von Boehm"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/698369-helmut-newton-the-bad-and-the-beautiful/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2
+    ],
+    "buy": [
+     2
+    ]
+   }
+  },
+  {
+   "imdb": "tt1255953",
+   "pos": 16,
+   "title": "Incendies",
+   "orig": "Incendies",
+   "year": 2010,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 46738,
+   "runtime": 130,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Oorlog",
+    "Mysterie"
+   ],
+   "vote": 8.1,
+   "poster": "/i5GsLIII66LubmOai65cWiB4kZq.jpg",
+   "overview": "Na de dood van hun moeder ontdekken Simon en Jeanne dat ze nog een broer hebben en dat hun vader nog in leven is.",
+   "directors": [
+    "Denis Villeneuve"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/46738-incendies/watch?locale=NL",
+    "flatrate": [
+     639
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt20561198",
+   "pos": 17,
+   "title": "The Promised Land",
+   "orig": "Bastarden",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 980026,
+   "runtime": 127,
+   "seasons": 0,
+   "genres": [
+    "Actie",
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 7.7,
+   "poster": "/mPsLSqO2tJhR9DtpzUvpM3Llc3N.jpg",
+   "overview": "In 1755 gaat de verarmde kapitein Ludvig Kahlen op pad om in naam van de koning de onbewoonbare Deense heide te veroveren. Maar de enige heerser van het gebied, de meedogenloze Frederik de Schinkel, die gelooft dat het land van hem is, zweert wraak als het dienstmeisje Ann Barbara en haar lijfeigene echtgenoot vluchten en bij Kahlen hun toevlucht zoeken.",
+   "directors": [
+    "Nikolaj Arcel"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/980026-bastarden/watch?locale=NL",
+    "flatrate": [
+     72,
+     563,
+     639,
+     1986,
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt24082438",
+   "pos": 18,
+   "title": "20 Days in Mariupol",
+   "orig": "20 Days in Mariupol",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1058616,
+   "runtime": 95,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Oorlog"
+   ],
+   "vote": 8.1,
+   "poster": "/WqHTi0f5dt10LTab5MJXWgyQAC.jpg",
+   "overview": "Terwijl de Russische invasie begint, worstelt een team van Oekraïense journalisten die vastzitten in de belegerde stad Marioepol om hun werk voort te zetten en de wreedheden van de oorlog te documenteren.",
+   "directors": [
+    "Мстислав Чернов"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1058616-20-days-in-mariupol/watch?locale=NL",
+    "flatrate": [
+     1986
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     451
+    ],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt1305619",
+   "pos": 19,
+   "title": "Miles Davis: Birth of the Cool",
+   "orig": "Miles Davis: Birth of the Cool",
+   "year": 2019,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 566232,
+   "runtime": 115,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Historisch",
+    "Muziek"
+   ],
+   "vote": 7.1,
+   "poster": "/lc3C7iKfrBzYQIUHDBj91N70A6k.jpg",
+   "overview": "Een meeslepende blik op het bewogen leven en de briljante artistieke carrière van de visionaire Amerikaanse jazztrompettist Miles Davis (1926-1991).",
+   "directors": [
+    "Stanley Nelson"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt20426466",
+   "pos": 20,
+   "title": "The Entertainment System Is Down",
+   "orig": "The Entertainment System Is Down",
+   "year": 0,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 896707,
+   "runtime": 0,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Komedie"
+   ],
+   "vote": 0,
+   "poster": "/2AaTNAhTZSvQrdUeajE4hFdafjp.jpg",
+   "overview": "Set on a long-haul flight where the entertainment systems fail, an eclectic group of international passengers are forced to face the horror of being bored.",
+   "directors": [
+    "Ruben Östlund"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0174852",
+   "pos": 21,
+   "title": "The Last Days",
+   "orig": "The Last Days",
+   "year": 1998,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 20595,
+   "runtime": 87,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Historisch"
+   ],
+   "vote": 7.4,
+   "poster": "/kWr6QDDcO2HHKqvJvgsJ1hQz4Gs.jpg",
+   "overview": "This Oscar-winning documentary recounts the harrowing stories of five Hungarian Jews who endured the horrors of the Holocaust and Hitler's reign.",
+   "directors": [
+    "James Moll"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/20595-the-last-days/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt33323674",
+   "pos": 22,
+   "title": "Chef's Table: Noodles",
+   "orig": "Chef's Table: Noodles",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 270480,
+   "runtime": 0,
+   "seasons": 1,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 7.9,
+   "poster": "/4jSqWny3Th2iWg2AtQPA1pf5ykP.jpg",
+   "overview": "Ontdek de kunst van noedels maken met wereldberoemde chef-koks die hun culinaire reizen en de verhalen achter hun heerlijke bekende gerechten delen.",
+   "directors": [
+    "David Gelb"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/270480-chef-s-table-noodles/watch?locale=NL",
+    "flatrate": [
+     8,
+     175
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt8368368",
+   "pos": 23,
+   "title": "The Apprentice",
+   "orig": "The Apprentice",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1182047,
+   "runtime": 121,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 6.8,
+   "poster": "/o24XlslLBpLSuzTiAFDk3eM4QW0.jpg",
+   "overview": "In The Apprentice wordt het leven van Donald Trump in zijn vroege jaren als vastgoedondernemer onder de loep genomen. Het is in deze periode dat Trump zijn eerste stappen zet in de snelle zakenwereld en de basis voor zijn zakelijke imperium uitbouwt, onder de vleugels van zijn mentor, de invloedrijke en geslepen advocaat Roy Cohn.",
+   "directors": [
+    "Ali Abbasi"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1182047-the-apprentice/watch?locale=NL",
+    "flatrate": [
+     119,
+     396
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt22022452",
+   "pos": 24,
+   "title": "Inside Out 2",
+   "orig": "Inside Out 2",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1022789,
+   "runtime": 97,
+   "seasons": 0,
+   "genres": [
+    "Animatie",
+    "Avontuur",
+    "Komedie",
+    "Familie"
+   ],
+   "vote": 7.5,
+   "poster": "/wqApdCnUTQeKqEScnfGC8hUquIO.jpg",
+   "overview": "Het hoofdkwartier van tiener Riley wordt plotseling gesloopt om plaats te maken voor iets geheel onverwachts: nieuwe emoties! Vreugde, Verdriet, Woede, Angst en Walging, die in alle opzichten al lange tijd succesvol zijn, weten niet goed hoe ze zich moeten voelen als angst de kop opsteekt. En het lijkt erop dat ze niet de enige is.",
+   "directors": [
+    "Kelsey Mann"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1022789-inside-out-2/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt31392609",
+   "pos": 25,
+   "title": "How to Make Millions Before Grandma Dies",
+   "orig": "Lahn Mah",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1103621,
+   "runtime": 127,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 8.1,
+   "poster": "/ugRKOIXVclJSI0MHdbB5d8UiBKI.jpg",
+   "overview": "Wanneer de oma van de luie, werkeloze gamer M ziek wordt, realiseert hij zich dat hij niet veel aandacht aan haar heeft besteed. In een poging het contact met haar te herstellen en daarmee aanspraak te maken op haar erfenis, gaat hij voor haar zorgen. Maar naarmate ze meer tijd samen doorbrengen, ontstaat er langzaam maar zeker een verrassende band die de brug slaat tussen twee totaal verschillende generaties.",
+   "directors": [
+    "พัฒน์ บุญนิธิพัฒน์"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1103621-hlanma/watch?locale=NL",
+    "flatrate": [
+     8,
+     389
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt11563598",
+   "pos": 26,
+   "title": "A Complete Unknown",
+   "orig": "A Complete Unknown",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 661539,
+   "runtime": 141,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Muziek"
+   ],
+   "vote": 7.1,
+   "poster": "/pbFJfx5WjTHYz8Ql32ZRWMz4b2w.jpg",
+   "overview": "De 19-jarige Bob Dylan arriveert in 1961 in New York City op zoek naar zijn held, de zieke Woody Guthrie. Hij wordt omarmd door de New Yorkse folkscene (Guthrie, Pete Seeger, Joan Baez en anderen) die zijn talent erkennen. Hij vindt optredens in clubs in de binnenstad en wordt al snel een sensatie en krijgt een contract bij Columbia Records. Van daaruit stijgt Dylan op naar de status van een cultureel fenomeen, maar uiteindelijk stapt hij over van de volksmuziek terwijl hij de elektrische gitaar omarmt, wat zijn fans in verwarring brengt en de muziekgemeenschap die hem voor het eerst opnam teleurstelt.",
+   "directors": [
+    "James Mangold"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/661539-a-complete-unknown/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt13097932",
+   "pos": 27,
+   "title": "One Life",
+   "orig": "One Life",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 760774,
+   "runtime": 110,
+   "seasons": 0,
+   "genres": [
+    "Historisch",
+    "Drama"
+   ],
+   "vote": 7.8,
+   "poster": "/peP8CS31pi5iw7C1GEhkcJWqCeJ.jpg",
+   "overview": "One Life vertelt het inspirerende, waargebeurde verhaal van Sir Nicholas Winton, door wiens inspanningen aan de vooravond van de Tweede Wereldoorlog meer dan zeshonderd voornamelijk Joodse kinderen uit de handen van de Nazi’s werden gered. Jarenlang zette hij en een aantal vrienden zich in om de kinderen veilig naar het Verenigd Koninkrijk te brengen, waar zij veelal geadopteerd werden door Britse gezinnen. Vijftig jaar later, in 1988, verwijt Nicholas zichzelf echter dat hij niet genoeg heeft gedaan om alle kinderen te redden. Pas als het BBC-programma 'That's Life!’ hem uitnodigt om in hun programma te verschijnen, gebeurt er iets waardoor hij eindelijk in het reine begint te komen met het",
+   "directors": [
+    "James Hawes"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/760774-one-life/watch?locale=NL",
+    "flatrate": [
+     119,
+     563
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt15783698",
+   "pos": 28,
+   "title": "South Park: The Streaming Wars",
+   "orig": "South Park: The Streaming Wars",
+   "year": 2022,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 974691,
+   "runtime": 49,
+   "seasons": 0,
+   "genres": [
+    "Animatie",
+    "Komedie",
+    "TV Film"
+   ],
+   "vote": 7.1,
+   "poster": "/dfgZJlKYg5xm6dBl05bOKhfunXb.jpg",
+   "overview": "Cartman vecht met zijn moeder in een wilsstrijd, terwijl zich een episch conflict ontvouwt dat het voortbestaan ​​van South Park bedreigt.",
+   "directors": [
+    "Trey Parker"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt21198156",
+   "pos": 29,
+   "title": "South Park: The Streaming Wars Part 2",
+   "orig": "South Park: The Streaming Wars Part 2",
+   "year": 2022,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 993729,
+   "runtime": 52,
+   "seasons": 0,
+   "genres": [
+    "Animatie",
+    "Komedie",
+    "TV Film"
+   ],
+   "vote": 7,
+   "poster": "/rsfc5EVzWPtGcBiNKMXxDo2xvsQ.jpg",
+   "overview": "Een ernstige droogte heeft de stad op de rand van een ramp gebracht, zoals blijkt uit de wanhopige poging van een man om toegang te krijgen tot een waterpark.",
+   "directors": [
+    "Trey Parker"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt5040012",
+   "pos": 30,
+   "title": "Nosferatu",
+   "orig": "Nosferatu",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 426063,
+   "runtime": 133,
+   "seasons": 0,
+   "genres": [
+    "Horror",
+    "Fantasie"
+   ],
+   "vote": 6.7,
+   "poster": "/vo1J6OUyKMWJQQyuSHWsMURUUrH.jpg",
+   "overview": "Een gotisch verhaal over de obsessie tussen een gekwelde jonge vrouw en de angstaanjagende vampier die verliefd op haar is, wat in zijn kielzog ongekende horror veroorzaakt.",
+   "directors": [
+    "Robert Eggers"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/426063-nosferatu/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt26743414",
+   "pos": 31,
+   "title": "Monsieur Aznavour",
+   "orig": "Monsieur Aznavour",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1002155,
+   "runtime": 134,
+   "seasons": 0,
+   "genres": [
+    "Historisch",
+    "Muziek",
+    "Drama"
+   ],
+   "vote": 7.2,
+   "poster": "/789gZKib0NxJ9wN0wyVNw3UBuBs.jpg",
+   "overview": "Als zoon uit een arm gezin, klein van postuur en met een unieke stem, werd er van hem gezegd dat hij nooit een succes zou worden. Toch groeide Charles Aznavour door zijn talent en doorzettingsvermogen uit tot een van de beroemdste chansonniers aller tijden. In Monsieur Aznavour volgen we het Franse icoon van zijn bewogen jeugd tot internationale roem, waarbij het hem decennialang lukte de tijdgeest te vatten in intieme en tijdloze songs als ‘Sur ma vie, ‘She’ en ‘La Bohème’.",
+   "directors": [
+    "Grand Corps Malade",
+    "Mehdi Idir"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1002155-monsieur-aznavour/watch?locale=NL",
+    "flatrate": [
+     72,
+     389,
+     381,
+     563,
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt30953834",
+   "pos": 32,
+   "title": "Teaches of Peaches",
+   "orig": "Teaches of Peaches",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1098383,
+   "runtime": 102,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Muziek"
+   ],
+   "vote": 7.4,
+   "poster": "/u1ytW9fu7jqplmmvK3ybdjirogW.jpg",
+   "overview": "Opwindende teksten en muziek, gave kapsels en bodysuits van schaamhaar. Zo zagen we Peaches voor het eerst; de provocerende en onvergelijkbare feministische electroclashmuzikant en -kunstenaar. Het werd al snel duidelijk dat ze veel meer was dan haar muziek, zoals deze film duidelijk maakt. Peaches hielp de deuren open te trappen waardoor vrouwen in de muziek opener konden praten over seks, identiteit, woede en hun eigen, compromisloze artisticiteit. Twee decennia later bereidt Peaches zich voor op de 20e jubileumtournee van haar baanbrekende album.",
+   "directors": [
+    "Philipp Fussenegger"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1098383-teaches-of-peaches/watch?locale=NL",
+    "flatrate": [
+     11
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2
+    ],
+    "buy": [
+     2
+    ]
+   }
+  },
+  {
+   "imdb": "tt32149731",
+   "pos": 33,
+   "title": "¡Casa Bonita Mi Amor!",
+   "orig": "¡Casa bonita mi amor!",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1278666,
+   "runtime": 88,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Komedie"
+   ],
+   "vote": 7.3,
+   "poster": "/nEktirdxkXk42NuM8WGlUcP9D28.jpg",
+   "overview": "Casa Bonita opened in 1974 in an unassuming strip mall. The massive \"Disneyland of Mexican restaurants\" is an Old West and Acapulco-inspired fever dream made famous by its indoor waterfall, cliff divers, and haunted caves, and was featured in a classic 2003 episode of South Park. When its creators, Trey Parker and Matt Stone, learn that Casa Bonita might close its doors for good, they attempt to preserve a crumbling piece of their childhood and Denver history.",
+   "directors": [
+    "Arthur Bradford"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0088847",
+   "pos": 34,
+   "title": "The Breakfast Club",
+   "orig": "The Breakfast Club",
+   "year": 1985,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 2108,
+   "runtime": 97,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Drama"
+   ],
+   "vote": 7.7,
+   "poster": "/gp4zlj7wgbiofLMNsTPndMuO3PN.jpg",
+   "overview": "Een club studenten moet 's ochtends nablijven. Niemand heeft een vriend aan een ander, en ieder zit er om verschillende redenen. De opdracht die ze krijgen is het schrijven van een opstel, onder doodse stilte en zonder van plaats te veranderen.",
+   "directors": [
+    "John Hughes"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/2108-the-breakfast-club/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt23782584",
+   "pos": 35,
+   "title": "Nr. 24",
+   "orig": "Nr. 24",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1222248,
+   "runtime": 112,
+   "seasons": 0,
+   "genres": [
+    "Oorlog",
+    "Historisch",
+    "Drama"
+   ],
+   "vote": 7.1,
+   "poster": "/qv7crkk9fzMrvj3WqWU6PiFm12f.jpg",
+   "overview": "Een jonge Noorse man besluit aan het begin van de Tweede Wereldoorlog om zich te verzetten tegen de nazi's en zet daarmee een nieuwe koers voor zijn toekomst en die van zijn land.",
+   "directors": [
+    "John Andreas Andersen"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1222248-nr-24/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt6787076",
+   "pos": 36,
+   "title": "Open Seas",
+   "orig": "Niemand in de stad",
+   "year": 2018,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 531737,
+   "runtime": 102,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 5.9,
+   "poster": "/bSVcYWupySkG1Dw5ylCvN7aclcd.jpg",
+   "overview": "Drie jonge vrienden worden met vallen en opstaan volwassen tijdens hun studententijd in Amsterdam. Een plotselinge dood binnen de vriendengroep zet daarbij alles op scherp. In deze turbulente periode proberen zij los te komen van hun ouders en achtergrond.",
+   "directors": [
+    "Michiel van Erp"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/531737-niemand-in-de-stad/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     697
+    ],
+    "buy": [
+     2,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt0092005",
+   "pos": 37,
+   "title": "Stand by Me",
+   "orig": "Stand by Me",
+   "year": 1986,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 235,
+   "runtime": 89,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Avontuur"
+   ],
+   "vote": 7.8,
+   "poster": "/vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
+   "overview": "Al een hele tijd wordt Ray Brower uit het kleine plaatsje Castle Rock vermist. Als de jonge Vern Tessio dan via zijn oudere broer ontdekt waar het dode lichaam van de jongen zich bevindt, besluit hij samen met zijn vrienden Gordie Lachance, Chris Chambers en Teddy Duchamp op zoek te gaan naar het lichaam.",
+   "directors": [
+    "Rob Reiner"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/235-stand-by-me/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     10
+    ],
+    "buy": [
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt11790780",
+   "pos": 38,
+   "title": "The Alpinist",
+   "orig": "The Alpinist",
+   "year": 2021,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 682587,
+   "runtime": 93,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Avontuur"
+   ],
+   "vote": 7.8,
+   "poster": "/tYbSGAVbyACEExptLu63CxCGm4O.jpg",
+   "overview": "The life of Canadian mountain climber Marc-André Leclerc as he pushes the boundaries of climbing while on an expedition to Patagonia.",
+   "directors": [
+    "Peter Mortimer",
+    "Nick Rosen"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/682587-the-alpinist/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     3,
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     3,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt14452174",
+   "pos": 39,
+   "title": "Soundtrack to a Coup d'Etat",
+   "orig": "Soundtrack to a Coup d'Etat",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1214539,
+   "runtime": 150,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Historisch",
+    "Muziek"
+   ],
+   "vote": 7.8,
+   "poster": "/iDMheJC9xCk4jFPAi0jdKo4htRW.jpg",
+   "overview": "In 1960 de Verenigde Naties: het Zuiden  veroorzaken een politieke aardbeving, de muzikanten Abbey Lincoln en Max Roach crashen de Veiligheidsraad, Nikita Chroesjtsjov slaat met zijn schoen en hekelt de Amerikaanse kleurenbalk, terwijl de VS jazzambassadeur Louis Armstrong naar Congo sturen om de aandacht af te leiden van zijn eerste Afrikaanse postkoloniale staatsgreep.",
+   "directors": [
+    "Johan Grimonprez"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1214539-soundtrack-to-a-coup-d-etat/watch?locale=NL",
+    "flatrate": [
+     389,
+     639
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2
+    ],
+    "buy": [
+     2
+    ]
+   }
+  },
+  {
+   "imdb": "tt12789212",
+   "pos": 40,
+   "title": "Final Account",
+   "orig": "Final Account",
+   "year": 2020,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 728125,
+   "runtime": 94,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Oorlog"
+   ],
+   "vote": 7.5,
+   "poster": "/goEb22NOo1TuSFUPUxa5hbDAU1d.jpg",
+   "overview": "A depiction of the last living generation of German participants in Adolf Hitler’s Third Reich.",
+   "directors": [
+    "Luke Holland"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt2545118",
+   "pos": 41,
+   "title": "Blackfish",
+   "orig": "Blackfish",
+   "year": 2013,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 158999,
+   "runtime": 83,
+   "seasons": 0,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 7.8,
+   "poster": "/kCk4mDFE96Mn1AYfEcbxkIiw7ND.jpg",
+   "overview": "Overal ter wereld vergapen volle tribunes zich aan watershows met orka’s: schijnbaar zonder moeite doen de begeleiders de kolossale zwart-witte walvissen gracieus door de lucht vliegen.",
+   "directors": [
+    "Gabriela Cowperthwaite"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt26629652",
+   "pos": 42,
+   "title": "Loveable",
+   "orig": "Elskling",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1082900,
+   "runtime": 104,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Romantiek"
+   ],
+   "vote": 7,
+   "poster": "/1HQuuzuRvWtpS8sjPsPEkKkVT5f.jpg",
+   "overview": "Maria (40) streeft naar een evenwicht tussen ouderschap en een veeleisende carrière, terwijl haar tweede echtgenoot, Sigmund, vaak reist voor zijn werk. Terwijl de spanning van concurrerende behoeften zijn tol eist, begint hun huwelijk te ontrafelen. Ondanks Maria's wanhopige pogingen om hun relatie te redden, informeert Sigmund haar uiteindelijk over zijn verlangen naar een scheiding, waardoor ze gedwongen wordt haar diepste angsten onder ogen te zien. Deze openbaring stuwt haar voort in een stortvloed van verdriet, woede en onbewuste herinneringen uit haar eigen verleden. Maria realiseert zich uiteindelijk dat een deel van de sleutel tot het begrijpen van haar situatie ligt in haar relatie",
+   "directors": [
+    "Lilja Ingolfsdottir"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1082900-elskling/watch?locale=NL",
+    "flatrate": [
+     396,
+     563,
+     639
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     697
+    ],
+    "buy": [
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt31193180",
+   "pos": 43,
+   "title": "Sinners",
+   "orig": "Sinners",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1233413,
+   "runtime": 137,
+   "seasons": 0,
+   "genres": [
+    "Horror",
+    "Actie",
+    "Thriller"
+   ],
+   "vote": 7.5,
+   "poster": "/4QMNBQrqo2alrqf8OQxkstUXHEU.jpg",
+   "overview": "Om hun problematische leven te ontvluchten keren twee tweelingbroers terug naar hun geboorteplaats om opnieuw te beginnen. Maar daar blijkt een nog groter kwaad op ze te wachten. “Als je danst met de duivel, volgt hij je een keer naar huis.”",
+   "directors": [
+    "Ryan Coogler"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1233413-sinners/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt36704220",
+   "pos": 44,
+   "title": "Kees vliegt écht uit",
+   "orig": "Kees vliegt écht uit",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1458120,
+   "runtime": 86,
+   "seasons": 0,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 7,
+   "poster": "/5ognSg5LR5lUNPGtq6KCoDhP5hm.jpg",
+   "overview": "Kees maakt de overstap naar zijn nieuwe woning en verbreekt daarmee de voor hem zo vertrouwde drie-eenheid van vader, moeder en zoon, waarin hij zich sinds zijn 18e zo veilig voelde. Dit gaat niet gepaard zonder de nodige emotie. Ook niet bij moeder, die het moeilijk vindt dat de symbiotische verbintenis met haar zoon door zijn vertrek uit het ouderlijk huis onder druk komt te staan.",
+   "directors": [
+    "Monique Nolte"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1458120-kees-vliegt-echt-uit/watch?locale=NL",
+    "flatrate": [
+     72
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0086879",
+   "pos": 45,
+   "title": "Amadeus",
+   "orig": "Amadeus",
+   "year": 1984,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 279,
+   "runtime": 160,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch",
+    "Muziek"
+   ],
+   "vote": 8,
+   "poster": "/rbRJdMhmP4JuLC4lwftfoRDzbYV.jpg",
+   "overview": "We schrijven 1781 en Antonio Salieri is werkzaam als de competente hofcomponist van Keizer Jozef II. Wanneer Mozart aan het hof arriveert, moet een verbijsterde Salieri vaststellen dat de goddelijke muzikale inspiratie waar hij zelf naar zoekt, werd geschonken aan een losbandige, hondsbrutale nar.",
+   "directors": [
+    "Miloš Forman"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/279-amadeus/watch?locale=NL",
+    "flatrate": [
+     119,
+     72
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": [
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt36408401",
+   "pos": 46,
+   "title": "The Further Mis-Adventures of Cliff Booth",
+   "orig": "The Further Mis-Adventures of Cliff Booth",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1457866,
+   "runtime": 141,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Drama",
+    "Thriller"
+   ],
+   "vote": 0,
+   "poster": "/38i9n8VHaNbNYUMpjQFocObvQeP.jpg",
+   "overview": "Acht jaar na de gebeurtenissen van Once Upon a Time in... Hollywood keert Cliff Booth terug naar een veranderend Los Angeles. Nu werkzaam als fixer in de schaduw van het Hollywood-studiostelsel, raakt Cliff verstrikt in een gevaarlijk web van geheimen, misdaden en verraad dat alles op de proef zal stellen wat hij weet over loyaliteit en overleven.",
+   "directors": [
+    "David Fincher"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0083987",
+   "pos": 47,
+   "title": "Gandhi",
+   "orig": "Gandhi",
+   "year": 1982,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 783,
+   "runtime": 191,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 7.6,
+   "poster": "/rOXftt7SluxskrFrvU7qFJa5zeN.jpg",
+   "overview": "Deze film vertelt de geschiedenis van Gandhi, één der meest monumentale persoonlijkheden van de vorige eeuw. Hij begon zijn loopbaan als jurist en werd na een jarenlange strijd voor zijn idealen een moderne Messias, wiens passief verzet leidde tot het eind van de Engelse koloniale overheersing in India.",
+   "directors": [
+    "Richard Attenborough"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/783-gandhi/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt0072684",
+   "pos": 48,
+   "title": "Barry Lyndon",
+   "orig": "Barry Lyndon",
+   "year": 1975,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 3175,
+   "runtime": 184,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 8,
+   "poster": "/A0byHUHMwZ7dtBQtfZ44QIgDbjo.jpg",
+   "overview": "Ierland, 18e eeuw. De jonge Redmond Barry blijft na de dood van zijn vader alleen achter met zijn moeder. Hij wordt verliefd op zijn nichtje Nora Brady en gaat een duel aan met haar verloofde Captain Quin.",
+   "directors": [
+    "Stanley Kubrick"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/3175-barry-lyndon/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt28613536",
+   "pos": 49,
+   "title": "Bob Trevino Likes It",
+   "orig": "Bob Trevino Likes It",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1169789,
+   "runtime": 101,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Drama"
+   ],
+   "vote": 7.4,
+   "poster": "/kMIiBztK0PgwIQ0FMItv4dd8wIL.jpg",
+   "overview": "Lily Trevino unexpectedly befriends an online stranger who shares her self-centered father’s name. This new Bob Trevino’s support could transform her life.",
+   "directors": [
+    "Tracie Laymon"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1169789-bob-trevino-likes-it/watch?locale=NL",
+    "flatrate": [
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     451,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt31688586",
+   "pos": 50,
+   "title": "Nouvelle Vague",
+   "orig": "Nouvelle Vague",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1254808,
+   "runtime": 105,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 7.2,
+   "poster": "/yem9CCpQhmcTg8klisNQNg3Ky5L.jpg",
+   "overview": "In Parijs in 1959 draait Jean-Luc Godard in 20 dagen zijn debuutfilm À Bout de Souffle, wat later uitgroeit tot een legendarische klassieker. De film is het startpunt van Nouvelle Vague, een nieuwe stroming binnen de Franse cinema. Godard, die tot dan toe filmcriticus is en schrijft voor het gerenommeerde Cahiers du Cinéma, besluit dat zelf films maken de beste kritiek is. Hij krijgt financiering voor een lowbudgetfilm en zet het scenario van François Truffaut, over een gangsterkoppel, naar eigen hand. Ondanks twijfels van cast en crew over Godard's merkwaardige werkwijze blijkt zijn debuut een schot in de roos; met ruim 2,5 miljoen bezoekers in Frankrijk, prijzen voor Godard en een BAFTA no",
+   "directors": [
+    "Richard Linklater"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1254808-nouvelle-vague/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     451,
+     10
+    ],
+    "buy": [
+     71,
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt27847051",
+   "pos": 51,
+   "title": "The Secret Agent",
+   "orig": "O Agente Secreto",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1220564,
+   "runtime": 161,
+   "seasons": 0,
+   "genres": [
+    "Thriller",
+    "Drama",
+    "Misdaad"
+   ],
+   "vote": 7.1,
+   "poster": "/4IKDhgo9Qu4z27PoZzyXjaTzlVc.jpg",
+   "overview": "Brazilië, 1977. Marcelo, technologie-expert en weduwnaar, is op de vlucht. Terwijl de militaire dictatuur steeds wredere maatregelen oplegt aan de bevolking komt hij aan in Recife, waar hij zich hoopt te herenigen met zijn zoontje. Daar, tijdens de carnavalsweek, vindt hij een onderkomen bij een groep gelijkgestemden en neemt hij een valse identiteit aan. Maar Marcelo’s situatie is penibeler dan hij doorheeft: al snel beseft hij zich dat de stad verre van het geweldloze toevluchtsoord is dat hij zoekt.",
+   "directors": [
+    "Kleber Mendonça Filho"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1220564-o-agente-secreto/watch?locale=NL",
+    "flatrate": [
+     11,
+     201
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     451,
+     10
+    ],
+    "buy": [
+     71,
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt0113540",
+   "pos": 52,
+   "title": "Kids",
+   "orig": "Kids",
+   "year": 1995,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 9344,
+   "runtime": 91,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Misdaad"
+   ],
+   "vote": 6.9,
+   "poster": "/8qV8hUVCUnFIQKewzlhaFWhdszK.jpg",
+   "overview": "De film volgt de tiener Telly, wiens idee van veilig vrijen is om alleen seks met jonge maagden te hebben. Eén van de meiden die hij in het verleden ontmaagd heeft blijkt hier een besmetting met het HIV-virus aan overgehouden te hebben. Ze gaat naar Telly op zoek om hem het nieuws te brengen. Telly staat echter op het punt om opnieuw onveilige seks te hebben met een nietsvermoedend meisje.",
+   "directors": [
+    "Larry Clark"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0074084",
+   "pos": 53,
+   "title": "1900",
+   "orig": "Novecento",
+   "year": 1976,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 3870,
+   "runtime": 317,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 7.8,
+   "poster": "/5VOYbc5ZinBkwiUqePIc396pSI0.jpg",
+   "overview": "In deze film ontstaat een vriendschap tussen landeigenaar Alfredo en boerenzoon Olmo  tegen de achtergrond van het Italiaanse leven in de eerste helft van de 20ste eeuw. De bewustwording van de boerenonderdrukking leidt tot de opkomst van het fascisme in Italië waardoor de vriendschap op de proef wordt gesteld.",
+   "directors": [
+    "Bernardo Bertolucci"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0203119",
+   "pos": 54,
+   "title": "Sexy Beast",
+   "orig": "Sexy Beast",
+   "year": 2000,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 11826,
+   "runtime": 88,
+   "seasons": 0,
+   "genres": [
+    "Misdaad",
+    "Thriller",
+    "Drama"
+   ],
+   "vote": 7,
+   "poster": "/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
+   "overview": "Voormalig topcrimineel Gal Dove (Ray Winstone) ligt lekker te zonnen aan de rand van zijn zwembad aan de Costa Del Sol. De psychopaat Don Logan (Ben Kingsley) komt de uit vorm geraakte Gal recruteren voor een bankroof in Londen. Gal ziet dit allesbehalve zitten aangezien hij zich had voorgenomen voorgoed te breken met het criminele leven. Don Logan neemt echter geen 'no for an answer' en doet er alles aan om Gal op andere gedachten te brengen.",
+   "directors": [
+    "Jonathan Glazer"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0375063",
+   "pos": 55,
+   "title": "Sideways",
+   "orig": "Sideways",
+   "year": 2004,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 9675,
+   "runtime": 126,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Drama",
+    "Romantiek"
+   ],
+   "vote": 7.1,
+   "poster": "/zOsaxYLgvZVU7cJBpPn8CuE0MrP.jpg",
+   "overview": "Miles is leraar Engels, mislukt schrijver en nogal neerslachtig sinds zijn scheiding twee jaar geleden. Zijn studievriend Jack is een soapacteur die op het punt staat te gaan trouwen. Een week voor het huwelijk trekken de twee veertigers er samen op uit voor een wijntoer door de Santa Ynez-vallei in Californië. Jack's doel is om deze week minstens één keer met een vrouw het bed in te duiken, nu het nog kan. Hij is van mening dat dit Miles ook goed zou doen.",
+   "directors": [
+    "Alexander Payne"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/9675-sideways/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt0181875",
+   "pos": 56,
+   "title": "Almost Famous",
+   "orig": "Almost Famous",
+   "year": 2000,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 786,
+   "runtime": 122,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Muziek"
+   ],
+   "vote": 7.5,
+   "poster": "/3rrkyLYbgLj84AYvjhdcJot4JPx.jpg",
+   "overview": "1973: De 15-jarige William wordt door Rolling Stone Magazine gevraagd een stuk te schrijven over de populaire rockgroep Stillwater. Hij gaat enkele dagen met ze op tour en raakt bevriend met een aantal groupies van de band.",
+   "directors": [
+    "Cameron Crowe"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/786-almost-famous/watch?locale=NL",
+    "flatrate": [
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt0112697",
+   "pos": 57,
+   "title": "Clueless",
+   "orig": "Clueless",
+   "year": 1995,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 9603,
+   "runtime": 97,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Romantiek"
+   ],
+   "vote": 7.2,
+   "poster": "/8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg",
+   "overview": "Cher is een rijkeluisdochter en om haar cijfers te verbeteren brengt ze twee leraren bij elkaar. Als dit lukt besluiten zij en haar vriendin Dionne zich te storten op een nieuw meisje, Tai, die nog geen flauw benul heeft van de normen en waarden van de huidige tieners. Ze zullen haar net zo populair maken als zij zelf zijn.",
+   "directors": [
+    "Amy Heckerling"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/9603-clueless/watch?locale=NL",
+    "flatrate": [
+     72,
+     1773,
+     2801
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt0044741",
+   "pos": 58,
+   "title": "Ikiru",
+   "orig": "Ikiru",
+   "year": 1952,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 3782,
+   "runtime": 143,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 8.3,
+   "poster": "/pPkGUA1GojXj0u2UPsybsBlrI6k.jpg",
+   "overview": "Kanji Watanabe is een kantoormedewerker die, net als al zijn collega's, niets uitvoert op z'n werk. Dan ontdekt hij op een dag dat hij maagkanker heeft en nog maar een paar maanden heeft te leven. Hij besluit vervolgens om deze laatste maanden te gebruiken om het nut van zijn leven te ontdekken.",
+   "directors": [
+    "Akira Kurosawa"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/3782-sheng-kiru/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2799
+    ],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0042876",
+   "pos": 59,
+   "title": "Rashomon",
+   "orig": "Rashômon",
+   "year": 1950,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 548,
+   "runtime": 88,
+   "seasons": 0,
+   "genres": [
+    "Misdaad",
+    "Drama",
+    "Mysterie"
+   ],
+   "vote": 8,
+   "poster": "/cEg6qpVbKA8cZQE2SDsCjSVqbze.jpg",
+   "overview": "In Kurosawa's Rashômon worden vier deels tegenstrijdige versies van de gewelddadige dood van een samoerai verteld door getuigen, onder wie de geest van het slachtoffer.",
+   "directors": [
+    "Akira Kurosawa"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/548-luo-sheng-men/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [
+     538
+    ],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0300140",
+   "pos": 60,
+   "title": "Lilya 4-Ever",
+   "orig": "Lilja 4-ever",
+   "year": 2002,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 12093,
+   "runtime": 109,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Misdaad"
+   ],
+   "vote": 7.6,
+   "poster": "/iARzbzHuOrWxMNfZnWFCr95B4UQ.jpg",
+   "overview": "De 16 jaar oude Lilja leeft in een arme wijk in een stad van de voormalige Sovjet-Unie. Haar vriend is de jonge jongen Volodja. Samen hangen ze wat rond in de buurt. Ze fantaseren over hoe het leven voor hun gemakkelijker kan worden.",
+   "directors": [
+    "Lukas Moodysson"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/12093-lilja-4-ever/watch?locale=NL",
+    "flatrate": [
+     639
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0047478",
+   "pos": 61,
+   "title": "Seven Samurai",
+   "orig": "Shichinin no samurai",
+   "year": 1954,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 346,
+   "runtime": 207,
+   "seasons": 0,
+   "genres": [
+    "Actie",
+    "Drama"
+   ],
+   "vote": 8.5,
+   "poster": "/6SR6opwtah27btKPggFMGrVUKoP.jpg",
+   "overview": "Het feodale, 16e-eeuwse Japan wordt geteisterd door oorlogen en rondtrekkende bendes. Een van die bendes heeft het gemunt op de oogst van een klein boerendorp, maar de bendeleden besluiten pas terug te komen als er geoogst is.",
+   "directors": [
+    "Akira Kurosawa"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/346-qi-ren-no-shi/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     2799
+    ],
+    "buy": [
+     2
+    ]
+   }
+  },
+  {
+   "imdb": "tt1772925",
+   "pos": 62,
+   "title": "Jiro Dreams of Sushi",
+   "orig": "Jiro Dreams of Sushi",
+   "year": 2011,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 80767,
+   "runtime": 82,
+   "seasons": 0,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 7.7,
+   "poster": "/iVrkM4jSJw1IsOpW5jTtY5QxVqj.jpg",
+   "overview": "JIRO DREAMS OF SUSHI is het verhaal van de 85-jarige Jiro Ono, door velen beschouwd als de beste sushi chef van de wereld.Hij is de eigenaar van het Sukiyabashi Jiro, een restaurant met slechts 10 zitplaatsen in het hart van Tokyo. Het is het eerste restaurant in zijn soort dat onderscheiden is met 3 Michelin sterren. Sushi liefhebbers van over de hele wereld bellen maanden van tevoren om te reserveren en zijn bereid honderden euro’s neer te leggen om te eten in Jiro’s geliefde sushi bar",
+   "directors": [
+    "David Gelb"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0120669",
+   "pos": 63,
+   "title": "Fear and Loathing in Las Vegas",
+   "orig": "Fear and Loathing in Las Vegas",
+   "year": 1998,
+   "seen": 9,
+   "found": true,
+   "t": "movie",
+   "id": 1878,
+   "runtime": 118,
+   "seasons": 0,
+   "genres": [
+    "Avontuur",
+    "Drama",
+    "Komedie"
+   ],
+   "vote": 7.2,
+   "poster": "/tisNLcMkxryU2zxhi0PiyDFqhm0.jpg",
+   "overview": "Journalist Raoul Duke en zijn geflipte advocaat Dr. Gonzo reizen af naar Las Vegas om een sportevenement te verslaan. Met het voorschot dat ze hebben gekregen gooien ze hun hele kofferbak vol met allerlei soorten drugs en beginnen ze aan een psychedelische roadtrip, op zoek naar de 'American Dream'.",
+   "directors": [
+    "Terry Gilliam"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt29567915",
+   "pos": 64,
+   "title": "Nuremberg",
+   "orig": "Nuremberg",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1214931,
+   "runtime": 148,
+   "seasons": 0,
+   "genres": [
+    "Historisch",
+    "Drama"
+   ],
+   "vote": 7.6,
+   "poster": "/xthXNYltOOm80vW5Kxjzxx5gvQ6.jpg",
+   "overview": "De Amerikaanse psychiater Douglas Kelley krijgt de taak om te bepalen of ze toerekeningsvatbaar zijn om terecht te staan tijdens het proces van Neurenberg. Een van de gevangenen die hij moet beoordelen is Hermann Göring — charmant, manipulatief, gevaarlijk. Wat volgt is een dodelijk spel van macht en geest tussen de twee mannen, terwijl de wereld wacht op gerechtigheid. Gebaseerd op een waargebeurd verhaal, eerder in boekvorm verschenen als Jack El-Hai’s pageturner De Nazi en de Psychiater.",
+   "directors": [
+    "James Vanderbilt"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1214931-nuremberg/watch?locale=NL",
+    "flatrate": [
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     451,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt4484722",
+   "pos": 65,
+   "title": "The Making of the Mob",
+   "orig": "The Making of the Mob",
+   "year": 2015,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 62336,
+   "runtime": 0,
+   "seasons": 2,
+   "genres": [
+    "Drama",
+    "Misdaad"
+   ],
+   "vote": 6.9,
+   "poster": "/izg65s60N9nl2QZWF7KBXODKa3D.jpg",
+   "overview": "Een docudramaserie over enkele van Amerika's meest beruchte gangsters, elk seizoen over een andere stad/regio.",
+   "directors": [
+    "Stephen David",
+    "Tim W. Kelly"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0095765",
+   "pos": 66,
+   "title": "Cinema Paradiso",
+   "orig": "Nuovo Cinema Paradiso",
+   "year": 1988,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 11216,
+   "runtime": 155,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Romantiek"
+   ],
+   "vote": 8.4,
+   "poster": "/3hcXpztAe9L6VLpDGwohS01ZSxw.jpg",
+   "overview": "Een beroemde regisseur keert voor het eerst sinds 30 jaar terug naar zijn dorpje op Sicilië. Hij denkt terug aan zijn jeugd die hij doorbracht in de Paradiso bioscoop waar de projecteur Alfredo hem de liefde voor de film bijbracht.",
+   "directors": [
+    "Giuseppe Tornatore"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt27817389",
+   "pos": 67,
+   "title": "The Last Viking",
+   "orig": "Den sidste viking",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1295400,
+   "runtime": 116,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Misdaad",
+    "Drama"
+   ],
+   "vote": 7.2,
+   "poster": "/fUMxDY97T0z3AETWJ7YyQD1aee6.jpg",
+   "overview": "Anker komt vrij na een gevangenisstraf van vijftien jaar. Zijn broer Manfred heeft de buit van zijn bankroof destijds begraven en weet als enige waar het is. Helaas heeft Manfred een psychische stoornis ontwikkeld, waardoor hij alles vergeet. Het ene moment denkt dat hij een Viking is en het andere moment de wedergeboren John Lennon. Met een bloeddorstige rivaal op de hielen start een race tegen de klok en gaan de broers zowel op zoek naar het geld als naar zichzelf.",
+   "directors": [
+    "Anders Thomas Jensen"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1295400-den-sidste-viking/watch?locale=NL",
+    "flatrate": [
+     381,
+     396,
+     639
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     451,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt29768334",
+   "pos": 68,
+   "title": "Train Dreams",
+   "orig": "Train Dreams",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1241983,
+   "runtime": 102,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7.3,
+   "poster": "/jnaOmD9PmAkNjgVtCn17o7clOYe.jpg",
+   "overview": "In een tijd van grote veranderingen in het Amerika van het begin van de 20e eeuw leidt een houthakker een bescheiden leven, terwijl hij liefde en verlies ervaart.",
+   "directors": [
+    "Clint Bentley"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1241983-train-dreams/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt27351074",
+   "pos": 69,
+   "title": "Heat 2",
+   "orig": "Heat 2",
+   "year": 0,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1047807,
+   "runtime": 0,
+   "seasons": 0,
+   "genres": [
+    "Misdaad",
+    "Drama",
+    "Actie"
+   ],
+   "vote": 0,
+   "poster": "/dsxz7u689tdJy9IUbd3SVCEoziz.jpg",
+   "overview": "Dit vervolg/prequel bestrijkt de jaren 1988-2000 en onderzoekt de levens van rechercheur moordzaken Vincent Hanna en de criminelen Neil McCauley en Chris Shiherlis, jaren voordat hun paden elkaar kruisten in 1995, en volgt de levens van Shiherlis en Hanna in de nasleep van de dood van McCauley.",
+   "directors": [
+    "Michael Mann"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0093779",
+   "pos": 70,
+   "title": "The Princess Bride",
+   "orig": "The Princess Bride",
+   "year": 1987,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 2493,
+   "runtime": 98,
+   "seasons": 0,
+   "genres": [
+    "Fantasie",
+    "Komedie",
+    "Romantiek",
+    "Avontuur"
+   ],
+   "vote": 7.7,
+   "poster": "/2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+   "overview": "Het verhaal speelt zich af in het fictieve land Florin. Prinses Buttercup wordt verliefd op de stalknecht Wesley. Het jonge stel zweert elkaar eeuwige trouw. Maar dan wordt Wesley tijdens een zeereis vermoord door een bende piraten. Buttercup gelooft stellig dat zij nooit meer van iemand anders zal houden.",
+   "directors": [
+    "Rob Reiner"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/2493-the-princess-bride/watch?locale=NL",
+    "flatrate": [
+     337,
+     2358
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": [
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt31514146",
+   "pos": 71,
+   "title": "I Swear",
+   "orig": "I Swear",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1317149,
+   "runtime": 120,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 8.3,
+   "poster": "/5wzzexW1ol420BGAtmAmteKnHjG.jpg",
+   "overview": "John Davidson, bij wie op 15-jarige leeftijd het syndroom van Tourette werd vastgesteld, worstelt zich tegen alle verwachtingen in door een moeilijke tienerjaren en de volwassenheid, waarbij hij inspiratie vindt in de vriendelijkheid van anderen om zijn ware doel in het leven te ontdekken.",
+   "directors": [
+    "Kirk Jones"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1317149-i-swear/watch?locale=NL",
+    "flatrate": [
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     451
+    ],
+    "buy": [
+     71,
+     2
+    ]
+   }
+  },
+  {
+   "imdb": "tt14905854",
+   "pos": 72,
+   "title": "Hamnet",
+   "orig": "Hamnet",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 858024,
+   "runtime": 125,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Romantiek"
+   ],
+   "vote": 7.7,
+   "poster": "/mYjpDJXHl9NxRLANwhmlTijpWA1.jpg",
+   "overview": "Het krachtige verhaal van liefde en verlies dat het ontstaan inspireerde van een van Shakespeares bekendste werken: Hamlet.",
+   "directors": [
+    "Chloé Zhao"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/858024-hamnet/watch?locale=NL",
+    "flatrate": [
+     1773,
+     2801
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt0091251",
+   "pos": 73,
+   "title": "Come and See",
+   "orig": "Idi i smotri",
+   "year": 1985,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 25237,
+   "runtime": 145,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Oorlog",
+    "Horror",
+    "Historisch"
+   ],
+   "vote": 8.2,
+   "poster": "/baK79h2An0J8mzTue13KThAeYC5.jpg",
+   "overview": "In een bos in het door de nazi's bezette Wit-Rusland vindt de jonge Rus Florya Gaishun een geweer, waarna hij zich meteen bij de lokale vrijheidsstrijders aansluit. Dit ondanks smeekbeden van zijn moeder, die nu met haar twee dochters weerloos achterblijft.",
+   "directors": [
+    "Элем Климов"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0095327",
+   "pos": 74,
+   "title": "Grave of the Fireflies",
+   "orig": "Hotaru no haka",
+   "year": 1988,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 12477,
+   "runtime": 89,
+   "seasons": 0,
+   "genres": [
+    "Animatie",
+    "Drama",
+    "Oorlog"
+   ],
+   "vote": 8.4,
+   "poster": "/288PlM8vHpzYF35fLtO8rcJuDQ4.jpg",
+   "overview": "Seita en Setsuko zijn broer en zus tijdens de Tweede Wereldoorlog in Japan. Nadat hun vader is gestorven tijdens een overzees gevecht en hun moeder is gedood door een luchtaanval, moeten ze naar andere familieleden toe om gesteund te worden. Als die steun op een gegeven moment ook bij hen weggenomen wordt zijn ze alleen nog afhankelijk van elkaar om te zorgen voor onderdak en eten.",
+   "directors": [
+    "高畑勲"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/12477-huo-chui-runo-mu/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt34966650",
+   "pos": 75,
+   "title": "It's Never Over, Jeff Buckley",
+   "orig": "It's Never Over, Jeff Buckley",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1400381,
+   "runtime": 106,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Muziek"
+   ],
+   "vote": 7.7,
+   "poster": "/3H5rK89G2Hl5qzYeqSCugWe6f90.jpg",
+   "overview": "It's Never Over, Jeff Buckley gaat over het leven van de rijzende jonge ster met een buitengewone stem en grensverleggend kunstenaarschap, die de muziekwereld in de jaren 90 in rep en roer bracht toen hij plotseling op 30-jarige leeftijd overleed, na de release van zijn door critici geprezen debuutalbum 'Grace'.\r Verteld aan de hand van nooit eerder vertoond materiaal uit Buckleys archieven en persoonlijke verhalen van zijn moeder Mary Guibert, voormalige partners Rebecca Moore en Joan Wasser, Jeffs voormalige bandleden, waaronder Michael Tighe en Parker Kindred, en grootheden zoals Ben Harper en Aimee Mann, belicht It's Never Over, Jeff Buckley een van de meest invloedrijke en mysterieuze f",
+   "directors": [
+    "Amy J. Berg"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1400381-it-s-never-over-jeff-buckley/watch?locale=NL",
+    "flatrate": [
+     1986
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt0118694",
+   "pos": 76,
+   "title": "In the Mood for Love",
+   "orig": "Fa yeung nin wah",
+   "year": 2000,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 843,
+   "runtime": 97,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Romantiek"
+   ],
+   "vote": 8.1,
+   "poster": "/8BgGbbWiLNhPtkMkN0gGTnbtvBv.jpg",
+   "overview": "In het Hongkong van 1962 worden meneer Chow en mevrouw Chan buren. De eerste toenaderingspogingen tussen hen komen tot stand als ze beseffen dat hun echtgenoten waarschijnlijk een affaire met elkaar hebben.",
+   "directors": [
+    "王家衛"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/843-hua-yang-nian-hua/watch?locale=NL",
+    "flatrate": [
+     389,
+     639,
+     11,
+     201
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10,
+     697,
+     2799
+    ],
+    "buy": [
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt33071426",
+   "pos": 77,
+   "title": "The Drama",
+   "orig": "The Drama",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1325734,
+   "runtime": 106,
+   "seasons": 0,
+   "genres": [
+    "Romantiek",
+    "Komedie",
+    "Drama"
+   ],
+   "vote": 6.9,
+   "poster": "/rnIOUhzwJDfgQakx8EjoNyItKgs.jpg",
+   "overview": "Enkele dagen voor hun huwelijk wordt de relatie van Charlie en Emma volledig op zijn kop gezet wanneer Emma een schokkend geheim uit haar verleden onthult. Wat een periode van liefde en verwachting had moeten zijn, verandert in een emotionele crisis waarin Charlie alles wat hij dacht te weten over zijn aanstaande vrouw in twijfel trekt. Terwijl de bruiloft dichterbij komt, wordt hun relatie op de proef gesteld en moeten ze beslissen of hun liefde sterk genoeg is om de waarheid te overleven.",
+   "directors": [
+    "Kristoffer Borgli"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1325734-the-drama/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     451,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt31937069",
+   "pos": 78,
+   "title": "The Day Iceland Stood Still",
+   "orig": "The Day Iceland Stood Still",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1181125,
+   "runtime": 70,
+   "seasons": 0,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 8.6,
+   "poster": "/2335e2qPPBzsYAbjc8rWut0ad9R.jpg",
+   "overview": "When 90% of Iceland’s women walked off the job and out of their homes one morning in 1975, they brought their country to its knees and catapulted Iceland to the forefront of today's global fight for gender equality. Unexpectedly funny, laced with evocative animation and powerfully told by the women who lived it – this is the true story of 12 hours that launched a revolution.",
+   "directors": [
+    "Pamela Hogan"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt32298285",
+   "pos": 79,
+   "title": "Sirat",
+   "orig": "Sirât",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1151272,
+   "runtime": 120,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Thriller"
+   ],
+   "vote": 6.8,
+   "poster": "/fB7rAoE6tYn9qgj2GEU9gcNt9Ih.jpg",
+   "overview": "Een man en zijn zoon arriveren bij een rave diep in de bergen van Marokko. Ze zijn op zoek naar Marina, hun dochter en zus, die maanden eerder verdween tijdens een andere rave. Gedreven door hoop en toeval volgen ze een groep feestgangers op weg naar een laatste feest, in de hoop haar daar terug te vinden.",
+   "directors": [
+    "Oliver Laxe"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1151272-sirat/watch?locale=NL",
+    "flatrate": [
+     11,
+     201
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     451,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt32525017",
+   "pos": 80,
+   "title": "Joe Speedboot",
+   "orig": "Joe Speedboot",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1484183,
+   "runtime": 96,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 6.2,
+   "poster": "/rFI1RwCuU0FyHymPq0PmDmYJwHZ.jpg",
+   "overview": "Nadat Fransje Hermans door een bizar ongeluk in een rolstoel terechtkomt, lijkt hij gedoemd zijn dagen te slijten in het slome dorp Lomark. Door het ongeluk kan hij niet meer bewegen en praten, en op één functionele arm na, lijkt zijn leven uitzichtloos. Dat verandert echter wanneer de charismatische en roekeloze nieuwkomer Joe Speedboot arriveert en een onwaarschijnlijke vriendschap met Fransje sluit. Zal het Fransje helpen om zijn hartstochtelijke dromen te verwezenlijken, zijn verlangen naar de betoverende PJ te stillen of is hij slechts een volgend project van de naar avontuur hunkerende Joe?",
+   "directors": [
+    "Sam de Jong"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1484183-joe-speedboot/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     451,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt33412851",
+   "pos": 81,
+   "title": "A Family",
+   "orig": "A Family",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1359694,
+   "runtime": 90,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7.5,
+   "poster": "/9tfFYyA63BhNif8GKvIvtPrigdB.jpg",
+   "overview": "Gevangen in de strijd van de scheiding van hun ouders, trekken Nina en Eli zich terug in hun eigen wereld, verscheurd tussen loyaliteit, woede en het verlangen om gezien te worden. Vanuit twee spiegelende perspectieven ontvouwt zich één verhaal dat laat zien hoe liefde kan breken en toch de weg naar huis kan vinden.",
+   "directors": [
+    "Mees Peijnenburg"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt15109082",
+   "pos": 82,
+   "title": "The Quiet Girl",
+   "orig": "An Cailín Ciúin",
+   "year": 2022,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 916405,
+   "runtime": 94,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7.5,
+   "poster": "/gKDGrube5oQsxCe7YXwftT9u4Zn.jpg",
+   "overview": "Het meisje Cáit wordt in de zomer van het jaar 1981 door haar familie weggestuurd. Ze trekt bij Seán en Eibhlín Cinnsealach in, een bevriend koppel van haar moeder dat ze voor de eerste maal ontmoet. Gedurende haar verblijf bloeit Cáit open en ontdekt ze een nieuwe levenswijze, maar stuit ze tevens op een geheim...",
+   "directors": [
+    "Colm Bairéad"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/916405-an-cailin-ciuin/watch?locale=NL",
+    "flatrate": [
+     72,
+     389,
+     563,
+     639,
+     1986,
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt17491088",
+   "pos": 83,
+   "title": "The Diplomat",
+   "orig": "The Diplomat",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 203857,
+   "runtime": 0,
+   "seasons": 4,
+   "genres": [
+    "Drama",
+    "War & Politics"
+   ],
+   "vote": 7.6,
+   "poster": "/cUy0ZYme43lop08nOtbQLWL0dX.jpg",
+   "overview": "Tijdens een internationale crisis worstelt een Amerikaanse diplomaat met haar belangrijke baan als ambassadeur in het VK en haar gespannen huwelijk met een politieke ster.",
+   "directors": [
+    "Debora Cahn"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/203857-the-diplomat/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt27549797",
+   "pos": 84,
+   "title": "What Happens at Night",
+   "orig": "What Happens at Night",
+   "year": 0,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1117319,
+   "runtime": 0,
+   "seasons": 0,
+   "genres": [
+    "Mysterie",
+    "Horror",
+    "Thriller"
+   ],
+   "vote": 0,
+   "poster": null,
+   "overview": "An American couple travels to a remote, snowbound European town to adopt a child in hopes of saving their marriage. Stranded in an eerie hotel, they encounter a cast of unsettling figures as reality begins to fracture around them.",
+   "directors": [
+    "Martin Scorsese"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt15799564",
+   "pos": 85,
+   "title": "Wild Horse Nine",
+   "orig": "Wild Horse Nine",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 891621,
+   "runtime": 117,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Misdaad",
+    "Thriller"
+   ],
+   "vote": 7.9,
+   "poster": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+   "overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
+   "directors": [
+    "Martin McDonagh"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt7428530",
+   "pos": 86,
+   "title": "Roosevelt",
+   "orig": "Roosevelt",
+   "year": 0,
+   "seen": 0,
+   "found": false,
+   "t": "movie",
+   "genres": [],
+   "directors": []
+  },
+  {
+   "imdb": "tt21402698",
+   "pos": 87,
+   "title": "The Wager: A Tale of Shipwreck, Mutiny, and Murder",
+   "orig": "The Wager: A Tale of Shipwreck, Mutiny, and Murder",
+   "year": 0,
+   "seen": 0,
+   "found": false,
+   "t": "movie",
+   "genres": [],
+   "directors": []
+  },
+  {
+   "imdb": "tt37304295",
+   "pos": 88,
+   "title": "Fatherland",
+   "orig": "Fatherland",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1437696,
+   "runtime": 82,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Historisch"
+   ],
+   "vote": 7.3,
+   "poster": "/vfyg3vnsh2fWsrcRbOmBXLDNHEE.jpg",
+   "overview": "In 1949 beginnen de Duitse schrijver Thomas Mann en zijn dochter Erika aan een roadtrip door een Duitsland in puin, van het door de VS gedomineerde Frankfurt naar het door de Sovjet-Unie gecontroleerde Weimar.",
+   "directors": [
+    "Paweł Pawlikowski"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt4995790",
+   "pos": 89,
+   "title": "The Square",
+   "orig": "The Square",
+   "year": 2017,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 401246,
+   "runtime": 151,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 6.7,
+   "poster": "/kKBHo6WnRnUJ5qvWFWd3Fne9bKE.jpg",
+   "overview": "In een vermaard museum houdt een kunstenaar een tentoonstelling met als doel het altruïsme te promoten. Hij doet dit door middel van het scheppen van een symbolische ruimte waar alleen maar goede dingen gebeuren.",
+   "directors": [
+    "Ruben Östlund"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/401246-the-square/watch?locale=NL",
+    "flatrate": [
+     639
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt26931594",
+   "pos": 90,
+   "title": "Man on the Run",
+   "orig": "Paul McCartney: Man on the Run",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1260643,
+   "runtime": 127,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Muziek"
+   ],
+   "vote": 7.5,
+   "poster": "/iVSU8o6fv8sQlfPbd1pgOJ2Xy4f.jpg",
+   "overview": "Wat gebeurt er als je wakker wordt op de ochtend nadat je de belangrijkste rockband aller tijden hebt verlaten?  In april 1970 bracht Paul zijn eerste soloalbum McCartney uit, samen met een schokkend persbericht waarin werd aangekondigd dat de geliefde band uit elkaar was. Toen hem werd gevraagd wat hij nu zou gaan doen, zei hij dat zijn enige plan was... volwassen te worden. Man on the Run legt Pauls transformatieve decennium vast in de nasleep van het uiteenvallen van The Beatles.",
+   "directors": [
+    "Morgan Neville"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1260643-man-on-the-run/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt42605728",
+   "pos": 91,
+   "title": "The American Experiment",
+   "orig": "The American Experiment",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 322427,
+   "runtime": 0,
+   "seasons": 1,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 5.8,
+   "poster": "/xpp6e3uobvlmWrhhXrmhmoXFdb5.jpg",
+   "overview": "Terwijl de Verenigde Staten hun 250-jarig bestaan ​​naderen, werpt de nieuwe vijfdelige documentaireserie The American Experiment een nieuw licht op de onwaarschijnlijke prestatie die de oprichting van de natie was, en de radicale vraag die centraal stond in de revolutie: kan een volk zichzelf besturen? Met een buitengewone reeks stemmen, waaronder voormalige vicepresidenten en kabinetsleden, huidige en voormalige leden van het Congres, een voormalig rechter van het Hooggerechtshof, vooraanstaande historici, stamhoofden, militaire experts en opinieleiders uit het hele politieke spectrum, presenteert de serie unieke, partijoverstijgende, brede en diepgaande gesprekken over de oorsprong en de ",
+   "directors": [],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/322427-the-american-experiment/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt14173636",
+   "pos": 92,
+   "title": "The Invite",
+   "orig": "The Invite",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 950028,
+   "runtime": 107,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Drama",
+    "Romantiek"
+   ],
+   "vote": 7.2,
+   "poster": "/oaOytZrLtTf8Z7llXjjKkp9XCYY.jpg",
+   "overview": "Het huwelijk van Angela en Joe zit al een tijdje in een sleur en staat in het teken van neurotisch gekibbel. Hun excentrieke bovenburen Hawk en Pina blijken vooral ‘s nachts bijzonder actief, tot grote ergernis van Joe. Wanneer Angela hen uitnodigt voor een etentje, ziet Joe dit als dé uitgelezen kans om hen te confronteren. Wat volgt is een avond vol onverwachte wendingen, die geen van hen snel zal vergeten…",
+   "directors": [
+    "Olivia Wilde"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/950028-the-invite/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     35,
+     451,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt30459041",
+   "pos": 93,
+   "title": "Your Friends & Neighbors",
+   "orig": "Your Friends & Neighbors",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 241609,
+   "runtime": 0,
+   "seasons": 2,
+   "genres": [
+    "Drama",
+    "Misdaad"
+   ],
+   "vote": 7.7,
+   "poster": "/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
+   "overview": "Als een financiële gigant ineens zowel gescheiden als werkeloos is, gaat hij van zijn buren stelen om geen gezichtsverlies te lijden. Het stelen van zijn vrienden bevalt behoorlijk goed, ware het niet dat hij zichzelf in een levensgevaarlijk web verstrikt.",
+   "directors": [
+    "Jonathan Tropper"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/241609-your-friends-neighbors/watch?locale=NL",
+    "flatrate": [
+     350,
+     2243
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt35328184",
+   "pos": 94,
+   "title": "The American Revolution",
+   "orig": "The American Revolution",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 258023,
+   "runtime": 0,
+   "seasons": 1,
+   "genres": [
+    "Documentaire",
+    "War & Politics"
+   ],
+   "vote": 6.1,
+   "poster": "/hXDHzOJxbsWZNy5jd5TMBAKIb0w.jpg",
+   "overview": "De Amerikaanse Revolutie was tegelijk een oorlog voor onafhankelijkheid, een veroveringsoorlog, een burgeroorlog en een wereldoorlog, uitgevochten door buren op Amerikaanse boerderijen en tussen wereldmachten een oceaan of verder weg. Het trof miljoenen mensen, van de Green Mountains in Vermont tot de moerassen van South Carolina, van Indian Country tot het Iberisch schiereiland. Door het Britse Rijk te verslaan en een nieuwe natie voort te brengen, zette de Amerikaanse Revolutie de wereld op zijn kop. Dertien koloniën aan de Atlantische kust verenigden zich in opstand, wonnen hun onafhankelijkheid en vestigden een republiek die nog steeds voortduurt. De Amerikaanse Revolutie zal het verhaal",
+   "directors": [
+    "Ken Burns"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt26933824",
+   "pos": 95,
+   "title": "Nobody Wants This",
+   "orig": "Nobody Wants This",
+   "year": 2024,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 250923,
+   "runtime": 0,
+   "seasons": 3,
+   "genres": [
+    "Komedie",
+    "Drama"
+   ],
+   "vote": 7.3,
+   "poster": "/1RNtqMeSNNBkXqK8WPUMf72vGrt.jpg",
+   "overview": "Een agnostische sekspodcaster en een rabbijn die net weer vrijgezel is, worden verliefd. Kan hun relatie hun verschillende levens en bemoeizuchtige families overleven?",
+   "directors": [
+    "Erin Foster"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/250923-nobody-wants-this/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt34966678",
+   "pos": 96,
+   "title": "The Librarians",
+   "orig": "The Librarians",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1400379,
+   "runtime": 92,
+   "seasons": 0,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 7.4,
+   "poster": "/y3Mu9meJ5Uu1I6laCr3eG9b4Hl3.jpg",
+   "overview": "As an unprecedented wave of book banning is sparked in Texas, Florida, and beyond, librarians under siege join forces as unlikely defenders fighting for intellectual freedom on the front lines of democracy.",
+   "directors": [
+    "Kim A. Snyder"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt31378509",
+   "pos": 97,
+   "title": "Dune: Part Three",
+   "orig": "Dune: Part Three",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1170608,
+   "runtime": 150,
+   "seasons": 0,
+   "genres": [
+    "Sciencefiction",
+    "Avontuur"
+   ],
+   "vote": 0,
+   "poster": "/glt0v4I89rMWstDNCaFXc5SNyO1.jpg",
+   "overview": "Bijna twee decennia nadat hij de macht over het Imperium greep, is Paul Atreides inmiddels een meedogenloze Keizer. Hij moet de gevolgen van zijn heerschappij onder ogen zien wanneer oude bondgenoten terugkeren, angstaanjagende nieuwe dreigingen opdoemen en verraad in elke schaduw loert. Achtervolgd door visioenen van de ondergang van het Imperium en de terugkeer van zijn lang verloren liefde, raakt Paul verstrikt in een allesomvattende samenzwering, met Chani in het hart van het zich ontvouwende mysterie. Terwijl vijanden naderen, moet Paul de ware prijs van macht onder ogen zien en het lot van degenen die hij het meest liefheeft.",
+   "directors": [
+    "Denis Villeneuve"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt4136056",
+   "pos": 98,
+   "title": "The Seven Five",
+   "orig": "The Seven Five",
+   "year": 2014,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 320882,
+   "runtime": 104,
+   "seasons": 0,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 7.4,
+   "poster": "/prCuFhowUc6YmcyJvd2AP1E50WA.jpg",
+   "overview": "Meet the dirtiest cop in NYC history. Michael Dowd stole money and dealt drugs while patrolling the streets of '80s Brooklyn.",
+   "directors": [
+    "Tiller Russell"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt28479262",
+   "pos": 99,
+   "title": "Sing Sing",
+   "orig": "Sing Sing",
+   "year": 2023,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1155828,
+   "runtime": 106,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7.4,
+   "poster": "/xisVgCdzeZnhn91IiKoMIJ1Mxsg.jpg",
+   "overview": "Divine G, gevangengezet in Sing Sing voor een misdaad die hij niet heeft begaan, vindt een doel door samen met andere gedetineerde mannen in een theatergroep op te treden in dit verhaal over veerkracht, menselijkheid en de transformerende kracht van kunst.",
+   "directors": [
+    "Greg Kwedar"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1155828-sing-sing/watch?locale=NL",
+    "flatrate": [
+     472
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt32499466",
+   "pos": 100,
+   "title": "Finding Emily",
+   "orig": "Finding Emily",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1339588,
+   "runtime": 111,
+   "seasons": 0,
+   "genres": [
+    "Romantiek",
+    "Komedie"
+   ],
+   "vote": 7,
+   "poster": "/k5eSf9AIWyW4kzVWbu9ysQjXweS.jpg",
+   "overview": "Als een dolverliefde muzikant het verkeerde telefoonnummer krijgt van het meisje van zijn dromen, gaat hij samen met een gedreven psychologiestudent naar haar op zoek. Hun zoektocht leidt tot hilariteit en opschudding op de hele campus en tegelijkertijd worden hun eigen gevoelens en ambities op de proef gesteld.",
+   "directors": [
+    "Alicia MacDonald"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1339588-finding-emily/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "imdb": "tt37510326",
+   "pos": 101,
+   "title": "The Social Reckoning",
+   "orig": "The Social Reckoning",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1281331,
+   "runtime": 112,
+   "seasons": 0,
+   "genres": [
+    "Drama",
+    "Thriller"
+   ],
+   "vote": 7,
+   "poster": "/uRtkxW2HyHdGHKQtnMUfXrMq1lS.jpg",
+   "overview": "De jonge Facebook-engineer Frances Haugen schakelt als klokkenluider journalist Jeff Horwitz  van de Wall Street Journal in om de best bewaarde geheimen van het sociale netwerk aan het licht te brengen.",
+   "directors": [
+    "Aaron Sorkin"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt34385689",
+   "pos": 102,
+   "title": "Paper Tiger",
+   "orig": "Paper Tiger",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1381273,
+   "runtime": 115,
+   "seasons": 0,
+   "genres": [
+    "Misdaad",
+    "Drama",
+    "Thriller"
+   ],
+   "vote": 6,
+   "poster": "/2oLOjtdujRfoIuWGcYsb05cw6T3.jpg",
+   "overview": "Twee broers raken verwikkeld in een complot dat te mooi lijkt om waar te zijn. Terwijl ze zich een weg proberen te banen door de gevaarlijke wereld van de Russische maffia, komen de familiebanden onder druk te staan ​​met ingrijpende gevolgen voor hun leven.",
+   "directors": [
+    "James Gray"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt35410859",
+   "pos": 103,
+   "title": "Fjord",
+   "orig": "Fjord",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1401459,
+   "runtime": 146,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7.2,
+   "poster": "/io1OpTXvljJc08bu5yaNNFcZ7wO.jpg",
+   "overview": "Na de dood van Mihai's ouders laten Mihai en Lisbeth Gheorghiu hun leven in Roemenië achter zich en verhuizen ze met hun kinderen naar een afgelegen dorp in Noorwegen, in de hoop hun leven weer op te bouwen in de buurt van Lisbeths familie. Daar groeien ze dichter naar hun buren, de Halbergs, toe, wier warmte hun hoop geeft op een nieuwe start. Maar de fragiele rust begint te wankelen wanneer de jonge dochter van de familie Gheorghiu, Elia, onder de blauwe plekken op school aankomt.",
+   "directors": [
+    "Cristian Mungiu"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt19850008",
+   "pos": 104,
+   "title": "The Batman: Part II",
+   "orig": "The Batman: Part II",
+   "year": 2028,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 806704,
+   "runtime": 0,
+   "seasons": 0,
+   "genres": [
+    "Mysterie",
+    "Drama",
+    "Misdaad"
+   ],
+   "vote": 0,
+   "poster": "/r5fl4aMsmTjgc8DdDqQaM84roWp.jpg",
+   "overview": "Sequel to the 2022 film The Batman.",
+   "directors": [
+    "Matt Reeves",
+    "Steven Soderbergh"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt0108515",
+   "pos": 105,
+   "title": "The War Room",
+   "orig": "The War Room",
+   "year": 1993,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 26408,
+   "runtime": 96,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Historisch"
+   ],
+   "vote": 6.8,
+   "poster": "/prfxsyG4SnlnqqulavCJ4RksFUA.jpg",
+   "overview": "Een documentaire achter de schermen over de Clinton for President-campagne, waarin de avonturen van spin doctors James Carville en George Stephanopoulos centraal staan.",
+   "directors": [
+    "Chris Hegedus",
+    "D. A. Pennebaker"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt11317142",
+   "pos": 106,
+   "title": "Shiva Baby",
+   "orig": "Shiva Baby",
+   "year": 2020,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 664300,
+   "runtime": 78,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Drama"
+   ],
+   "vote": 7.1,
+   "poster": "/4sdqVsT6SHqtbCYZS7bhVoEftlL.jpg",
+   "overview": "De joodse studente Danielle woont met haar familie een sjivve bij. Ze poogt de plechtigheid te overleven, ondanks de aanwezigheid van haar ex-vriendin Maya die het allemaal voor elkaar lijkt te hebben. Haar dag neemt een onverwachte wending wanneer ook haar sugar daddy Max met zijn vrouw Kim en baby aankomt.",
+   "directors": [
+    "Emma Seligman"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/664300-shiva-baby/watch?locale=NL",
+    "flatrate": [
+     11,
+     201
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "imdb": "tt38063160",
+   "pos": 107,
+   "title": "The Cycle of Love",
+   "orig": "The Cycle of Love",
+   "year": 2025,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1537518,
+   "runtime": 98,
+   "seasons": 0,
+   "genres": [
+    "Documentaire",
+    "Romantiek"
+   ],
+   "vote": 8.6,
+   "poster": "/uzCaAd7ec0XIimZSdvN8zNU2ieP.jpg",
+   "overview": "Een liefdesverhaal zo onwaarschijnlijk romantisch en ontroerend, dat het nog steeds op Zweedse basisscholen wordt verteld. In 1975 wordt de jonge Indiër PK verliefd op de Zweedse Lotta. Wanneer zij terugkeert naar huis, stapt hij op een tweedehands fiets, met nauwelijks geld op zak, voor een reis van meer dan 10.000 kilometer om haar terug te vinden.  Wat volgt is een adembenemende tocht: dwars door onbekende landen, over bergpassen en door eindeloze landschappen, voortdurend afhankelijk van de hulp van mensen die hij onderweg ontmoet.",
+   "directors": [
+    "Orlando von Einsiedel"
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1537518-the-cycle-of-love/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     451
+    ],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt36834996",
+   "pos": 108,
+   "title": "All of a Sudden",
+   "orig": "Soudain",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1476614,
+   "runtime": 196,
+   "seasons": 0,
+   "genres": [
+    "Drama"
+   ],
+   "vote": 7.8,
+   "poster": "/wsWJ5144ZNaH9KJm2Fu3sMfAp78.jpg",
+   "overview": "Marie-Lou, directrice van een verzorgingstehuis in Parijs, probeert met een innovatieve verzorgingsmethode conventies te doorbreken. Ze stuit op felle weerstand van haar team, dat het volledig centraal stellen van de wensen en waardigheid van de bewoners niet werkbaar vindt. Het leven van Marie-Lou neemt een onverwachte wending wanneer ze Mari ontmoet, een Japanse theaterregisseuse die tegen kanker vecht. Terwijl er een hechte vriendschap tussen de twee vrouwen ontstaat, bundelen ze hun krachten in de strijd het onmogelijke mogelijk te maken.",
+   "directors": [
+    "濱口竜介"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt34206385",
+   "pos": 109,
+   "title": "Primetime",
+   "orig": "Primetime",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1375441,
+   "runtime": 110,
+   "seasons": 0,
+   "genres": [
+    "Thriller",
+    "Drama",
+    "Misdaad"
+   ],
+   "vote": 6.8,
+   "poster": "/8Ytng6mEmuaNJbIw7bYCC24gsW8.jpg",
+   "overview": "In 2006 gaat Chris Hansen, presentator van To Catch a Predator, proberen televisiegeschiedenis te schrijven, waarbij hij een undercoveronderzoek omvormt tot een van de meest controversiële culturele fenomenen van het decennium.",
+   "directors": [
+    "Lance Oppenheim"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt38058097",
+   "pos": 110,
+   "title": "Club Kid",
+   "orig": "Club Kid",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1585239,
+   "runtime": 126,
+   "seasons": 0,
+   "genres": [
+    "Komedie",
+    "Drama"
+   ],
+   "vote": 8,
+   "poster": "/k7fkAMyafSUmNaoiTEgtH0YDx8m.jpg",
+   "overview": "Het wilde nachtleven van een New Yorkse clubpromotor komt volledig op zijn kop te staan wanneer zijn 10-jarige zoon, van wiens bestaan hij niets wist, plotseling in zijn leven verschijnt.",
+   "directors": [
+    "Jordan Firstman"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt36482679",
+   "pos": 111,
+   "title": "The Only Living Pickpocket in New York",
+   "orig": "The Only Living Pickpocket in New York",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1458099,
+   "runtime": 88,
+   "seasons": 0,
+   "genres": [
+    "Misdaad",
+    "Drama",
+    "Thriller"
+   ],
+   "vote": 7.4,
+   "poster": "/hRUGmeK4LAIAPdOO8Umhi8GTwAq.jpg",
+   "overview": "Harry Lehman is een ouderwetse zakkenroller in een tijd waarin zijn vak langzaam uitsterft. Toch blijft hij stelen, om de eindjes aan elkaar te knopen en voor zijn ernstig zieke vrouw Rosie te zorgen. Wanneer een ogenschijnlijk eenvoudige diefstal hem onverwacht iets van grote waarde oplevert, raakt Harry verstrikt in een gevaarlijk web van criminelen. Wat volgt is een zenuwslopende race door de straten van New York, waarin Harry zijn ouderwetse vakmanschap, zijn netwerk en zijn instincten moet aanspreken om zichzelf én zijn buit terug te krijgen.",
+   "directors": [
+    "Noah Segan"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt28553375",
+   "pos": 112,
+   "title": "De Gaulle: Résistance",
+   "orig": "La Bataille de Gaulle: L'âge de fer",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1165366,
+   "runtime": 161,
+   "seasons": 0,
+   "genres": [
+    "Historisch",
+    "Drama",
+    "Oorlog"
+   ],
+   "vote": 7.8,
+   "poster": "/gWul6R3of23ygdwHkJIv5ZChMqj.jpg",
+   "overview": "Juni 1940. Frankrijk geeft zich over aan het Duitse leger en tekent de wapenstilstand. Te midden van de chaos weigert één man zich neer te leggen bij de situatie: generaal Charles de Gaulle. Als kersverse staatsvijand vlucht hij - zonder militaire steun noch hoop - naar Londen om de scherven van zijn gevallen vaderland op te rapen. De Gaulle heeft één rotsvast geloof: een nieuw vrij Frankrijk en een Europa dat zijn wapens niet neerlegt tegen Nazi-Duitsland.",
+   "directors": [
+    "Antonin Baudry"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt35856133",
+   "pos": 113,
+   "title": "De Gaulle: Liberté",
+   "orig": "La Bataille de Gaulle: J'écris ton nom",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1165369,
+   "runtime": 159,
+   "seasons": 0,
+   "genres": [
+    "Historisch",
+    "Drama",
+    "Oorlog"
+   ],
+   "vote": 7.9,
+   "poster": "/5h5FUkdupSlUMtosWHKiqTVCXxd.jpg",
+   "overview": "Juni 1940. Frankrijk geeft zich over aan het Duitse leger en tekent de wapenstilstand. Te midden van de chaos weigert één man zich neer te leggen bij de situatie: generaal de Gaulle. Als kersverse staatsvijand vlucht hij – zonder leger steun noch hoop – naar Londen om de scherven van zijn gevallen vaderland op te rapen. De Gaulle heeft één rotsvast geloof: een nieuw vrij Frankrijk en Europa dat zijn wapens niet neerlegt tegen Nazi-Duitsland.",
+   "directors": [
+    "Antonin Baudry"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt38504111",
+   "pos": 114,
+   "title": "Small Prophets",
+   "orig": "Small Prophets",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "tv",
+   "id": 312693,
+   "runtime": 0,
+   "seasons": 1,
+   "genres": [
+    "Komedie",
+    "Drama",
+    "Mysterie"
+   ],
+   "vote": 7.9,
+   "poster": "/39pC4gr8GTD7dDcuoGLbbyZSyTk.jpg",
+   "overview": "Sinds de verdwijning van zijn vriendin zeven jaar geleden staat Michaels leven stil. Een mysterieus recept in een oud dagboek biedt de antwoorden waar hij al jaren naar zoekt.",
+   "directors": [],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/312693-small-prophets/watch?locale=NL",
+    "flatrate": [
+     350,
+     2243
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "imdb": "tt45368240",
+   "pos": 115,
+   "title": "You Can See Everything",
+   "orig": "You Can See Everything",
+   "year": 2026,
+   "seen": 0,
+   "found": true,
+   "t": "movie",
+   "id": 1765072,
+   "runtime": 175,
+   "seasons": 0,
+   "genres": [
+    "Documentaire"
+   ],
+   "vote": 8.9,
+   "poster": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+   "overview": "Vierendertig dagen voordat ze de gevangenis in moet, nodigt de beruchte Silicon Valley-oprichter Elizabeth Holmes een sceptische filmploeg uit om al haar bewegingen vast te leggen. Wat begint als een intiem portret van een raadselachtige crimineel, mondt uit in een verbijsterende reis van drie jaar naar de afgrond.",
+   "directors": [
+    "Nathan Fielder",
+    "Lance Oppenheim"
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  }
+ ],
+ "tips": [
+  {
+   "t": "tv",
+   "id": 64199,
+   "title": "Sneaky Pete",
+   "orig": "Sneaky Pete",
+   "year": 2015,
+   "poster": "/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
+   "vote": 7.5,
+   "overview": "Marius (Giovanni Ribisi) is een net vrijgelaten gevangene, die de identiteit van zijn celgenoot Pete Murphy overneemt om te ontsnappen aan zijn verleden. De mensen om hem heen lijken hem te geloven - of toch niet? Het lijkt erop dat Marius een minstens net zo gevaarlijke wereld binnentreedt als de wereld die hij zo wanhopig probeert te ontvluchten.",
+   "score": 6.57,
+   "why": [
+    {
+     "title": "Ripley",
+     "rating": 9
+    },
+    {
+     "title": "Breaking Bad",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/64199-sneaky-pete/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [
+     119
+    ],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 71694,
+   "title": "Snowfall",
+   "orig": "Snowfall",
+   "year": 2017,
+   "poster": "/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
+   "vote": 8.4,
+   "overview": "Het is 1983 in Los Angeles. De stad heeft te maken met de 1ste crack-cocaïne epedemie en de invloed ervan op de cultuur van de stad. In Snowfall kruisen de levens van een drugshandelaar, een worstelaar, een CIA-agent en de dochter van een misdaadbaas elkaar…",
+   "score": 5.7,
+   "why": [
+    {
+     "title": "Breaking Bad",
+     "rating": 10
+    },
+    {
+     "title": "Dopesick",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/71694-snowfall/watch?locale=NL",
+    "flatrate": [
+     119,
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 751,
+   "title": "The World at War",
+   "orig": "The World at War",
+   "year": 1973,
+   "poster": "/bWdwEYQQEsz9HuXy5m95z95BYQM.jpg",
+   "vote": 8.3,
+   "overview": "The World at War is een Britse televisiedocumentaire van 26 afleveringen waarin de gebeurtenissen uit de Tweede Wereldoorlog worden vastgelegd. Op het moment van voltooïng in 1973 was het de duurste serie ooit gemaakt en kostte £ 900.000. Het werd geproduceerd door Jeremy Isaacs, verteld door Laurence Olivier en bevat een score gecomponeerd door Carl Davis. Een boek, The World at War, werd geschre",
+   "score": 4.18,
+   "why": [
+    {
+     "title": "The Roosevelts: An Intimate History",
+     "rating": 9
+    },
+    {
+     "title": "Once Upon a Time in Iraq",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 49010,
+   "title": "Hobo with a Shotgun",
+   "orig": "Hobo with a Shotgun",
+   "year": 2011,
+   "poster": "/xxMaO7VoN2BnZit79PedVHnTjcO.jpg",
+   "vote": 5.9,
+   "overview": "Een dakloze burgerwacht (Rutger Hauer) trekt naar een nieuwe stad en vindt zichzelf opgesloten in de stedelijke chaos. Het is een stad waar de criminaliteit regeert en de misdaadbazen het voor het zeggen hebben. Bij het zien van dit stadslandschap gevuld met gewapende overvallers, corrupte agenten, misbruikte prostituees en zelfs een pedofiele kerstman besluit de dakloze gerechtigheid te brengen i",
+   "score": 3.98,
+   "why": [
+    {
+     "title": "Sin City",
+     "rating": 9
+    },
+    {
+     "title": "Irreversible",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 71715,
+   "title": "Good Girls",
+   "orig": "Good Girls",
+   "year": 2018,
+   "poster": "/wpgg6G3UHXepH2Zgpt4W60d6gxR.jpg",
+   "vote": 7.8,
+   "overview": "Drie voorstedelijke moeders orkestreren een overval op een plaatselijke supermarkt om financieel uit het slop te komen en onafhankelijk te worden. En dat doen ze samen.",
+   "score": 3.89,
+   "why": [
+    {
+     "title": "Breaking Bad",
+     "rating": 10
+    },
+    {
+     "title": "Your Friends & Neighbors",
+     "rating": 0
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 42154,
+   "title": "2e Wereld Oorlog In Kleur - HD",
+   "orig": "World War II in Colour",
+   "year": 2009,
+   "poster": "/1in5DbN4t8a7Osw9hCqWEmNoEZF.jpg",
+   "vote": 7.6,
+   "overview": "2e Wereld Oorlog In HD Kleur is een televisiedocumentaire met 13 afleveringen waarin de gebeurtenissen van de Tweede Wereldoorlog worden verteld door Robert Powell. De show beslaat het westfront, het oostfront en de Pacific War. Het gaat over syndicatie in Amerika op het militaire kanaal. Deze serie is in kleur en combineert zowel originele als gekleurde beelden.",
+   "score": 3.83,
+   "why": [
+    {
+     "title": "The Roosevelts: An Intimate History",
+     "rating": 9
+    },
+    {
+     "title": "Once Upon a Time in Iraq",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 66025,
+   "title": "Animal Kingdom",
+   "orig": "Animal Kingdom",
+   "year": 2016,
+   "poster": "/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
+   "vote": 7.8,
+   "overview": "De serie speelt zich af rond de zeventienjarige Joshua \"J\" Cody die intrekt bij zijn onbezorgde familie in hun huis in Zuid Californië, nadat zijn moeder sterft aan een heroïne overdosis. De familie wordt geleidt door de harde Janine \"Smurf\" Cody en haar rechterhand Baz die de zaak leidt en de besluiten neemt. De familie bestaat tevens ook uit Pope, de oudste en meest gevaarlijke van de Cody jonge",
+   "score": 3.8,
+   "why": [
+    {
+     "title": "Breaking Bad",
+     "rating": 10
+    },
+    {
+     "title": "Better Call Saul",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/66025-animal-kingdom/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 81358,
+   "title": "Mr Inbetween",
+   "orig": "Mr Inbetween",
+   "year": 2018,
+   "poster": "/1FkONly4j7hxi6Pz5CmuhRN1Ops.jpg",
+   "vote": 8.3,
+   "overview": "Ray is uitsmijter bij een stripclub, maar buiten kantooruren klust hij ook nog een beetje bij als deurwaarder. Hij is alles behalve het vriendelijke, meedenkende type. Je zou zeggen dat Ray een harteloze vent is, maar dat valt dus eigenlijk reuze mee. Sterker nog hij is iemand die weke knieën krijgt bij het zien van zijn dochtertje of de schuld op zich neemt als één van zijn vrienden in de problem",
+   "score": 3.56,
+   "why": [
+    {
+     "title": "Breaking Bad",
+     "rating": 10
+    },
+    {
+     "title": "Better Call Saul",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/81358-mr-inbetween/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 268,
+   "title": "Batman",
+   "orig": "Batman",
+   "year": 1989,
+   "poster": "/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+   "vote": 7.2,
+   "overview": "Nadat hij als kind getuige was van de moord op zijn ouders heeft multimiljonair Bruce Wayne  gezworen om de misdaad te bestrijden. Bij een overval op een chemische fabriek valt de misdadiger Jack Napier door toedoen van Batman in een vat met zuur, waardoor hij misvormd raakt.",
+   "score": 3.44,
+   "why": [
+    {
+     "title": "The Dark Knight",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/268-batman/watch?locale=NL",
+    "flatrate": [
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10,
+     697
+    ],
+    "buy": [
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "t": "tv",
+   "id": 225634,
+   "title": "Monsters: The Lyle and Erik Menendez Story",
+   "orig": "Monsters: The Lyle and Erik Menendez Story",
+   "year": 2024,
+   "poster": "/x9YC2rpXHUFMqI1hCekKDm9UE4w.jpg",
+   "vote": 7.6,
+   "overview": "Dit meeslepende, waargebeurde misdaadverhaal gaat in op het leven van de broers Menendez, die zijn veroordeeld voor de brute moord op hun ouders in Beverly Hills in 1989.",
+   "score": 3.43,
+   "why": [
+    {
+     "title": "The Bear",
+     "rating": 9
+    },
+    {
+     "title": "Ripley",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/225634-monsters-the-lyle-and-erik-menendez-story/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 128904,
+   "title": "Dark Winds",
+   "orig": "Dark Winds",
+   "year": 2022,
+   "poster": "/kDlrMN0P9ByrEH2GoRbBFeZHbcf.jpg",
+   "vote": 7.5,
+   "overview": "Deze psychologische thriller volgt twee Navajo-politieagenten, Leaphorn en Chee, in het zuidwesten van de jaren zeventig, terwijl hun zoektocht naar aanwijzingen in een gruwelijke dubbele moordzaak hen dwingt hun eigen spirituele overtuigingen ter discussie te stellen en in het reine te komen met het trauma uit hun verleden.",
+   "score": 3.32,
+   "why": [
+    {
+     "title": "Breaking Bad",
+     "rating": 10
+    },
+    {
+     "title": "Better Call Saul",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/128904-dark-winds/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": [
+     10
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 1613,
+   "title": "The 51st State",
+   "orig": "The 51st State",
+   "year": 2001,
+   "poster": "/aYlrGirWrRCTU1PF6Svghn1EMAc.jpg",
+   "vote": 6.1,
+   "overview": "De Amerikaanse Elmo McElroy heeft een formule om de beste drug aller tijden te maken. De drug geeft een rush die 51 keer beter is dan elke andere drug uit de geschiedenis en de ingrediënten die hij daarvoor nodig heeft zijn bij iedere apotheker te krijgen.",
+   "score": 3.22,
+   "why": [
+    {
+     "title": "Pulp Fiction",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 20411,
+   "title": "Until Death",
+   "orig": "Until Death",
+   "year": 2007,
+   "poster": "/kI6Wpkz5FzkomIDDRtMIsDjMhnh.jpg",
+   "vote": 5.9,
+   "overview": "Anthony (Jean-Claude Van Damme) is een aan heroïne verslaafde politieman en niemand mag hem. Na een aanslag op zijn leven raakt hij in coma, waaruit hij als een beter persoon ontwaakt. Nu wil hij alle verkeerde dingen die hij gedaan heeft rechtzetten",
+   "score": 3.09,
+   "why": [
+    {
+     "title": "Pulp Fiction",
+     "rating": 10
+    },
+    {
+     "title": "Irreversible",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 899082,
+   "title": "Harry Potter 20e Verjaardag: Keert terug naar Zweinstein",
+   "orig": "Harry Potter 20th Anniversary: Return to Hogwarts",
+   "year": 2022,
+   "poster": "/jntLBq0MLR3hrwKaTQswxACRPMs.jpg",
+   "vote": 7.3,
+   "overview": "Een betoverend making-of-verhaal verteld door middel van geheel nieuwe diepte-interviews en castgesprekken, waarbij fans worden uitgenodigd op een magische first-person reis door een van de meest geliefde filmfranchises aller tijden.",
+   "score": 3.08,
+   "why": [
+    {
+     "title": "The Dwarf in China",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/899082-harry-potter-20th-anniversary-return-to-hogwarts/watch?locale=NL",
+    "flatrate": [
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": [
+     10
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 455236,
+   "title": "Accident Man",
+   "orig": "Accident Man",
+   "year": 2018,
+   "poster": "/bHFKej3Dbr8kGRSRHpkoFHq9TJQ.jpg",
+   "vote": 6.3,
+   "overview": "Mike Fallon is een gevoelloze huurmoordenaar die elke moord op een ongeluk laat lijken. Daardoor tast de politie keer op keer in het duister. De cliënten die Mike inhuren zijn echter zeer tevreden over hem.",
+   "score": 3.04,
+   "why": [
+    {
+     "title": "Sin City",
+     "rating": 9
+    },
+    {
+     "title": "Pulp Fiction",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/455236-accident-man/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "t": "tv",
+   "id": 278624,
+   "title": "Lucky",
+   "orig": "Lucky",
+   "year": 2026,
+   "poster": "/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+   "vote": 7.3,
+   "overview": "Als een miljoenenroof misloopt, kan oplichter Lucky niet anders dan op de vlucht slaan. Met de FBI en een maffiabaas op haar hielen doet Lucky er alles aan om in leven te blijven en een uitweg te vinden.",
+   "score": 3.04,
+   "why": [
+    {
+     "title": "Ripley",
+     "rating": 9
+    },
+    {
+     "title": "Your Friends & Neighbors",
+     "rating": 0
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/278624-lucky/watch?locale=NL",
+    "flatrate": [
+     350,
+     2243
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 1013601,
+   "title": "The Alto Knights",
+   "orig": "The Alto Knights",
+   "year": 2025,
+   "poster": "/epGF8vv3caKLm6X8PKbD5xirFLa.jpg",
+   "vote": 6.2,
+   "overview": "Midden 20ste eeuw staan de Italiaans-Amerikaanse Vito Genovese en Frank Costello elk aan het hoofd van een maffiagroepering. In het jaar 1957 poogt Genovese zijn rivaal Costello te vermoorden. Dit mislukt, maar Costello raakt wel zwaargewond. Voor deze laatste markeert dit het keerpunt om uit het criminele milieu te stappen.",
+   "score": 2.88,
+   "why": [
+    {
+     "title": "The Godfather Part II",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1013601-the-alto-knights/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "t": "tv",
+   "id": 34307,
+   "title": "Shameless USA",
+   "orig": "Shameless",
+   "year": 2011,
+   "poster": "/Yi3WVT6hOkPahOwwvmLmif1jhs.jpg",
+   "vote": 8.2,
+   "overview": "Frank Gallagher is de trotse vader van 6 slimme en zelfstandige kinderen die zonder hem... waarschijnlijk beter af waren. Als Frank niet het beetje geld wat ze hebben, aan het opdrinken is, ligt hij bewusteloos op grond. Maar de kinderen hebben hun weg gevonden om op te groeien zonder hem. The Gallaghers tonen geen greintje respect, zijn toch erg innemend, bijzonder veerkrachtig en kennen geen enk",
+   "score": 2.73,
+   "why": [
+    {
+     "title": "The Bear",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/34307-shameless/watch?locale=NL",
+    "flatrate": [
+     8,
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 67384,
+   "title": "Reus",
+   "orig": "Goliath",
+   "year": 2016,
+   "poster": "/b7ygC3GRaq4xc0nkWdGnydtMfvD.jpg",
+   "vote": 7.6,
+   "overview": "Billy McBride was ooit een machtige advocaat, maar is nu opgebrand en uitgeblust. Hij is vaker in een café dan in de rechtszaal. Als hij met tegenzin een zaak wegens dood door schuld aanneemt tegen de grootste cliënt van het advocatenkantoor dat hij heeft opgezet, ontdekken Billy en zijn team een groots en dodelijk complot, dat hen tegenover de ultieme reus stelt in een proces op leven en dood.",
+   "score": 2.7,
+   "why": [
+    {
+     "title": "Better Call Saul",
+     "rating": 9
+    },
+    {
+     "title": "Your Friends & Neighbors",
+     "rating": 0
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/67384-goliath/watch?locale=NL",
+    "flatrate": [
+     119,
+     472,
+     1986
+    ],
+    "free": [
+     119
+    ],
+    "ads": [
+     360
+    ],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 11018,
+   "title": "Year of the Dragon",
+   "orig": "Year of the Dragon",
+   "year": 1985,
+   "poster": "/c8SfIgwR5mfu0c0qTBKbsvBfecJ.jpg",
+   "vote": 6.8,
+   "overview": "Gebruikmakend van excessief geweld schopt Joey Tai het tot hoofd van de Chinese maffia in New York. Stanley White, de hoogst onderscheiden agent in New York krijgt Chinatown onder zijn verantwoordelijkheid. De onvermijdelijke confrontatie tussen de twee kemphanen leidt tot een bloedig conflict.",
+   "score": 2.69,
+   "why": [
+    {
+     "title": "Pulp Fiction",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/11018-year-of-the-dragon/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 199001,
+   "title": "My Life with the Walter Boys",
+   "orig": "My Life with the Walter Boys",
+   "year": 2023,
+   "poster": "/dQOwpTpBQEqRUcev4423LrU32G6.jpg",
+   "vote": 7.8,
+   "overview": "Nadat ze haar familie heeft verloren bij een tragisch ongeval, wordt de 15-jarige Jackie Howard gedwongen haar bevoorrechte leven in Manhattan te verlaten. Ze trekt in bij de familie Walter, een groot, luidruchtig gezin met tien zonen op het platteland van Colorado. Hier raakt ze verstrikt in een driehoeksverhouding met twee van de broers.",
+   "score": 2.67,
+   "why": [
+    {
+     "title": "Normal People",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/199001-my-life-with-the-walter-boys/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 2996,
+   "title": "The Office",
+   "orig": "The Office",
+   "year": 2001,
+   "poster": "/oX2JKE1RzAONMbYlujHx0hRAJo1.jpg",
+   "vote": 7.8,
+   "overview": "Britse sitcom-televisieserie over het dagelijkse leven van kantoormedewerkers in de Slough-tak van het fictieve papierbedrijf Wernham Hogg. Ricky Gervais speelt de hoofdrol in de serie: vestigingschef David Brent. Hoewel fictief en gescript, neemt het programma de vorm aan van een documentaire, waarbij de aanwezigheid van de camera vaak wordt erkend.",
+   "score": 2.67,
+   "why": [
+    {
+     "title": "The Office",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/2996-the-office/watch?locale=NL",
+    "flatrate": [
+     472
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 105288,
+   "title": "Down to Earth with Zac Efron",
+   "orig": "Down to Earth with Zac Efron",
+   "year": 2020,
+   "poster": "/eGGHsfDkZXek0qGJ1wsuoVzHEOh.jpg",
+   "vote": 7.7,
+   "overview": "In deze reisserie trekt acteur Zac Efron met wellnessexpert Darin Olien de wereld rond, op zoek naar gezonde, duurzame manieren van leven.",
+   "score": 2.66,
+   "why": [
+    {
+     "title": "Once Upon a Time in Iraq",
+     "rating": 9
+    },
+    {
+     "title": "The American Experiment",
+     "rating": 0
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/105288-down-to-earth-with-zac-efron/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 85385,
+   "title": "L.A.'s Finest",
+   "orig": "L.A.'s Finest",
+   "year": 2019,
+   "poster": "/pecfFki7ADklKNuqMrcBD7U9lWc.jpg",
+   "vote": 6.9,
+   "overview": "De vrijgevochten voormalig DEA-agente Syd Burnett begint opnieuw als rechercheur bij de Los Angeles Police Department. Ze gaat samenwerken met Nancy McKenna, een werkende moeder – die zonder dat zij daar iets aan kan doen, vol afgunst kijkt naar de vrijheden van Syd. De twee hebben totaal andere levensstijlen en een heel andere kijk op het leven, maar als het op hun werk aankomt zijn ze de beste.",
+   "score": 2.62,
+   "why": [
+    {
+     "title": "Better Call Saul",
+     "rating": 9
+    },
+    {
+     "title": "Breaking Bad",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 60948,
+   "title": "12 Monkeys",
+   "orig": "12 Monkeys",
+   "year": 2015,
+   "poster": "/w5u1PqBYfDyfrlkxADTA38jYG3I.jpg",
+   "vote": 7.4,
+   "overview": "De show volgt de reis van een tijdreiziger, Cole, vanuit een postapocalyptische toekomst. Cole arriveert in de huidige tijd via een gevaarlijke en ongeteste manier van tijdreizen, met de missie om de bron van een dodelijke plaag uit te roeien dat uiteindelijk 93.6% van de mensheid zal doen inkrimpen.",
+   "score": 2.61,
+   "why": [
+    {
+     "title": "The Last of Us",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/60948-12-monkeys/watch?locale=NL",
+    "flatrate": [
+     119,
+     1773,
+     2801
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": [
+     10
+    ]
+   }
+  },
+  {
+   "t": "tv",
+   "id": 114695,
+   "title": "Marvel Studios: Legends",
+   "orig": "Marvel Studios Legends",
+   "year": 2021,
+   "poster": "/EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg",
+   "vote": 7.4,
+   "overview": "Bezoek de epische helden, schurken en momenten uit de hele MCU opnieuw ter voorbereiding op de verhalen die nog moeten komen. Elk dynamisch segment wordt rechtstreeks toegevoegd aan de komende serie en vormt het toneel voor toekomstige evenementen. Deze serie verweeft de vele draden die samen het ongeëvenaarde Marvel Cinematic Universe vormen.",
+   "score": 2.6,
+   "why": [
+    {
+     "title": "The American Experiment",
+     "rating": 0
+    },
+    {
+     "title": "Once Upon a Time in Iraq",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/114695-marvel-studios-legends/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 86942,
+   "title": "Undercover",
+   "orig": "Undercover",
+   "year": 2019,
+   "poster": "/ziOJNiNUbomrs81behksd0z9Qoz.jpg",
+   "vote": 7.5,
+   "overview": "Als één van de grootste xtc-producenten in de wereld heeft Ferry Bouman een comfortabel leven in zijn villa op de Belgisch-Nederlandse grens. Dit verandert echter drastisch, wanneer twee undercoveragenten Boumans territorium betreden om zijn netwerk op te rollen.",
+   "score": 2.59,
+   "why": [
+    {
+     "title": "Dopesick",
+     "rating": 9
+    },
+    {
+     "title": "Breaking Bad",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/86942-undercover/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 1429,
+   "title": "25th Hour",
+   "orig": "25th Hour",
+   "year": 2002,
+   "poster": "/uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
+   "vote": 7.3,
+   "overview": "De film vertelt over de laatste vrije dag van Monty Brogan, voor hij zeven jaar de gevangenis in moet wegens het dealen van drugs. Hij zwerft door de stad tot zonsopgang met twee goede vrienden en een vriendin.",
+   "score": 2.56,
+   "why": [
+    {
+     "title": "Marty Supreme",
+     "rating": 9
+    },
+    {
+     "title": "The Godfather Part II",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1429-25th-hour/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 549509,
+   "title": "The Brutalist",
+   "orig": "The Brutalist",
+   "year": 2024,
+   "poster": "/c5CFjvz669Spt82xBpfH3YBdeoU.jpg",
+   "vote": 6.9,
+   "overview": "Een visionaire architect en zijn vrouw vluchten in 1947 uit het naoorlogse Europa en vestigen zich in Pennsylvania, waar een rijke en mysterieuze klant hun leven voor altijd verandert.",
+   "score": 2.54,
+   "why": [
+    {
+     "title": "Marty Supreme",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/549509-the-brutalist/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     35,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 10060,
+   "title": "Get Rich or Die Tryin'",
+   "orig": "Get Rich or Die Tryin'",
+   "year": 2005,
+   "poster": "/aaEJu8vFKtrAoSRtw3xjCf1aM5d.jpg",
+   "vote": 6.9,
+   "overview": "Losjes gebaseerd op het echte levensverhaal van rapper 50 Cent, is dit het verhaal van een drugsdealer die besluit zich op zijn grote passie te storten: hip-hop. Om een fatsoenlijke carrière als rapper van de grond te krijgen, zal hij echter eerst afstand moeten nemen van de criminele wereld...",
+   "score": 2.54,
+   "why": [
+    {
+     "title": "Kneecap",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/10060-get-rich-or-die-tryin/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     10
+    ],
+    "buy": [
+     71,
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 16850,
+   "title": "The Heroes of Telemark",
+   "orig": "The Heroes of Telemark",
+   "year": 1965,
+   "poster": "/rKGD7tR8mj02IyQbacmBxE5RIae.jpg",
+   "vote": 6.9,
+   "overview": "In de herfst van 1942 wordt er door de Noorse verzetsbeweging, ondersteund door de Engelsen, een sabotageactie beraamd tegen Norsk Hydro, een elektrische centrale in Telemark, in het midden van Noorwegen. Deze installatie is voor de Duitsers van vitaal belang omdat er zwaar water geproduceerd wordt voor het maken van een atoombom. Luchtaanvallen blijken weinig effectief. Wanneer bekend wordt dat d",
+   "score": 2.54,
+   "why": [
+    {
+     "title": "Oppenheimer",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 242,
+   "title": "The Godfather Part III",
+   "orig": "The Godfather Part III",
+   "year": 1990,
+   "poster": "/lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+   "vote": 7.4,
+   "overview": "Een ouder wordende Michael Corleone probeert zichzelf en z'n familie af te scheiden van de gewelddadige onderwereld. Terwijl hij de Corleones probeert te koppelen aan het Vaticaan moet hij zich ondertussen bezighouden met een gangster die de bestaande machtsverhoudingen probeert te verstoren.",
+   "score": 2.53,
+   "why": [
+    {
+     "title": "The Godfather Part II",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/242-the-godfather-part-iii/watch?locale=NL",
+    "flatrate": [
+     119,
+     1773,
+     2801
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 361931,
+   "title": "Ronaldo",
+   "orig": "Ronaldo",
+   "year": 2015,
+   "poster": "/qdr6Jx39KErvSeQFVREjxeEK4lk.jpg",
+   "vote": 7,
+   "overview": "Voor de allereerste keer gaat de wereld mee achter gesloten deuren en krijgt zo op een levendige en openhartige manier toegang tot de man Cristiano Ronaldo, zoals hij echt is; voetballer, vader, familiemens en vriend. Aan de hand van diepgaande gesprekken, veel voetbalfragmenten en nooit eerder vertoonde archiefbeelden, biedt deze documentaire een inkijk op het sportieve en persoonlijke leven van ",
+   "score": 2.53,
+   "why": [
+    {
+     "title": "Valley Uprising",
+     "rating": 9
+    },
+    {
+     "title": "The War Room",
+     "rating": 0
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/361931-ronaldo/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 1568,
+   "title": "La Carne",
+   "orig": "Carne",
+   "year": 1991,
+   "poster": "/7QNHk05hoi3dXaLFiZyXoj1I81b.jpg",
+   "vote": 6.8,
+   "overview": "Paolo leeft gescheiden van zijn vrouw. In de nachtclub van een vriend ontmoet hij de vreemde, maar prachtige Francesca. Hij raakt helemaal bezeten van haar. Samen trekken ze zich terug in een huisje. Er zit maar één ding op om: \"Haar volledig te bezitten\".",
+   "score": 2.52,
+   "why": [
+    {
+     "title": "Irreversible",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 11532,
+   "title": "The Emerald Forest",
+   "orig": "The Emerald Forest",
+   "year": 1985,
+   "poster": "/yljdXaSK18SAg7rSzdwwutF2Lk2.jpg",
+   "vote": 6.6,
+   "overview": "De Amerikaanse ingenieur Bill Markham verhuist met zijn gezin naar de rand van het Amazonewoud in Brazilië, waar hij meewerkt aan de bouw van een gigantische waterdam. Tijdens deze werken wordt zijn vijfjarig zoontje Tommy ontvoerd door een volksstam uit het regenwoud. De komende tien jaar spendeert Bill elk vrij moment aan de zoektocht naar zijn zoon en hij spaart hier kosten noch moeite voor. Zi",
+   "score": 2.49,
+   "why": [
+    {
+     "title": "I'm Still Here",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 823482,
+   "title": "Dream Scenario",
+   "orig": "Dream Scenario",
+   "year": 2023,
+   "poster": "/djJlfHASmAHZXpzv7c4tzJ2cLDp.jpg",
+   "vote": 6.6,
+   "overview": "De eenzame, doodgewone professor Paul Matthews wordt van de ene op de andere dag een beroemdheid wanneer hij plots verschijnt in de dromen van miljoenen mensen. Hoe en waarom dit gebeurt, is voor Paul een compleet raadsel, maar hij is er niet boos om. Studenten komen eindelijk naar zijn lessen, hij wordt gevraagd voor grote reclamedeals en de relatie met zijn vrouw is nog nooit zo goed geweest. Ma",
+   "score": 2.49,
+   "why": [
+    {
+     "title": "Beau Is Afraid",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/823482-dream-scenario/watch?locale=NL",
+    "flatrate": [
+     119,
+     381
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     451,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "t": "tv",
+   "id": 277439,
+   "title": "Cape Fear",
+   "orig": "Cape Fear",
+   "year": 2026,
+   "poster": "/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+   "vote": 7.1,
+   "overview": "Er dreigt een storm voor een gelukkig getrouwd advocatenkoppel als een beruchte moordenaar uit hun verleden uit de gevangenis komt.",
+   "score": 2.47,
+   "why": [
+    {
+     "title": "Ripley",
+     "rating": 9
+    },
+    {
+     "title": "Dopesick",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/277439-cape-fear/watch?locale=NL",
+    "flatrate": [
+     350,
+     2243
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 249039,
+   "title": "Black Rabbit",
+   "orig": "Black Rabbit",
+   "year": 2025,
+   "poster": "/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg",
+   "vote": 6.9,
+   "overview": "Een opkomende restauranthouder komt terecht in de criminele onderwereld van New York wanneer zijn chaotische broer terugkeert naar de stad en achtervolgd wordt door woekeraars.",
+   "score": 2.44,
+   "why": [
+    {
+     "title": "The Bear",
+     "rating": 9
+    },
+    {
+     "title": "Your Friends & Neighbors",
+     "rating": 0
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/249039-black-rabbit/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 194766,
+   "title": "The Summer I Turned Pretty",
+   "orig": "The Summer I Turned Pretty",
+   "year": 2022,
+   "poster": "/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
+   "vote": 8.1,
+   "overview": "Belly Conklin wordt bijna 16, en ze is op weg naar haar favoriete plek, Cousins Beach, om de zomer door te brengen met haar familie en de Fishers. Belly is het afgelopen jaar erg gegroeid, en ze heeft het gevoel dat deze zomer anders zal zijn dan de vorige. The Summer I Turned Pretty is gebaseerd op het boek van Jenny Han, die de bedenker en de uitvoerend producent is.",
+   "score": 2.41,
+   "why": [
+    {
+     "title": "Normal People",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/194766-the-summer-i-turned-pretty/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 489471,
+   "title": "The Dawn Wall",
+   "orig": "The Dawn Wall",
+   "year": 2017,
+   "poster": "/bZQCNGb1II5eWASBhEgJBGxOPUM.jpg",
+   "vote": 8,
+   "overview": "In het midden van het Yosemite National Park Towers El Capitan, een groot graniet blok waarvan de soepelste kant, de Dawn Muur , wordt aanzien als de meest moeilijke rots klim in de wereld.",
+   "score": 2.4,
+   "why": [
+    {
+     "title": "Valley Uprising",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 61014,
+   "title": "The Knick",
+   "orig": "The Knick",
+   "year": 2014,
+   "poster": "/oeEqDSIVOi6q0GcZj8L9Q6G7fGC.jpg",
+   "vote": 7.9,
+   "overview": "Dramareeks rond The Knick, alias het Knickerbocker Hospital in Manhattan, waar de dokters en het verplegend personeel in een tijdperk met hoge sterftecijfers en zonder antibiotica voortdurend de grenzen van de medische wetenschap verleggen.",
+   "score": 2.39,
+   "why": [
+    {
+     "title": "Dopesick",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/61014-the-knick/watch?locale=NL",
+    "flatrate": [
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 72071,
+   "title": "The Chi",
+   "orig": "The Chi",
+   "year": 2018,
+   "poster": "/niD8X5pEXpmRUDhSPdDOgI3Gw5Q.jpg",
+   "vote": 7.9,
+   "overview": "Een relevant, actueel en onderscheidend coming-of-age-verhaal dat een zestal onderling verbonden personages volgt in de South Side van Chicago. Het verhaal draait om Brandon, een ambitieuze en zelfverzekerde jongeman die ervan droomt ooit een eigen restaurant te openen, maar in conflict verkeert tussen de belofte van een nieuw leven en zijn verantwoordelijkheid tegenover zijn moeder en tienerbroer",
+   "score": 2.39,
+   "why": [
+    {
+     "title": "The Bear",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/72071-the-chi/watch?locale=NL",
+    "flatrate": [
+     337
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 21925,
+   "title": "Naqoyqatsi",
+   "orig": "Naqoyqatsi",
+   "year": 2002,
+   "poster": "/buDo6FcSlOVEQJomKB0IviNV0Do.jpg",
+   "vote": 6.2,
+   "overview": "Naqoyqatsi toont de alomtegenwoordigheid van technologie in onze wereld. De film verkent hoe alles in ons leven, van de media, politiek, religie en oorlog tot voedsel, het weer, sport en de geneeskunde gesitueerd zijn in deze 'nieuwe natuur'.",
+   "score": 2.39,
+   "why": [
+    {
+     "title": "Fantastic Fungi",
+     "rating": 9
+    },
+    {
+     "title": "The Librarians",
+     "rating": 0
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 116799,
+   "title": "The Lincoln Lawyer",
+   "orig": "The Lincoln Lawyer",
+   "year": 2022,
+   "poster": "/4jSaIqEU8CPBBNn4iVCK6wzPjSx.jpg",
+   "vote": 7.7,
+   "overview": "Strafrechtadvocaat Mickey Haller uit LA doet alles om zijn zaken te winnen terwijl hij vanuit zijn bekende Lincoln door het strafrechtsysteem navigeert.",
+   "score": 2.36,
+   "why": [
+    {
+     "title": "Better Call Saul",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/116799-the-lincoln-lawyer/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 2171,
+   "title": "Cold Case",
+   "orig": "Cold Case",
+   "year": 2003,
+   "poster": "/5dmiNE8UdAqIyjjwZZWsjMhhV0b.jpg",
+   "vote": 7.7,
+   "overview": "De enige vrouwelijke rechercheur van de moordbrigade van Philadelphia vindt haar roeping wanneer ze onopgeloste zaken toegewezen krijgt. Rechercheur Lilly Rush combineert haar natuurlijke instincten met de nieuwste technologie die vandaag de dag beschikbaar is om gerechtigheid te brengen voor alle slachtoffers die ze kan.",
+   "score": 2.36,
+   "why": [
+    {
+     "title": "Mare of Easttown",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/2171-cold-case/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 638,
+   "title": "Lost Highway",
+   "orig": "Lost Highway",
+   "year": 1997,
+   "poster": "/5POhfNeFPIi4VUNwCTaK85sh98r.jpg",
+   "vote": 7.6,
+   "overview": "De centrale figuur in deze hallucinante film is Fred Madison, een saxofonist wiens huwelijk met Renee Madison bol staat van onuitgesproken spanningen. Die lopen nog hoger op wanneer ze anonieme videocassettes op hun stoep vinden, iets of iemand begluurt het huis en de bewoners.",
+   "score": 2.35,
+   "why": [
+    {
+     "title": "Mulholland Drive",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/638-lost-highway/watch?locale=NL",
+    "flatrate": [
+     639,
+     11
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     697,
+     2799
+    ],
+    "buy": [
+     2,
+     697
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 1567,
+   "title": "I Stand Alone",
+   "orig": "Seul contre tous",
+   "year": 1999,
+   "poster": "/4kMB2AAcDQ5diRuh7NTxuS90bx7.jpg",
+   "vote": 7.4,
+   "overview": "Een 50-jarige paardenslager komt uit de gevangenis na een poging tot moord op de verkrachter van zijn autistische dochter. Berooid en zonder werk staat hij op straat. Alles wat hij heeft is een pistool en drie kogels; een gewapende tijdbom die slechts energie put uit haat en vergeldingsdrang.",
+   "score": 2.32,
+   "why": [
+    {
+     "title": "Irreversible",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "tv",
+   "id": 61345,
+   "title": "Z Nation",
+   "orig": "Z Nation",
+   "year": 2014,
+   "poster": "/gXfeDMkEcHoYBvtkbU11g3F81b.jpg",
+   "vote": 7.3,
+   "overview": "Drie jaar nadat een zombievirus de Verenigde Staten verwoeste, moet een groep de enige bekende overlevende van New York naar Californië verhuizen waar het laatste functionerende virale lab wacht op zijn bloed. Zijn antilichamen zijn 's werelds laatste hoop op een vaccin. Echter bergt hij een donker geheim dat hen allemaal bedreigd.",
+   "score": 2.31,
+   "why": [
+    {
+     "title": "The Last of Us",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/61345-z-nation/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [
+     538
+    ],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 24559,
+   "title": "Slaughterhouse-Five",
+   "orig": "Slaughterhouse-Five",
+   "year": 1972,
+   "poster": "/gM2q9pGW9x2zdEMPRsXLBgTDDFH.jpg",
+   "vote": 6.5,
+   "overview": "Billy Pilgrim, een veteraan uit de Tweede Wereldoorlog, komt op mysterieuze wijze los van de tijd, zodat hij, zonder dat hij er iets aan kan doen, kan reizen van de dagen van zijn jeugd naar die van zijn eigenaardige leven op een verre planeet genaamd Tralfamadore, waarbij hij zijn bittere ervaring als krijgsgevangene in de Duitse stad Dresden doorloopt, waarover de onvermijdelijke schaduw van een",
+   "score": 2.2,
+   "why": [
+    {
+     "title": "Oppenheimer",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 13054,
+   "title": "Rise of the Footsoldier",
+   "orig": "Rise of the Footsoldier",
+   "year": 2007,
+   "poster": "/k8lbsM0Nl0c1Qp7NnARWjS6TTRA.jpg",
+   "vote": 6.4,
+   "overview": "Carlton Leach is al één van de meest gevreesde leiders van de hooligans die tribunes bij het voetbal bevolken, maar het gaat met hem van kwaad tot erger. Hij wordt lid van een criminele bende die in de late jaren '80 en begin jaren '90 heel Londen en Essex onveilig maakt. Leach groeit op die manier in de loop van de jaren uit tot een topcrimineel die niet met zich laat spotten.",
+   "score": 2.19,
+   "why": [
+    {
+     "title": "Pulp Fiction",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 1159206,
+   "title": "Father Mother Sister Brother",
+   "orig": "Father Mother Sister Brother",
+   "year": 2025,
+   "poster": "/dEzhInK46B7KsFJ5rwANHm1DtD0.jpg",
+   "vote": 6.4,
+   "overview": "In Father bezoeken de volwassen kinderen Jeff en Emily hun eigenzinnige vader op het Amerikaanse platteland. Een liefdevolle, maar ongemakkelijke poging om elkaar weer te vinden, verhult wie deze mensen eigenlijk zijn. In Mother ontvangt een succesvolle schrijfster haar twee volwassen dochters Timothea en Lilith thuis in Dublin voor hun jaarlijkse theekransje. Emoties worden zoveel mogelijk buiten",
+   "score": 2.19,
+   "why": [
+    {
+     "title": "Aftersun",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/1159206-father-mother-sister-brother/watch?locale=NL",
+    "flatrate": [
+     11,
+     201
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     71,
+     2,
+     451,
+     10,
+     697
+    ],
+    "buy": [
+     71,
+     2,
+     10,
+     697
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 524369,
+   "title": "The Many Saints of Newark",
+   "orig": "The Many Saints of Newark",
+   "year": 2021,
+   "poster": "/qPLqkHTxnJ7CVGzz44H6for0tLu.jpg",
+   "vote": 6.3,
+   "overview": "We bevinden ons in de jaren 60 in Newark, een plaats in New Jersey. Op 1967 braken er rellen uit tussen de Italiaanse maffioso en Afro-Amerikaanse gangsters in de straten van Newark waarbij honderden mensen gewond raakten. Tijdens deze rellen volgen we Tony Soprano in zijn jeugdjaren, voordat hij zou uitgroeien tot het hoofd van de DiMeo familie.",
+   "score": 2.17,
+   "why": [
+    {
+     "title": "The Godfather Part II",
+     "rating": 10
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/524369-the-many-saints-of-newark/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     35,
+     10
+    ],
+    "buy": [
+     2,
+     35,
+     10
+    ]
+   }
+  },
+  {
+   "t": "tv",
+   "id": 1274,
+   "title": "Six Feet Under",
+   "orig": "Six Feet Under",
+   "year": 2001,
+   "poster": "/sCgzLaVlFy8KxtxRPvt1V5MNTDb.jpg",
+   "vote": 8.1,
+   "overview": "Six Feet Under draait rond een familie van begrafenisondernemers. In de eerste aflevering komt het gezinshoofd, Nathaniel Fisher, om bij een verkeersongeluk. De daaropvolgende vijf seizoenen volgen de perikelen van de overgebleven familieleden; de weduwe Ruth, haar zoons Nate en David en de dochter Claire, gespeeld door Lauren Ambrose.",
+   "score": 2.17,
+   "why": [
+    {
+     "title": "The Bear",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/1274-six-feet-under/watch?locale=NL",
+    "flatrate": [
+     1899,
+     1825
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 31867,
+   "title": "Repo Men",
+   "orig": "Repo Men",
+   "year": 2010,
+   "poster": "/1ZA5kEKuA6HgbyzZXXlyU4piNI.jpg",
+   "vote": 6.3,
+   "overview": "In de toekomst is het mogelijk om kunstmatige organen in te laten zetten. Remy heeft een nieuw hart maar kan de schuld daarvoor niet afbetalen. Hij slaat op de vlucht omdat er twee meedogenloze oorlogsveteranen op hem afgestuurd zijn.",
+   "score": 2.17,
+   "why": [
+    {
+     "title": "Sin City",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/31867-repo-men/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "t": "movie",
+   "id": 127867,
+   "title": "The Brass Teapot",
+   "orig": "The Brass Teapot",
+   "year": 2012,
+   "poster": "/6txTmb8OIimrQezgD8ERMmrrbnT.jpg",
+   "vote": 6.1,
+   "overview": "John en Alice zijn beiden in hun twintig, getrouwd, erg verliefd, en blut. Alice werd een gouden toekomst voorspeld in de middelbare school, maar nu kan ze amper de eindjes aan elkaar knopen. Haar neurotische man John wil enkel dat de rekeningen betaald worden.",
+   "score": 2.15,
+   "why": [
+    {
+     "title": "Beau Is Afraid",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 16233,
+   "title": "Tromeo & Juliet",
+   "orig": "Tromeo & Juliet",
+   "year": 1996,
+   "poster": "/wqLSSp1PEzOeCQsLxzlySQUPZrK.jpg",
+   "vote": 6,
+   "overview": "Een 'Troma'-versie van het bekende romantische Shakespeare vertelling. Door een onenigheid in de porno-industrie leven de rivaliserende families Que en Capulet op gespannen voet: toen eenmaal waren ze bondgenoten, nu genadeloze concurrenten die elkaar naar het leven staan. Desondanks ontwikkelt zich een hartstochtelijke liefde tussen de gebodypiercede Tromeo Que en de prachtige Juliet Capulet. Wan",
+   "score": 2.13,
+   "why": [
+    {
+     "title": "Poor Things",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": null,
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 43939,
+   "title": "I'm Still Here",
+   "orig": "I'm Still Here",
+   "year": 2010,
+   "poster": "/h8c53OPv2miF6vzpVXQZX8jw1pJ.jpg",
+   "vote": 5.9,
+   "overview": "We volgen Joaquin Phoenix vanaf het moment dat hij aankondigt te zullen stoppen met acteren om zichzelf opnieuw uit te vinden als hip hop muzikant. De film is een grappig, soms schokkend en fascinerend portret van een artiest die een nieuwe weg inslaat. We zien wat een creatieve moed er voor nodig is om deze keuze te maken, met de gevolgen die het leven in de schijnwerpers met zich meebrengt.",
+   "score": 2.12,
+   "why": [
+    {
+     "title": "Kneecap",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/43939-i-m-still-here/watch?locale=NL",
+    "flatrate": [],
+    "free": [],
+    "ads": [],
+    "rent": [
+     35
+    ],
+    "buy": [
+     35
+    ]
+   }
+  },
+  {
+   "t": "tv",
+   "id": 240667,
+   "title": "One Day",
+   "orig": "One Day",
+   "year": 2024,
+   "poster": "/smBWt8rHCCavV88C5gQVjh0NUFa.jpg",
+   "vote": 7.7,
+   "overview": "Nadat Emma en Dexter samen naar het afstudeerfeest zijn geweest, scheiden hun wegen, maar hun levens blijven met elkaar verweven.",
+   "score": 2.12,
+   "why": [
+    {
+     "title": "Normal People",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/240667-one-day/watch?locale=NL",
+    "flatrate": [
+     8
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  },
+  {
+   "t": "movie",
+   "id": 13963,
+   "title": "The Last Waltz",
+   "orig": "The Last Waltz",
+   "year": 1978,
+   "poster": "/2K7CFH0AIHnGrA4yQjPCoIB5CmQ.jpg",
+   "vote": 7.7,
+   "overview": "Registratie van het laatste concert van de legendarische groep 'The Band', met een behoorlijk aantal beroemde muziekvrienden en een heus orkest. Onder anderen Eric Clapton, Muddy Waters, Bob Dylan, Dr. John en Neil Diamond geven acte de presence. Het concertmateriaal wordt afgewisseld met beelden van repetities en interviews met de verschillende bandleden.",
+   "score": 2.12,
+   "why": [
+    {
+     "title": "Queen: Days of Our Lives",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/movie/13963-the-last-waltz/watch?locale=NL",
+    "flatrate": [
+     119
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [
+     2,
+     10
+    ],
+    "buy": [
+     2
+    ]
+   }
+  },
+  {
+   "t": "tv",
+   "id": 72787,
+   "title": "Patrick Melrose",
+   "orig": "Patrick Melrose",
+   "year": 2018,
+   "poster": "/t6ubZ1Bpu0elTzA8tT2mxkrfpxA.jpg",
+   "vote": 7.5,
+   "overview": "Miniserie die zich richt op Patrick Melrose, vanaf zijn diep traumatische jeugd tot en met drugsmisbruik en uiteindelijk tot herstel. Elke aflevering is gewijd aan een van de vijf romans van Melrose.",
+   "score": 2.11,
+   "why": [
+    {
+     "title": "Dopesick",
+     "rating": 9
+    },
+    {
+     "title": "Normal People",
+     "rating": 9
+    }
+   ],
+   "offers": {
+    "link": "https://www.themoviedb.org/tv/72787-patrick-melrose/watch?locale=NL",
+    "flatrate": [
+     472,
+     1986
+    ],
+    "free": [],
+    "ads": [],
+    "rent": [],
+    "buy": []
+   }
+  }
+ ],
+ "warnings": []
+}
