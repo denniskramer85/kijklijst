@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kijklijst</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: sticky top bar, one summary sentence, then a poster wall. Status is carried by a pill on each poster. */
+:root {
+  --bg: #f2f0f6;
+  --surface: #ffffff;
+  --ink: #1b1826;
+  --muted: #625c76;
+  --line: #dbd6e6;
+  --accent: #8f4a00;        /* marquee amber, text-safe */
+  --accent-fill: #f5b942;   /* marquee amber, as a fill */
+  --on-accent: #231a05;
+  --good: #0b7566;
+  --good-fill: #0f8a78;
+  --on-good: #ffffff;
+  --poster-empty: #e4e0ee;
+  --shadow: 0 1px 2px rgba(27,24,38,.06), 0 8px 24px rgba(27,24,38,.07);
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Instrument Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14121c;
+    --surface: #1e1b2a;
+    --ink: #f1eef8;
+    --muted: #a59eba;
+    --line: #332f46;
+    --accent: #f5b942;
+    --accent-fill: #f5b942;
+    --on-accent: #231a05;
+    --good: #55d6bd;
+    --good-fill: #2bb39b;
+    --on-good: #06201b;
+    --poster-empty: #2a2639;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 28px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink);
+  font: 400 16px/1.5 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; line-height: 1.15; }
+p { margin: 0; }
+a { color: var(--accent); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
+
+/* Top bar */
+.top { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; gap: 8px 24px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; }
+.brand { font: 700 22px/1 var(--font-display); color: var(--ink); text-decoration: none; letter-spacing: -.01em; }
+.brand i { font-style: normal; color: var(--accent); }
+.tabs { display: flex; gap: 4px; }
+.tabs a { padding: 6px 12px; border-radius: 999px; text-decoration: none; color: var(--muted); font-weight: 500; }
+.tabs a[aria-current="page"] { background: var(--ink); color: var(--bg); }
+.sync { margin-left: auto; display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 14px; }
+.bar { width: 120px; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--accent-fill); width: 0; transition: width .3s; }
+
+.btn { border: 1px solid var(--line); background: var(--surface); padding: 7px 14px; border-radius: 10px; cursor: pointer; font-weight: 500; }
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent-fill); border-color: var(--accent-fill); color: var(--on-accent); font-weight: 600; }
+.btn.ghost { background: transparent; }
+.btn:disabled { opacity: .5; cursor: default; }
+
+code { font: 500 .92em ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--poster-empty); padding: 1px 5px; border-radius: 5px; }
+.banner { background: var(--surface); border: 1px solid var(--accent-fill); border-left-width: 5px; border-radius: 10px; padding: 12px 16px; margin: 16px 0 0; display: flex; gap: 12px; align-items: center; justify-content: space-between; }
+
+main { padding: 24px 0 56px; }
+
+/* Summary */
+.summary { display: grid; gap: 18px; margin-bottom: 22px; }
+.headline { font: 500 clamp(24px, 3.4vw, 38px)/1.15 var(--font-display); letter-spacing: -.015em; max-width: 26ch; }
+.headline b { color: var(--good); font-weight: 700; font-variant-numeric: tabular-nums; }
+.headline-row { display: flex; align-items: end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.facets { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.facets .lead { color: var(--muted); font-size: 14px; margin-right: 4px; }
+.facet { display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px 5px 5px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-weight: 500; font-size: 14px; }
+.facet b { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 600; }
+.facet[aria-pressed="true"] { border-color: var(--good-fill); box-shadow: inset 0 0 0 1px var(--good-fill); }
+.facet.minor { background: transparent; }
+.logo { width: 28px; height: 28px; border-radius: 7px; object-fit: cover; background: var(--poster-empty); flex: none; }
+.logo-text { display: inline-flex; align-items: center; height: 28px; padding: 0 8px; border-radius: 7px; background: var(--poster-empty); font-size: 12px; font-weight: 600; }
+
+/* Controls */
+.controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin-bottom: 18px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 6px 12px; cursor: pointer; font-size: 14px; font-weight: 500; color: var(--muted); }
+.chip b { font-variant-numeric: tabular-nums; font-weight: 600; margin-left: 4px; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.field { border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 7px 10px; min-width: 0; }
+.controls .grow { flex: 1 1 180px; }
+.check { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); cursor: pointer; }
+
+/* Poster wall */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); gap: 22px 16px; }
+.card { display: flex; flex-direction: column; gap: 9px; cursor: pointer; text-align: left; min-width: 0; }
+.poster { position: relative; aspect-ratio: 2 / 3; border-radius: 12px; overflow: hidden; background: var(--poster-empty); box-shadow: var(--shadow); display: flex; align-items: center; justify-content: center; }
+.poster img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.poster .fallback { padding: 14px; text-align: center; font: 700 17px/1.2 var(--font-display); color: var(--muted); overflow-wrap: anywhere; }
+.card:hover .poster { outline: 2px solid var(--accent-fill); outline-offset: 2px; }
+.pill { position: absolute; left: 8px; top: 8px; font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--surface); color: var(--ink); box-shadow: 0 1px 4px rgba(0,0,0,.25); }
+.s-mine .pill { background: var(--good-fill); color: var(--on-good); }
+.s-other .pill { background: var(--accent-fill); color: var(--on-accent); }
+.s-none .poster img, .s-unknown .poster img { filter: grayscale(.9); opacity: .55; }
+.s-none .pill, .s-unknown .pill, .s-loading .pill { color: var(--muted); }
+.seen { position: absolute; right: 8px; top: 8px; font-size: 12px; font-weight: 600; padding: 3px 8px; border-radius: 999px; background: rgba(20,18,28,.78); color: #fff; }
+.card h3 { font: 600 15px/1.25 var(--font-body); overflow-wrap: anywhere; }
+.card .sub { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.card .why { color: var(--muted); font-size: 13px; line-height: 1.35; }
+.logos { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; min-height: 28px; }
+.logos .logo.mine { box-shadow: 0 0 0 2px var(--good-fill); }
+.logos .logo.dim { opacity: .6; }
+.logos .more { font-size: 12px; color: var(--muted); font-weight: 600; }
+.logos .note { font-size: 13px; color: var(--muted); }
+
+.empty { border: 1px dashed var(--line); border-radius: 14px; padding: 32px 24px; text-align: center; color: var(--muted); }
+.empty h2 { color: var(--ink); font-size: 22px; margin-bottom: 8px; }
+
+/* Start panel + settings */
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 22px; display: grid; gap: 14px; }
+.panel h2 { font-size: 20px; }
+.panel .hint { color: var(--muted); font-size: 14px; max-width: 68ch; }
+.stack { display: grid; gap: 18px; max-width: 860px; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; counter-reset: s; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: start; }
+.steps li::before { content: counter(s); width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font: 700 16px var(--font-display); border: 1px solid var(--line); color: var(--muted); }
+.steps li.done::before { content: "✓"; background: var(--good-fill); border-color: var(--good-fill); color: var(--on-good); }
+.steps strong { display: block; }
+.steps span { color: var(--muted); font-size: 14px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.row .field { flex: 1 1 260px; }
+.drop { display: grid; gap: 4px; border: 1.5px dashed var(--line); border-radius: 12px; padding: 16px; cursor: pointer; }
+.drop.over { border-color: var(--accent-fill); background: color-mix(in srgb, var(--accent-fill) 10%, transparent); }
+.drop input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.drop strong { font-weight: 600; }
+.drop span { color: var(--muted); font-size: 14px; }
+.drops { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.ok { color: var(--good); font-weight: 500; }
+.err { color: var(--accent); font-weight: 500; }
+.services { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 8px; max-height: 380px; overflow: auto; padding: 2px; }
+.svc { display: flex; align-items: center; gap: 9px; padding: 6px 10px 6px 6px; border: 1px solid var(--line); border-radius: 10px; cursor: pointer; background: transparent; text-align: left; font-size: 14px; min-width: 0; }
+.svc span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.svc[aria-pressed="true"] { border-color: var(--good-fill); box-shadow: inset 0 0 0 1px var(--good-fill); background: color-mix(in srgb, var(--good-fill) 12%, transparent); }
+
+/* Detail dialog */
+dialog { border: 1px solid var(--line); border-radius: 18px; padding: 0; background: var(--surface); color: var(--ink); width: min(760px, calc(100vw - 32px)); max-height: calc(100vh - 32px); box-shadow: var(--shadow); }
+dialog::backdrop { background: rgba(12,10,18,.6); }
+.detail { display: grid; grid-template-columns: 200px 1fr; gap: 22px; padding: 22px; }
+.detail .poster { box-shadow: none; align-self: start; }
+.detail h2 { font-size: 26px; }
+.detail .body { display: grid; gap: 12px; align-content: start; min-width: 0; }
+.detail .sub { color: var(--muted); font-variant-numeric: tabular-nums; }
+.detail .overview { max-width: 60ch; }
+.offers { display: grid; gap: 8px; }
+.offer { display: grid; grid-template-columns: 130px 1fr; gap: 10px; align-items: center; }
+.offer > span { color: var(--muted); font-size: 14px; }
+.offer .list { display: flex; flex-wrap: wrap; gap: 6px 10px; }
+.offer .prov { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; }
+.offer .prov.mine { font-weight: 600; color: var(--good); }
+.detail .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.detail .actions a.btn { text-decoration: none; color: var(--ink); }
+.close { position: sticky; top: 0; float: right; margin: 10px 10px 0 0; z-index: 2; }
+@media (max-width: 600px) {
+  .detail { grid-template-columns: 1fr; }
+  .detail .poster { max-width: 150px; }
+  .offer { grid-template-columns: 1fr; gap: 4px; }
+  .sync { margin-left: 0; width: 100%; justify-content: space-between; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 18px 12px; }
+}
+footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; padding: 18px 0 30px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#kijklijst">Kijk<i>lijst</i></a>
+    <nav class="tabs" aria-label="Onderdelen">
+      <a href="#kijklijst" data-tab="kijklijst">Kijklijst</a>
+      <a href="#tips" data-tab="tips">Tips</a>
+      <a href="#instellingen" data-tab="instellingen">Instellingen</a>
+    </nav>
+    <div class="sync"><span id="syncText"></span></div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- Kijklijst -->
+  <section id="view-kijklijst">
+    <div id="startPanel" class="panel" hidden></div>
+    <div id="listBody" hidden>
+      <div class="summary">
+        <div class="headline-row">
+          <p class="headline" id="headline"></p>
+          <button class="btn primary" id="btnPick" type="button">Kies er één voor me</button>
+        </div>
+        <div class="facets" id="facetsMine"></div>
+        <div class="facets" id="facetsOther"></div>
+      </div>
+      <div class="controls">
+        <div class="chips" id="statusChips"></div>
+        <input class="field grow" id="q" type="search" placeholder="Zoek op titel, regisseur of genre" aria-label="Zoeken in je kijklijst">
+        <select class="field" id="typeSel" aria-label="Soort titel">
+          <option value="all">Films en series</option>
+          <option value="movie">Alleen films</option>
+          <option value="tv">Alleen series</option>
+        </select>
+        <select class="field" id="sortSel" aria-label="Sorteren">
+          <option value="added">Laatst toegevoegd</option>
+          <option value="score">Hoogste score</option>
+          <option value="year">Nieuwste eerst</option>
+          <option value="runtime">Kortste eerst</option>
+          <option value="title">Titel A–Z</option>
+        </select>
+        <label class="check" id="hideSeenWrap"><input type="checkbox" id="hideSeen"> Verberg al gezien</label>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- Tips -->
+  <section id="view-tips" hidden>
+    <div class="summary">
+      <div class="headline-row">
+        <div>
+          <p class="headline">Tips die bij je smaak passen</p>
+          <p id="tipsSub" style="color:var(--muted);margin-top:8px;max-width:68ch"></p>
+        </div>
+        <div class="row">
+          <label class="check"><input type="checkbox" id="tipsMine"> Alleen op mijn diensten</label>
+          <button class="btn primary" id="btnReroll" type="button">Andere tips</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid" id="tipsGrid"></div>
+  </section>
+
+  <!-- Instellingen -->
+  <section id="view-instellingen" hidden>
+    <div class="stack">
+      <div class="panel">
+        <h2>Mijn diensten</h2>
+        <p class="hint" id="svcMsg"></p>
+        <div class="row">
+          <input class="field" id="svcSearch" type="search" placeholder="Zoek een dienst" aria-label="Zoek een dienst">
+          <button class="btn" id="btnSvcReset" type="button" hidden>Terug naar de standaardkeuze</button>
+        </div>
+        <div class="services" id="services"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Synchronisatie</h2>
+        <p class="hint" id="syncInfo"></p>
+        <ul class="hint" id="syncWarnings" style="margin:0;padding-left:20px" hidden></ul>
+        <div class="row" id="syncLinks"></div>
+      </div>
+
+      <div class="panel" id="devicePanel" hidden>
+        <h2>Dit apparaat</h2>
+        <p class="hint" id="deviceMsg"></p>
+        <div class="row"><button class="btn" id="btnUnhide" type="button">Verborgen tips terugzetten</button></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Streamingaanbod: JustWatch, via TMDB. Deze app gebruikt de TMDB API maar is niet goedgekeurd of gecertificeerd door TMDB. De titels komen van je eigen IMDb-lijsten; alle overige filmgegevens van TMDB.</div>
+</footer>
+
+<dialog id="dlg" aria-label="Details"></dialog>
+
+<script>
+"use strict";
+/* ------------------------------------------------------------------ helpers */
+const IMG = "https://image.tmdb.org/t/p/";
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const uniq = a => [...new Set(a)];
+const norm = s => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "");
+const fmt1 = n => Number(n).toLocaleString("nl-NL", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const fmtRuntime = m => { m = +m; if (!m) return ""; const h = Math.floor(m / 60), r = m % 60; return h ? `${h} u ${r ? r + " min" : ""}`.trim() : `${r} min`; };
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("kijklijst:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem("kijklijst:" + k, JSON.stringify(v)); } catch (e) {} },
+  del(k) { try { localStorage.removeItem("kijklijst:" + k); } catch (e) {} }
+};
+
+/* -------------------------------------------------------------------- state */
+let D = null;                                                    // data/data.json, written by the daily sync
+const L = { services: store.get("services", null), hidden: store.get("hidden", []) };   // choices kept on this device
+const ui = { tab: "kijklijst", status: "all", service: null, type: "all", q: "", sort: "added", hideSeen: false, tipsMine: false, reroll: 0, svcQ: "", loadError: null };
+
+const mineSet = () => new Set(L.services || (D && D.defaultServices) || []);
+const myServices = () => [...mineSet()];
+function repoUrl() {
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/i);
+  if (!m) return null;
+  const seg = location.pathname.split("/").filter(Boolean)[0];
+  return `https://github.com/${m[1]}/${seg && !seg.includes(".") ? seg : m[1] + ".github.io"}`;
+}
+
+/* ------------------------------------------------------------ classification */
+function classify(o, mine) {
+  const stream = uniq([...o.flatrate, ...o.free, ...o.ads]);
+  const own = stream.filter(id => mine.has(id));
+  const paid = uniq([...o.rent, ...o.buy]);
+  return { code: own.length ? "mine" : stream.length ? "other" : paid.length ? "paid" : "none", own, stream, paid };
+}
+function analyse(x, mine) {
+  if (x.found === false) return { code: "unknown", note: "Onbekend bij TMDB" };
+  if (!x.offers) return { code: "unknown", note: "Aanbod onbekend" };
+  return classify(x.offers, mine);
+}
+const STATUS = { mine: "Nu te zien", other: "Andere dienst", paid: "Huur of koop", none: "Niet te streamen", unknown: "Onbekend" };
+const provName = id => (D.providers[id] && D.providers[id].name) || "Dienst " + id;
+function logo(id, cls) {
+  const info = D.providers[id] || { name: "Dienst " + id };
+  return info.logo
+    ? `<img class="logo ${cls || ""}" src="${IMG}w92${esc(info.logo)}" alt="${esc(info.name)}" title="${esc(info.name)}" loading="lazy">`
+    : `<span class="logo-text ${cls || ""}">${esc(info.name)}</span>`;
+}
+const posterHtml = (p, title) => p ? `<img src="${IMG}w342${esc(p)}" alt="" loading="lazy">` : `<span class="fallback">${esc(title)}</span>`;
+function offerLogos(a, mine) {
+  if (a.code === "mine" || a.code === "other") {
+    const order = [...a.own, ...a.stream.filter(id => !mine.has(id))];
+    return order.slice(0, 5).map(id => logo(id, mine.has(id) ? "mine" : a.code === "mine" ? "dim" : "")).join("") + (order.length > 5 ? `<span class="more">+${order.length - 5}</span>` : "");
+  }
+  if (a.code === "paid") return a.paid.slice(0, 4).map(id => logo(id, "dim")).join("") + (a.paid.length > 4 ? `<span class="more">+${a.paid.length - 4}</span>` : "");
+  if (a.code === "none") return `<span class="note">Geen aanbod in dit land</span>`;
+  return `<span class="note">${esc(a.note || "")}</span>`;
+}
+
+/* ------------------------------------------------------------ render: shell */
+function render() {
+  document.querySelectorAll(".tabs a").forEach(a => a.dataset.tab === ui.tab ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  for (const t of ["kijklijst", "tips", "instellingen"]) $("view-" + t).hidden = t !== ui.tab;
+  $("syncText").textContent = D ? "Bijgewerkt " + when(D.generatedAt) + (isStale() ? " · verouderd" : "") : "";
+  if (ui.tab === "kijklijst") renderList();
+  else if (ui.tab === "tips") renderTips();
+  else renderSettings();
+}
+function when(iso) {
+  const d = new Date(iso), today = new Date().toDateString() === d.toDateString();
+  return (today ? "vandaag " : d.toLocaleDateString("nl-NL", { day: "numeric", month: "short" }) + " ") + d.toLocaleTimeString("nl-NL", { hour: "2-digit", minute: "2-digit" });
+}
+const isStale = () => D && Date.now() - new Date(D.generatedAt).getTime() > 3 * 864e5;
+
+/* ------------------------------------------------------- render: kijklijst */
+function renderStart() {
+  const repo = repoUrl();
+  $("startPanel").innerHTML = `
+    <h2 style="font-size:28px">Er zijn nog geen gegevens</h2>
+    <p class="hint">${ui.loadError && ui.loadError !== "nodata" ? "De gegevens konden niet worden geladen (" + esc(ui.loadError) + "). Probeer het later opnieuw." : "De eerste synchronisatie heeft nog niet gedraaid of is niet gelukt. Controleer deze drie dingen in je GitHub-repository en start daarna de taak <strong>Kijklijst verversen</strong>."}</p>
+    <ol class="steps">
+      <li><div><strong>IMDb-profiel</strong><span>In <code>config.json</code> staat bij <code>imdbUser</code> het adres van je IMDb-profiel, en je watchlist is openbaar.</span></div></li>
+      <li><div><strong>TMDB-sleutel</strong><span>Onder Settings → Secrets and variables → Actions staat een secret met de naam <code>TMDB_API_KEY</code>.</span></div></li>
+      <li><div><strong>Publicatie</strong><span>Onder Settings → Pages staat de bron op GitHub Actions.</span></div></li>
+    </ol>
+    ${repo ? `<div><a class="btn primary" href="${esc(repo)}/actions" style="text-decoration:none;display:inline-block">Open de taken op GitHub</a></div>` : ""}`;
+}
+function renderList() {
+  $("startPanel").hidden = !!D; $("listBody").hidden = !D;
+  if (!D) { renderStart(); return; }
+  const mine = mineSet();
+  const rows = D.watchlist.map(w => ({ w, a: analyse(w, mine) }));
+  $("hideSeenWrap").hidden = !rows.some(r => r.w.seen);
+  const base = rows.filter(r => !(ui.hideSeen && r.w.seen));
+  const count = { all: base.length, mine: 0, other: 0, paid: 0, none: 0 };
+  const perSvc = new Map();
+  for (const r of base) {
+    if (count[r.a.code] !== undefined) count[r.a.code]++;
+    for (const id of r.a.stream || []) perSvc.set(id, (perSvc.get(id) || 0) + 1);
+  }
+  $("headline").innerHTML = !base.length
+    ? "Je watchlist is leeg. Zet titels op je IMDb-watchlist; na de volgende synchronisatie staan ze hier."
+    : !mine.size
+      ? `Kies bij <a href="#instellingen">Instellingen</a> je diensten om te zien wat je nu kunt kijken.`
+      : `<b>${count.mine}</b> van je ${count.all} titels kun je nu kijken met je abonnementen.`;
+  $("btnPick").hidden = !count.mine;
+
+  const facet = (id, minor) => `<button class="facet ${minor ? "minor" : ""}" type="button" data-svc="${id}" aria-pressed="${ui.service === id}">${logo(id)}<span>${esc(provName(id))}</span><b>${perSvc.get(id) || 0}</b></button>`;
+  $("facetsMine").innerHTML = mine.size ? `<span class="lead">Mijn diensten</span>` + myServices().sort((a, b) => (perSvc.get(b) || 0) - (perSvc.get(a) || 0)).map(id => facet(id)).join("") : "";
+  const others = [...perSvc].filter(([id]) => !mine.has(id)).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  $("facetsOther").innerHTML = others.length ? `<span class="lead">Elders het meest</span>` + others.map(([id]) => facet(id, true)).join("") : "";
+
+  const chips = [["all", "Alles"], ["mine", "Op mijn diensten"], ["other", "Andere diensten"], ["paid", "Huur of koop"], ["none", "Niet te streamen"]];
+  $("statusChips").innerHTML = chips.map(([k, label]) => `<button class="chip" type="button" data-status="${k}" aria-pressed="${ui.status === k}">${label}<b>${count[k]}</b></button>`).join("");
+
+  const q = norm(ui.q);
+  const list = base.filter(r => {
+    if (ui.status !== "all" && r.a.code !== ui.status) return false;
+    if (ui.service != null && !(r.a.stream || []).includes(ui.service)) return false;
+    if (ui.type !== "all" && r.w.t !== ui.type) return false;
+    if (q && !norm([r.w.title, r.w.orig, (r.w.directors || []).join(" "), (r.w.genres || []).join(" "), r.w.year].join(" ")).includes(q)) return false;
+    return true;
+  });
+  const sorters = {
+    added: (x, y) => y.w.pos - x.w.pos,
+    score: (x, y) => (y.w.vote || 0) - (x.w.vote || 0),
+    year: (x, y) => (y.w.year || 0) - (x.w.year || 0),
+    runtime: (x, y) => (x.w.runtime || 1e9) - (y.w.runtime || 1e9),
+    title: (x, y) => x.w.title.localeCompare(y.w.title, "nl")
+  };
+  list.sort(sorters[ui.sort]);
+  $("grid").innerHTML = list.length ? list.map(r => cardHtml(r, mine)).join("")
+    : `<div class="empty" style="grid-column:1/-1"><h2>Geen titels gevonden</h2><p>Pas je filters aan of wis je zoekopdracht.</p></div>`;
+}
+const subLine = x => [x.year || "", x.t === "tv" ? (x.seasons ? x.seasons + (x.seasons === 1 ? " seizoen" : " seizoenen") : "Serie") : fmtRuntime(x.runtime), x.vote ? "★ " + fmt1(x.vote) : ""].filter(Boolean).join(" · ");
+function cardHtml(r, mine) {
+  const w = r.w, a = r.a;
+  return `<article class="card s-${a.code}" tabindex="0" role="button" data-open="${esc(w.imdb)}" aria-label="${esc(w.title)}: ${esc(STATUS[a.code])}">
+    <div class="poster">${posterHtml(w.poster, w.title)}<span class="pill">${STATUS[a.code]}</span>${w.seen ? `<span class="seen">Gezien · ${w.seen}</span>` : ""}</div>
+    <h3>${esc(w.title)}</h3>
+    <p class="sub">${esc(subLine(w))}</p>
+    <div class="logos">${offerLogos(a, mine)}</div>
+  </article>`;
+}
+
+/* ------------------------------------------------------------ render: tips */
+const tipKey = c => c.t + ":" + c.id;
+function rng(seedStr) { let h = 1779033703 ^ seedStr.length; for (let i = 0; i < seedStr.length; i++) { h = Math.imul(h ^ seedStr.charCodeAt(i), 3432918353); h = h << 13 | h >>> 19; } let a = h >>> 0; return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function tipPool() {
+  const mine = mineSet(), hidden = new Set(L.hidden);
+  let p = D.tips.filter(c => !hidden.has(tipKey(c))).map(c => ({ c, a: analyse(c, mine) }));
+  if (ui.tipsMine) p = p.filter(x => x.a.code === "mine");
+  return p;
+}
+function tipSelection(p) {
+  if (p.length <= 12) return p;
+  const rand = rng(new Date().toDateString() + "#" + ui.reroll);             // vast voor een dag, anders na "Andere tips"
+  return p.map(x => ({ x, k: Math.pow(rand(), 1 / Math.max(x.c.score, 0.01)) })).sort((a, b) => b.k - a.k).slice(0, 12).map(o => o.x).sort((a, b) => b.c.score - a.c.score);
+}
+const whyText = c => c.why && c.why.length ? "Past bij " + c.why.map(w => esc(w.title) + (w.rating ? ` (jouw ${w.rating})` : " (kijklijst)")).join(" en ") : "";
+function renderTips() {
+  const grid = $("tipsGrid");
+  if (!D) { grid.innerHTML = `<div class="empty" style="grid-column:1/-1"><h2>Nog geen tips</h2><p>De tips verschijnen na de eerste synchronisatie.</p></div>`; $("btnReroll").disabled = true; return; }
+  const nR = D.stats.ratings, nW = D.stats.watchlist;
+  $("tipsSub").textContent = nR
+    ? `Samengesteld uit je ${nR} beoordelingen en ${nW} kijklijsttitels. Wat je al zag of al op je lijst hebt, blijft weg.`
+    : `Samengesteld uit je kijklijst. Zodra je beoordelingen op IMDb worden meegelezen, houden de tips ook rekening met wat je al zag.`;
+  const p = tipPool(), sel = tipSelection(p), mine = mineSet();
+  $("btnReroll").disabled = p.length <= 12;
+  grid.innerHTML = sel.length ? sel.map(({ c, a }) => `
+    <article class="card s-${a.code}" tabindex="0" role="button" data-tip="${esc(tipKey(c))}" aria-label="${esc(c.title)}: ${esc(STATUS[a.code])}">
+      <div class="poster">${posterHtml(c.poster, c.title)}<span class="pill">${STATUS[a.code]}</span></div>
+      <h3>${esc(c.title)}</h3>
+      <p class="sub">${esc([c.year || "", c.t === "tv" ? "Serie" : "Film", c.vote ? "★ " + fmt1(c.vote) : ""].filter(Boolean).join(" · "))}</p>
+      <p class="why">${whyText(c)}</p>
+      <div class="logos">${offerLogos(a, mine)}</div>
+    </article>`).join("")
+    : `<div class="empty" style="grid-column:1/-1"><h2>${ui.tipsMine ? "Geen tips op je eigen diensten" : "Nog geen tips"}</h2><p>${ui.tipsMine ? "Zet het filter uit om ook tips bij andere diensten te zien." : "Beoordeel films op IMDb of zet meer titels op je watchlist; dan komen hier tips."}</p></div>`;
+}
+
+/* -------------------------------------------------------- render: settings */
+function renderSettings() {
+  const repo = repoUrl();
+  $("devicePanel").hidden = !L.hidden.length;
+  $("deviceMsg").textContent = `Je hebt ${L.hidden.length} ${L.hidden.length === 1 ? "tip" : "tips"} als niet interessant gemarkeerd.`;
+  $("syncLinks").innerHTML = repo ? `<a class="btn" href="${esc(repo)}/actions" target="_blank" rel="noopener" style="text-decoration:none;color:var(--ink)">Nu verversen via GitHub</a>` : "";
+  if (!D) { $("svcMsg").textContent = "De diensten verschijnen na de eerste synchronisatie."; $("services").innerHTML = ""; $("syncInfo").textContent = "Er zijn nog geen gegevens opgehaald."; return; }
+  const sel = mineSet(), q = norm(ui.svcQ);
+  $("btnSvcReset").hidden = !(L.services && D.defaultServices.length);
+  $("svcMsg").textContent = (sel.size ? `${sel.size} gekozen. ` : "Vink de diensten aan waar je een abonnement op hebt, en gratis diensten die je gebruikt. ")
+    + "Je keuze wordt op dit apparaat onthouden. Bestaat een dienst in twee varianten (bijvoorbeeld met en zonder reclame), vink dan beide aan.";
+  const order = new Map(D.catalog.map((id, i) => [id, i]));
+  const list = D.catalog.filter(id => !q || norm(provName(id)).includes(q)).sort((a, b) => (sel.has(b) - sel.has(a)) || order.get(a) - order.get(b));
+  $("services").innerHTML = list.map(id => `<button class="svc" type="button" data-toggle-svc="${id}" aria-pressed="${sel.has(id)}">${logo(id)}<span>${esc(provName(id))}</span></button>`).join("");
+  $("syncInfo").innerHTML = `Laatst bijgewerkt ${esc(when(D.generatedAt))}: ${D.stats.watchlist} titels van je IMDb-watchlist en ${D.stats.ratings} beoordelingen, met het aanbod in ${esc(D.region)}. Elke ochtend haalt een taak op GitHub je lijsten en het aanbod opnieuw op.`
+    + (isStale() ? ` <span class="err">De gegevens zijn ouder dan drie dagen; kijk op GitHub of de taak nog draait.</span>` : "");
+  const w = $("syncWarnings"); w.hidden = !D.warnings.length; w.innerHTML = D.warnings.map(x => `<li>${esc(x)}</li>`).join("");
+}
+
+/* ------------------------------------------------------------------ detail */
+function offersHtml(o, mine) {
+  if (!o) return `<p class="sub">Het aanbod voor deze titel is niet bekend.</p>`;
+  const groups = [["flatrate", "Abonnement"], ["free", "Gratis"], ["ads", "Gratis met reclame"], ["rent", "Huren"], ["buy", "Kopen"]];
+  const rows = groups.filter(([k]) => o[k].length).map(([k, label]) =>
+    `<div class="offer"><span>${label}</span><div class="list">${o[k].map(id => `<span class="prov ${mine.has(id) && k !== "rent" && k !== "buy" ? "mine" : ""}">${logo(id)}${esc(provName(id))}</span>`).join("")}</div></div>`);
+  return rows.length ? `<div class="offers">${rows.join("")}</div>` : `<p class="sub">In dit land is deze titel nu nergens te streamen, huren of kopen.</p>`;
+}
+function openDetail(html) { const d = $("dlg"); d.innerHTML = `<button class="btn ghost close" type="button" data-close>Sluiten</button>` + html; if (!d.open) d.showModal(); d.scrollTop = 0; }
+function detailHtml(x, extra, actions) {
+  const mine = mineSet();
+  const meta = [(x.genres || []).join(", "), x.directors && x.directors.length ? (x.t === "tv" ? "Gemaakt door " : "Regie: ") + x.directors.join(", ") : ""].filter(Boolean).join(" · ");
+  return `<div class="detail">
+    <div class="poster">${posterHtml(x.poster, x.title)}</div>
+    <div class="body">
+      <h2>${esc(x.title)}</h2>
+      <p class="sub">${esc(subLine(x))}${x.orig && norm(x.orig) !== norm(x.title) ? " · " + esc(x.orig) : ""}</p>
+      ${meta ? `<p class="sub">${esc(meta)}</p>` : ""}
+      ${extra || ""}
+      ${x.overview ? `<p class="overview">${esc(x.overview)}</p>` : ""}
+      ${x.found === false ? `<p class="sub">Deze titel is niet gevonden bij TMDB, dus er is geen aanbod bekend.</p>` : offersHtml(x.offers, mine)}
+      <div class="actions">
+        ${x.offers && x.offers.link ? `<a class="btn primary" href="${esc(x.offers.link)}" target="_blank" rel="noopener">Bekijk het aanbod</a>` : ""}
+        ${actions}
+      </div>
+    </div></div>`;
+}
+function openWatchlistItem(id) {
+  const w = D.watchlist.find(x => x.imdb === id); if (!w) return;
+  openDetail(detailHtml(w, w.seen ? `<p class="sub">Al gezien; jouw cijfer: ${w.seen}</p>` : "", `<a class="btn" href="https://www.imdb.com/title/${esc(id)}/" target="_blank" rel="noopener">Open op IMDb</a>`));
+}
+function openTip(key) {
+  const c = D.tips.find(x => tipKey(x) === key); if (!c) return;
+  openDetail(detailHtml(c, `<p class="sub">${whyText(c)}</p>`,
+    `<a class="btn" href="https://www.imdb.com/find/?q=${encodeURIComponent(c.orig || c.title)}" target="_blank" rel="noopener">Zoek op IMDb</a>
+     <button class="btn" type="button" data-hide-tip="${esc(key)}">Niet interessant</button>`));
+}
+
+/* ------------------------------------------------------------------ events */
+function setTab() {
+  const h = location.hash.replace("#", "");
+  ui.tab = ["kijklijst", "tips", "instellingen"].includes(h) ? h : "kijklijst";
+  render();
+}
+window.addEventListener("hashchange", setTab);
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-status],[data-svc],[data-open],[data-tip],[data-close],[data-toggle-svc],[data-hide-tip]");
+  if (!t) return;
+  if (t.dataset.status) { ui.status = t.dataset.status; render(); }
+  else if (t.dataset.svc) { const id = +t.dataset.svc; ui.service = ui.service === id ? null : id; render(); }
+  else if (t.dataset.open) openWatchlistItem(t.dataset.open);
+  else if (t.dataset.tip) openTip(t.dataset.tip);
+  else if (t.hasAttribute("data-close")) $("dlg").close();
+  else if (t.dataset.toggleSvc) {
+    const id = +t.dataset.toggleSvc, cur = myServices(), i = cur.indexOf(id);
+    if (i < 0) cur.push(id); else cur.splice(i, 1);
+    L.services = cur; store.set("services", cur); renderSettings();
+  }
+  else if (t.dataset.hideTip) { L.hidden.push(t.dataset.hideTip); store.set("hidden", L.hidden); $("dlg").close(); render(); }
+});
+document.addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target.matches(".card")) { e.preventDefault(); e.target.click(); } });
+$("dlg").addEventListener("click", e => { if (e.target === $("dlg")) $("dlg").close(); });
+$("q").addEventListener("input", e => { ui.q = e.target.value; renderList(); });
+$("typeSel").addEventListener("change", e => { ui.type = e.target.value; renderList(); });
+$("sortSel").addEventListener("change", e => { ui.sort = e.target.value; renderList(); });
+$("hideSeen").addEventListener("change", e => { ui.hideSeen = e.target.checked; renderList(); });
+$("btnPick").addEventListener("click", () => {
+  const mine = mineSet(), ok = D.watchlist.filter(w => analyse(w, mine).code === "mine");
+  const from = ok.filter(w => !w.seen).length ? ok.filter(w => !w.seen) : ok;
+  if (from.length) openWatchlistItem(from[Math.floor(Math.random() * from.length)].imdb);
+});
+$("tipsMine").addEventListener("change", e => { ui.tipsMine = e.target.checked; renderTips(); });
+$("btnReroll").addEventListener("click", () => { ui.reroll++; renderTips(); });
+$("svcSearch").addEventListener("input", e => { ui.svcQ = e.target.value; renderSettings(); });
+$("btnSvcReset").addEventListener("click", () => { L.services = null; store.del("services"); ui.service = null; renderSettings(); });
+$("btnUnhide").addEventListener("click", () => { L.hidden = []; store.del("hidden"); renderSettings(); });
+
+/* -------------------------------------------------------------------- start */
+(async function load() {
+  try {
+    const r = await fetch("data/data.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status === 404 ? "nodata" : "HTTP " + r.status);
+    D = await r.json();
+  } catch (e) { ui.loadError = e.message || "onbekende fout"; }
+  setTab();
+})();
+</script>
+</body>
+</html>
