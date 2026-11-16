@@ -26,6 +26,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: main             # altijd de nieuwste stand, ook als de taak lang in de wachtrij stond
       - uses: actions/setup-node@v6
         with:
           node-version: 22
@@ -42,9 +44,19 @@ jobs:
           git add site/data cache
           git diff --cached --quiet && exit 0
           git commit -q -m "Aanbod ververst"
-          git push -q || (git pull -q --rebase && git push -q)
+          if ! git push -q; then
+            # Er is intussen iets anders gepusht: zet de verse gegevens bovenop de nieuwste stand.
+            git pull -q --rebase -X theirs || git rebase --abort
+            git push -q || echo "::warning::De gegevens zijn gepubliceerd maar konden niet in de repository worden bewaard."
+          fi
 
       # De site wordt ook gepubliceerd als het ophalen mislukte: dan blijft de vorige stand zichtbaar.
+      - name: Gegevensbestand controleren
+        if: ${{ !cancelled() }}
+        run: |
+          node -e 'JSON.parse(require("fs").readFileSync("site/data/data.json","utf8"))' \
+            || git checkout -q origin/main -- site/data/data.json \
+            || rm -f site/data/data.json
       - uses: actions/configure-pages@v6
         if: ${{ !cancelled() }}
       - uses: actions/upload-pages-artifact@v5
