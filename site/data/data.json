@@ -1,11 +1,11 @@
 {
  "version": 1,
- "generatedAt": "2026-11-16T13:47:42.212Z",
+ "generatedAt": "2026-11-17T13:28:48.292Z",
  "region": "NL",
  "nick": "denniskramer-490-543377",
  "stats": {
-  "watchlist": 116,
-  "ratings": 841,
+  "watchlist": 114,
+  "ratings": 843,
   "skipped": 0
  },
  "defaultServices": [],
@@ -2124,46 +2124,8 @@
    }
   },
   {
-   "imdb": "tt0086879",
-   "pos": 45,
-   "title": "Amadeus",
-   "orig": "Amadeus",
-   "year": 1984,
-   "seen": 0,
-   "found": true,
-   "t": "movie",
-   "id": 279,
-   "runtime": 160,
-   "seasons": 0,
-   "genres": [
-    "Drama",
-    "Historisch",
-    "Muziek"
-   ],
-   "vote": 8,
-   "poster": "/rbRJdMhmP4JuLC4lwftfoRDzbYV.jpg",
-   "overview": "We schrijven 1781 en Antonio Salieri is werkzaam als de competente hofcomponist van Keizer Jozef II. Wanneer Mozart aan het hof arriveert, moet een verbijsterde Salieri vaststellen dat de goddelijke muzikale inspiratie waar hij zelf naar zoekt, werd geschonken aan een losbandige, hondsbrutale nar.",
-   "directors": [
-    "Miloš Forman"
-   ],
-   "offers": {
-    "link": "https://www.themoviedb.org/movie/279-amadeus/watch?locale=NL",
-    "flatrate": [
-     119,
-     72
-    ],
-    "free": [],
-    "ads": [],
-    "rent": [],
-    "buy": [
-     35,
-     10
-    ]
-   }
-  },
-  {
    "imdb": "tt36408401",
-   "pos": 46,
+   "pos": 45,
    "title": "The Further Mis-Adventures of Cliff Booth",
    "orig": "The Further Mis-Adventures of Cliff Booth",
    "year": 2026,
@@ -2195,7 +2157,7 @@
   },
   {
    "imdb": "tt0083987",
-   "pos": 47,
+   "pos": 46,
    "title": "Gandhi",
    "orig": "Gandhi",
    "year": 1982,
@@ -2236,7 +2198,7 @@
   },
   {
    "imdb": "tt0072684",
-   "pos": 48,
+   "pos": 47,
    "title": "Barry Lyndon",
    "orig": "Barry Lyndon",
    "year": 1975,
@@ -2275,7 +2237,7 @@
   },
   {
    "imdb": "tt28613536",
-   "pos": 49,
+   "pos": 48,
    "title": "Bob Trevino Likes It",
    "orig": "Bob Trevino Likes It",
    "year": 2024,
@@ -2318,7 +2280,7 @@
   },
   {
    "imdb": "tt31688586",
-   "pos": 50,
+   "pos": 49,
    "title": "Nouvelle Vague",
    "orig": "Nouvelle Vague",
    "year": 2025,
@@ -2358,7 +2320,7 @@
   },
   {
    "imdb": "tt27847051",
-   "pos": 51,
+   "pos": 50,
    "title": "The Secret Agent",
    "orig": "O Agente Secreto",
    "year": 2025,
@@ -2402,7 +2364,7 @@
   },
   {
    "imdb": "tt0113540",
-   "pos": 52,
+   "pos": 51,
    "title": "Kids",
    "orig": "Kids",
    "year": 1995,
@@ -2433,7 +2395,7 @@
   },
   {
    "imdb": "tt0074084",
-   "pos": 53,
+   "pos": 52,
    "title": "1900",
    "orig": "Novecento",
    "year": 1976,
@@ -2464,7 +2426,7 @@
   },
   {
    "imdb": "tt0203119",
-   "pos": 54,
+   "pos": 53,
    "title": "Sexy Beast",
    "orig": "Sexy Beast",
    "year": 2000,
@@ -2496,7 +2458,7 @@
   },
   {
    "imdb": "tt0375063",
-   "pos": 55,
+   "pos": 54,
    "title": "Sideways",
    "orig": "Sideways",
    "year": 2004,
@@ -2538,7 +2500,7 @@
   },
   {
    "imdb": "tt0181875",
-   "pos": 56,
+   "pos": 55,
    "title": "Almost Famous",
    "orig": "Almost Famous",
    "year": 2000,
@@ -2580,7 +2542,7 @@
   },
   {
    "imdb": "tt0112697",
-   "pos": 57,
+   "pos": 56,
    "title": "Clueless",
    "orig": "Clueless",
    "year": 1995,
@@ -2621,7 +2583,7 @@
   },
   {
    "imdb": "tt0044741",
-   "pos": 58,
+   "pos": 57,
    "title": "Ikiru",
    "orig": "Ikiru",
    "year": 1952,
@@ -2653,7 +2615,7 @@
   },
   {
    "imdb": "tt0042876",
-   "pos": 59,
+   "pos": 58,
    "title": "Rashomon",
    "orig": "Rashômon",
    "year": 1950,
@@ -2687,7 +2649,7 @@
   },
   {
    "imdb": "tt0300140",
-   "pos": 60,
+   "pos": 59,
    "title": "Lilya 4-Ever",
    "orig": "Lilja 4-ever",
    "year": 2002,
@@ -2720,7 +2682,7 @@
   },
   {
    "imdb": "tt0047478",
-   "pos": 61,
+   "pos": 60,
    "title": "Seven Samurai",
    "orig": "Shichinin no samurai",
    "year": 1954,
@@ -2756,7 +2718,7 @@
   },
   {
    "imdb": "tt1772925",
-   "pos": 62,
+   "pos": 61,
    "title": "Jiro Dreams of Sushi",
    "orig": "Jiro Dreams of Sushi",
    "year": 2011,
@@ -2786,7 +2748,7 @@
   },
   {
    "imdb": "tt0120669",
-   "pos": 63,
+   "pos": 62,
    "title": "Fear and Loathing in Las Vegas",
    "orig": "Fear and Loathing in Las Vegas",
    "year": 1998,
@@ -2818,7 +2780,7 @@
   },
   {
    "imdb": "tt29567915",
-   "pos": 64,
+   "pos": 63,
    "title": "Nuremberg",
    "orig": "Nuremberg",
    "year": 2025,
@@ -2863,7 +2825,7 @@
   },
   {
    "imdb": "tt4484722",
-   "pos": 65,
+   "pos": 64,
    "title": "The Making of the Mob",
    "orig": "The Making of the Mob",
    "year": 2015,
@@ -2895,7 +2857,7 @@
   },
   {
    "imdb": "tt0095765",
-   "pos": 66,
+   "pos": 65,
    "title": "Cinema Paradiso",
    "orig": "Nuovo Cinema Paradiso",
    "year": 1988,
@@ -2926,7 +2888,7 @@
   },
   {
    "imdb": "tt27817389",
-   "pos": 67,
+   "pos": 66,
    "title": "The Last Viking",
    "orig": "Den sidste viking",
    "year": 2025,
@@ -2973,7 +2935,7 @@
   },
   {
    "imdb": "tt29768334",
-   "pos": 68,
+   "pos": 67,
    "title": "Train Dreams",
    "orig": "Train Dreams",
    "year": 2025,
@@ -3005,7 +2967,7 @@
   },
   {
    "imdb": "tt27351074",
-   "pos": 69,
+   "pos": 68,
    "title": "Heat 2",
    "orig": "Heat 2",
    "year": 0,
@@ -3037,7 +2999,7 @@
   },
   {
    "imdb": "tt0093779",
-   "pos": 70,
+   "pos": 69,
    "title": "The Princess Bride",
    "orig": "The Princess Bride",
    "year": 1987,
@@ -3075,7 +3037,7 @@
   },
   {
    "imdb": "tt31514146",
-   "pos": 71,
+   "pos": 70,
    "title": "I Swear",
    "orig": "I Swear",
    "year": 2025,
@@ -3116,7 +3078,7 @@
   },
   {
    "imdb": "tt14905854",
-   "pos": 72,
+   "pos": 71,
    "title": "Hamnet",
    "orig": "Hamnet",
    "year": 2025,
@@ -3160,7 +3122,7 @@
   },
   {
    "imdb": "tt0091251",
-   "pos": 73,
+   "pos": 72,
    "title": "Come and See",
    "orig": "Idi i smotri",
    "year": 1985,
@@ -3193,7 +3155,7 @@
   },
   {
    "imdb": "tt0095327",
-   "pos": 74,
+   "pos": 73,
    "title": "Grave of the Fireflies",
    "orig": "Hotaru no haka",
    "year": 1988,
@@ -3227,7 +3189,7 @@
   },
   {
    "imdb": "tt34966650",
-   "pos": 75,
+   "pos": 74,
    "title": "It's Never Over, Jeff Buckley",
    "orig": "It's Never Over, Jeff Buckley",
    "year": 2025,
@@ -3268,7 +3230,7 @@
   },
   {
    "imdb": "tt0118694",
-   "pos": 76,
+   "pos": 75,
    "title": "In the Mood for Love",
    "orig": "Fa yeung nin wah",
    "year": 2000,
@@ -3312,51 +3274,8 @@
    }
   },
   {
-   "imdb": "tt33071426",
-   "pos": 77,
-   "title": "The Drama",
-   "orig": "The Drama",
-   "year": 2026,
-   "seen": 0,
-   "found": true,
-   "t": "movie",
-   "id": 1325734,
-   "runtime": 106,
-   "seasons": 0,
-   "genres": [
-    "Romantiek",
-    "Komedie",
-    "Drama"
-   ],
-   "vote": 6.9,
-   "poster": "/rnIOUhzwJDfgQakx8EjoNyItKgs.jpg",
-   "overview": "Enkele dagen voor hun huwelijk wordt de relatie van Charlie en Emma volledig op zijn kop gezet wanneer Emma een schokkend geheim uit haar verleden onthult. Wat een periode van liefde en verwachting had moeten zijn, verandert in een emotionele crisis waarin Charlie alles wat hij dacht te weten over zijn aanstaande vrouw in twijfel trekt. Terwijl de bruiloft dichterbij komt, wordt hun relatie op de proef gesteld en moeten ze beslissen of hun liefde sterk genoeg is om de waarheid te overleven.",
-   "directors": [
-    "Kristoffer Borgli"
-   ],
-   "offers": {
-    "link": "https://www.themoviedb.org/movie/1325734-the-drama/watch?locale=NL",
-    "flatrate": [
-     119
-    ],
-    "free": [],
-    "ads": [],
-    "rent": [
-     71,
-     2,
-     451,
-     697
-    ],
-    "buy": [
-     71,
-     2,
-     697
-    ]
-   }
-  },
-  {
    "imdb": "tt31937069",
-   "pos": 78,
+   "pos": 76,
    "title": "The Day Iceland Stood Still",
    "orig": "The Day Iceland Stood Still",
    "year": 2023,
@@ -3386,7 +3305,7 @@
   },
   {
    "imdb": "tt32298285",
-   "pos": 79,
+   "pos": 77,
    "title": "Sirat",
    "orig": "Sirât",
    "year": 2025,
@@ -3429,7 +3348,7 @@
   },
   {
    "imdb": "tt32525017",
-   "pos": 80,
+   "pos": 78,
    "title": "Joe Speedboot",
    "orig": "Joe Speedboot",
    "year": 2026,
@@ -3468,7 +3387,7 @@
   },
   {
    "imdb": "tt33412851",
-   "pos": 81,
+   "pos": 79,
    "title": "A Family",
    "orig": "A Family",
    "year": 2026,
@@ -3498,7 +3417,7 @@
   },
   {
    "imdb": "tt15109082",
-   "pos": 82,
+   "pos": 80,
    "title": "The Quiet Girl",
    "orig": "An Cailín Ciúin",
    "year": 2022,
@@ -3544,7 +3463,7 @@
   },
   {
    "imdb": "tt17491088",
-   "pos": 83,
+   "pos": 81,
    "title": "The Diplomat",
    "orig": "The Diplomat",
    "year": 2023,
@@ -3577,7 +3496,7 @@
   },
   {
    "imdb": "tt27549797",
-   "pos": 84,
+   "pos": 82,
    "title": "What Happens at Night",
    "orig": "What Happens at Night",
    "year": 0,
@@ -3609,7 +3528,7 @@
   },
   {
    "imdb": "tt15799564",
-   "pos": 85,
+   "pos": 83,
    "title": "Wild Horse Nine",
    "orig": "Wild Horse Nine",
    "year": 2026,
@@ -3641,7 +3560,7 @@
   },
   {
    "imdb": "tt7428530",
-   "pos": 86,
+   "pos": 84,
    "title": "Roosevelt",
    "orig": "Roosevelt",
    "year": 0,
@@ -3653,7 +3572,7 @@
   },
   {
    "imdb": "tt21402698",
-   "pos": 87,
+   "pos": 85,
    "title": "The Wager: A Tale of Shipwreck, Mutiny, and Murder",
    "orig": "The Wager: A Tale of Shipwreck, Mutiny, and Murder",
    "year": 0,
@@ -3665,7 +3584,7 @@
   },
   {
    "imdb": "tt37304295",
-   "pos": 88,
+   "pos": 86,
    "title": "Fatherland",
    "orig": "Fatherland",
    "year": 2026,
@@ -3696,7 +3615,7 @@
   },
   {
    "imdb": "tt4995790",
-   "pos": 89,
+   "pos": 87,
    "title": "The Square",
    "orig": "The Square",
    "year": 2017,
@@ -3734,7 +3653,7 @@
   },
   {
    "imdb": "tt26931594",
-   "pos": 90,
+   "pos": 88,
    "title": "Man on the Run",
    "orig": "Paul McCartney: Man on the Run",
    "year": 2025,
@@ -3767,7 +3686,7 @@
   },
   {
    "imdb": "tt42605728",
-   "pos": 91,
+   "pos": 89,
    "title": "The American Experiment",
    "orig": "The American Experiment",
    "year": 2026,
@@ -3797,7 +3716,7 @@
   },
   {
    "imdb": "tt14173636",
-   "pos": 92,
+   "pos": 90,
    "title": "The Invite",
    "orig": "The Invite",
    "year": 2026,
@@ -3842,7 +3761,7 @@
   },
   {
    "imdb": "tt30459041",
-   "pos": 93,
+   "pos": 91,
    "title": "Your Friends & Neighbors",
    "orig": "Your Friends & Neighbors",
    "year": 2025,
@@ -3876,7 +3795,7 @@
   },
   {
    "imdb": "tt35328184",
-   "pos": 94,
+   "pos": 92,
    "title": "The American Revolution",
    "orig": "The American Revolution",
    "year": 2025,
@@ -3907,7 +3826,7 @@
   },
   {
    "imdb": "tt26933824",
-   "pos": 95,
+   "pos": 93,
    "title": "Nobody Wants This",
    "orig": "Nobody Wants This",
    "year": 2024,
@@ -3940,7 +3859,7 @@
   },
   {
    "imdb": "tt34966678",
-   "pos": 96,
+   "pos": 94,
    "title": "The Librarians",
    "orig": "The Librarians",
    "year": 2025,
@@ -3970,7 +3889,7 @@
   },
   {
    "imdb": "tt31378509",
-   "pos": 97,
+   "pos": 95,
    "title": "Dune: Part Three",
    "orig": "Dune: Part Three",
    "year": 2026,
@@ -4001,7 +3920,7 @@
   },
   {
    "imdb": "tt4136056",
-   "pos": 98,
+   "pos": 96,
    "title": "The Seven Five",
    "orig": "The Seven Five",
    "year": 2014,
@@ -4031,7 +3950,7 @@
   },
   {
    "imdb": "tt28479262",
-   "pos": 99,
+   "pos": 97,
    "title": "Sing Sing",
    "orig": "Sing Sing",
    "year": 2023,
@@ -4069,7 +3988,7 @@
   },
   {
    "imdb": "tt32499466",
-   "pos": 100,
+   "pos": 98,
    "title": "Finding Emily",
    "orig": "Finding Emily",
    "year": 2026,
@@ -4112,7 +4031,7 @@
   },
   {
    "imdb": "tt37510326",
-   "pos": 101,
+   "pos": 99,
    "title": "The Social Reckoning",
    "orig": "The Social Reckoning",
    "year": 2026,
@@ -4143,7 +4062,7 @@
   },
   {
    "imdb": "tt34385689",
-   "pos": 102,
+   "pos": 100,
    "title": "Paper Tiger",
    "orig": "Paper Tiger",
    "year": 2026,
@@ -4175,7 +4094,7 @@
   },
   {
    "imdb": "tt35410859",
-   "pos": 103,
+   "pos": 101,
    "title": "Fjord",
    "orig": "Fjord",
    "year": 2026,
@@ -4205,7 +4124,7 @@
   },
   {
    "imdb": "tt19850008",
-   "pos": 104,
+   "pos": 102,
    "title": "The Batman: Part II",
    "orig": "The Batman: Part II",
    "year": 2028,
@@ -4238,7 +4157,7 @@
   },
   {
    "imdb": "tt0108515",
-   "pos": 105,
+   "pos": 103,
    "title": "The War Room",
    "orig": "The War Room",
    "year": 1993,
@@ -4270,7 +4189,7 @@
   },
   {
    "imdb": "tt11317142",
-   "pos": 106,
+   "pos": 104,
    "title": "Shiva Baby",
    "orig": "Shiva Baby",
    "year": 2020,
@@ -4310,7 +4229,7 @@
   },
   {
    "imdb": "tt38063160",
-   "pos": 107,
+   "pos": 105,
    "title": "The Cycle of Love",
    "orig": "The Cycle of Love",
    "year": 2025,
@@ -4343,7 +4262,7 @@
   },
   {
    "imdb": "tt36834996",
-   "pos": 108,
+   "pos": 106,
    "title": "All of a Sudden",
    "orig": "Soudain",
    "year": 2026,
@@ -4373,7 +4292,7 @@
   },
   {
    "imdb": "tt34206385",
-   "pos": 109,
+   "pos": 107,
    "title": "Primetime",
    "orig": "Primetime",
    "year": 2026,
@@ -4405,7 +4324,7 @@
   },
   {
    "imdb": "tt38058097",
-   "pos": 110,
+   "pos": 108,
    "title": "Club Kid",
    "orig": "Club Kid",
    "year": 2026,
@@ -4436,7 +4355,7 @@
   },
   {
    "imdb": "tt36482679",
-   "pos": 111,
+   "pos": 109,
    "title": "The Only Living Pickpocket in New York",
    "orig": "The Only Living Pickpocket in New York",
    "year": 2026,
@@ -4468,7 +4387,7 @@
   },
   {
    "imdb": "tt28553375",
-   "pos": 112,
+   "pos": 110,
    "title": "De Gaulle: Résistance",
    "orig": "La Bataille de Gaulle: L'âge de fer",
    "year": 2026,
@@ -4500,7 +4419,7 @@
   },
   {
    "imdb": "tt35856133",
-   "pos": 113,
+   "pos": 111,
    "title": "De Gaulle: Liberté",
    "orig": "La Bataille de Gaulle: J'écris ton nom",
    "year": 2026,
@@ -4532,7 +4451,7 @@
   },
   {
    "imdb": "tt38504111",
-   "pos": 114,
+   "pos": 112,
    "title": "Small Prophets",
    "orig": "Small Prophets",
    "year": 2026,
@@ -4565,7 +4484,7 @@
   },
   {
    "imdb": "tt45368240",
-   "pos": 115,
+   "pos": 113,
    "title": "You Can See Everything",
    "orig": "You Can See Everything",
    "year": 2026,
