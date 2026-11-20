@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-19T13:12:17.152Z",
+ "generatedAt": "2026-11-20T12:56:05.550Z",
  "region": "NL",
  "nick": "denniskramer-490-543377",
  "stats": {
@@ -179,7 +179,7 @@
   },
   "350": {
    "name": "Apple TV",
-   "logo": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+   "logo": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
   },
   "360": {
    "name": "NPO Start",
@@ -1059,15 +1059,13 @@
     "free": [],
     "ads": [],
     "rent": [
-     2,
+     71,
      35,
-     10,
      697
     ],
     "buy": [
-     2,
+     71,
      35,
-     10,
      697
     ]
    }
@@ -1452,7 +1450,6 @@
     "buy": [
      2,
      35,
-     10,
      697
     ]
    }
@@ -5447,8 +5444,7 @@
     ],
     "buy": [
      71,
-     2,
-     10
+     2
     ]
    }
   },
