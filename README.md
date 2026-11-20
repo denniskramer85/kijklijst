@@ -4,7 +4,7 @@ Eén overzicht van waar de titels op mijn IMDb-watchlist te streamen zijn, met t
 
 ## Hoe het werkt
 
-Elke ochtend draait de taak **Kijklijst verversen** (GitHub Actions). Die taak:
+Vier keer per dag draait de taak **Kijklijst verversen** (GitHub Actions). Die taak:
 
 1. leest de openbare IMDb-watchlist en de beoordelingen van het profiel uit `config.json`;
 2. zoekt elke titel op bij TMDB en haalt daar de filmgegevens en het streamingaanbod (JustWatch) op;

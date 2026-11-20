@@ -485,7 +485,7 @@ function renderSettings() {
   const order = new Map(D.catalog.map((id, i) => [id, i]));
   const list = D.catalog.filter(id => !q || norm(provName(id)).includes(q)).sort((a, b) => (sel.has(b) - sel.has(a)) || order.get(a) - order.get(b));
   $("services").innerHTML = list.map(id => `<button class="svc" type="button" data-toggle-svc="${id}" aria-pressed="${sel.has(id)}">${logo(id)}<span>${esc(provName(id))}</span></button>`).join("");
-  $("syncInfo").innerHTML = `Laatst bijgewerkt ${esc(when(D.generatedAt))}: ${D.stats.watchlist} titels van je IMDb-watchlist en ${D.stats.ratings} beoordelingen, met het aanbod in ${esc(D.region)}. Elke ochtend haalt een taak op GitHub je lijsten en het aanbod opnieuw op.`
+  $("syncInfo").innerHTML = `Laatst bijgewerkt ${esc(when(D.generatedAt))}: ${D.stats.watchlist} titels van je IMDb-watchlist en ${D.stats.ratings} beoordelingen, met het aanbod in ${esc(D.region)}. Vier keer per dag haalt een taak op GitHub je lijsten en het aanbod opnieuw op.`
     + (isStale() ? ` <span class="err">De gegevens zijn ouder dan drie dagen; kijk op GitHub of de taak nog draait.</span>` : "");
   const w = $("syncWarnings"); w.hidden = !D.warnings.length; w.innerHTML = D.warnings.map(x => `<li>${esc(x)}</li>`).join("");
 }
@@ -568,14 +568,30 @@ $("btnSvcReset").addEventListener("click", () => { L.services = null; store.del(
 $("btnUnhide").addEventListener("click", () => { L.hidden = []; store.del("hidden"); renderSettings(); });
 
 /* -------------------------------------------------------------------- start */
-(async function load() {
+// De gegevens worden opnieuw opgehaald zodra de pagina weer in beeld komt (Safari bewaart tabbladen
+// soms dagenlang zonder te herladen) en elk half uur zolang hij open staat.
+let loading = false, lastLoad = 0;
+async function load(initial) {
+  if (loading) return;
+  loading = true;
   try {
     const r = await fetch("data/data.json?t=" + Date.now(), { cache: "no-store" });
     if (!r.ok) throw new Error(r.status === 404 ? "nodata" : "HTTP " + r.status);
-    D = await r.json();
-  } catch (e) { ui.loadError = e.message || "onbekende fout"; }
-  setTab();
-})();
+    const next = await r.json();
+    const changed = !D || next.generatedAt !== D.generatedAt;
+    D = next; ui.loadError = null;
+    if (changed && !initial) render();
+  } catch (e) {
+    if (!D) { ui.loadError = e.message || "onbekende fout"; if (!initial) render(); }
+  } finally {
+    loading = false; lastLoad = Date.now();
+    if (initial) setTab();
+  }
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && Date.now() - lastLoad > 60e3) load(false); });
+window.addEventListener("pageshow", e => { if (e.persisted) load(false); });
+setInterval(() => { if (document.visibilityState === "visible") load(false); }, 30 * 60e3);
+load(true);
 </script>
 </body>
 </html>
