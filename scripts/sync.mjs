@@ -6,14 +6,19 @@
 // 3. Stelt tips samen uit titels die verwant zijn aan wat je hoog beoordeelde en wat op je lijst staat.
 // 4. Schrijft site/data/data.json (wat de app toont) en cache/cache.json (om TMDB niet onnodig te bevragen).
 //
-// Van IMDb worden alleen titel-id's, titels, jaartallen en je eigen cijfers overgenomen; al het andere komt van TMDB.
+// Van je IMDb-lijsten worden alleen titel-id's, titels, jaartallen en je eigen cijfers overgenomen.
+// De IMDb-scores komen uit IMDb's officiële bestand voor niet-commercieel gebruik (datasets.imdbws.com);
+// al het andere komt van TMDB.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { createGunzip } from "node:zlib";
+import { Readable } from "node:stream";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const IMDB_URL = process.env.IMDB_GRAPHQL_URL || "https://api.graphql.imdb.com/";
+const SCORES_URL = process.env.IMDB_SCORES_URL || "https://datasets.imdbws.com/title.ratings.tsv.gz";
 const TMDB_URL = (process.env.TMDB_BASE_URL || "https://api.themoviedb.org/3").replace(/\/$/, "");
 const KEY = (process.env.TMDB_API_KEY || "").trim();
 const DAY = 864e5;
@@ -165,6 +170,34 @@ async function pool(items, fn, n = 8) {
   return failed;
 }
 
+/* ------------------------------------------------------------ IMDb-scores */
+// Leest het dagelijks ververste scorebestand van IMDb (±8 MB) en houdt alleen de gevraagde titels over.
+async function imdbScores(ids) {
+  const out = new Map();
+  if (!ids.size) return out;
+  const res = await fetch(SCORES_URL);
+  if (!res.ok || !res.body) throw new Error("HTTP " + res.status);
+  const src = Readable.fromWeb(res.body), gz = createGunzip();
+  src.on("error", e => gz.destroy(e));
+  src.pipe(gz);
+  let rest = "";
+  const take = line => {
+    const tab = line.indexOf("\t");
+    if (tab < 0) return;
+    const id = line.slice(0, tab);
+    if (!ids.has(id)) return;
+    const [, r, v] = line.split("\t");
+    if (+r) out.set(id, { r: +r, v: +v || 0 });
+  };
+  for await (const chunk of gz) {
+    const lines = (rest + chunk.toString("utf8")).split("\n");
+    rest = lines.pop();
+    for (const line of lines) take(line);
+  }
+  take(rest);
+  return out;
+}
+
 /* ------------------------------------------------------------------ main */
 const config = await readJson("config.json", {});
 const region = String(config.region || "NL").toUpperCase();
@@ -173,7 +206,7 @@ const userInput = parseUser(config.imdbUser);
 if (!userInput) fail("Vul in config.json bij imdbUser het adres van je IMDb-profiel in (bijvoorbeeld https://www.imdb.com/user/ur12345678/).");
 if (!KEY) fail("Het secret TMDB_API_KEY ontbreekt. Voeg het toe onder Settings → Secrets and variables → Actions.");
 
-const cache = Object.assign({ user: {}, find: {}, details: {}, recs: {}, ratings: null }, await readJson("cache/cache.json", {}));
+const cache = Object.assign({ user: {}, find: {}, details: {}, recs: {}, ext: {}, scores: {}, ratings: null }, await readJson("cache/cache.json", {}));
 const previous = await readJson("site/data/data.json", null);
 const provInfo = Object.assign({}, previous && previous.providers);
 const noteProvider = p => { provInfo[p.provider_id] = { name: p.provider_name, logo: p.logo_path || null }; };
@@ -323,8 +356,29 @@ try {
     return { t: c.t, id: c.id, title: c.title, orig: c.orig, year: c.year, poster: c.poster, vote: c.vote, overview: c.overview,
       score: Math.round(c.raw * (0.5 + c.vote / 20) * 100) / 100, why: c.why.slice(0, 2).map(w => ({ title: w.title, rating: w.rating })) };
   }).sort((a, b) => b.score - a.score).slice(0, 60);
-  await pool(tips, async t => { t.offers = await offers(t.t, t.id); });
+  await pool(tips, async t => {
+    const k = `${t.t}:${t.id}`;
+    if (!(k in cache.ext)) { const d = await tmdb(`/${t.t}/${t.id}/external_ids`); cache.ext[k] = (d && d.imdb_id) || ""; }
+    t.imdb = cache.ext[k] || null;
+    t.offers = await offers(t.t, t.id);
+  });
+  const tipKeys = new Set(tips.map(t => `${t.t}:${t.id}`));
+  const knownImdb = new Set([...watchlist, ...ratings].map(x => x.imdb));
+  for (let i = tips.length - 1; i >= 0; i--) if (tips[i].imdb && knownImdb.has(tips[i].imdb)) tips.splice(i, 1);
   log(`Tips: ${tips.length} uit ${live.length} uitgangstitels`);
+
+  // IMDb-scores voor de watchlist en de tips
+  const wantScores = new Set([...outList.map(x => x.imdb), ...tips.map(t => t.imdb)].filter(Boolean));
+  let scores;
+  try {
+    scores = await imdbScores(wantScores);
+    cache.scores = Object.fromEntries(scores);
+  } catch (e) {
+    scores = new Map(Object.entries(cache.scores || {}));
+    warn("De IMDb-scores konden niet worden opgehaald (" + e.message + "). " + (scores.size ? "De scores van de vorige keer worden gebruikt." : "Er wordt nu de TMDB-score getoond."));
+  }
+  for (const x of [...outList, ...tips]) { const sc = x.imdb && scores.get(x.imdb); if (sc) { x.ir = sc.r; x.iv = sc.v; } }
+  log(`IMDb-scores: ${[...outList, ...tips].filter(x => x.ir).length} van ${outList.length + tips.length} titels`);
   if (offerMisses) warn(`Voor ${offerMisses} titels kon het aanbod vandaag niet worden opgehaald; daar staat het aanbod van de vorige keer.`);
 
   // Alleen diensten bewaren die ergens voorkomen of in de catalogus staan
@@ -340,6 +394,7 @@ try {
   for (const k of Object.keys(cache.details)) if (!keepDetails.has(k)) delete cache.details[k];
   const keepRecs = new Set(live.map(s => { const m = cache.find[s.imdb]; return m ? `${m.t}:${m.id}` : ""; }));
   for (const k of Object.keys(cache.recs)) if (!keepRecs.has(k)) delete cache.recs[k];
+  for (const k of Object.keys(cache.ext)) if (!tipKeys.has(k)) delete cache.ext[k];
 
   await writeJson("site/data/data.json", {
     version: 1, generatedAt: new Date(now).toISOString(), region, nick: user.nick || "",

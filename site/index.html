@@ -226,7 +226,7 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px
         </select>
         <select class="field" id="sortSel" aria-label="Sorteren">
           <option value="added">Laatst toegevoegd</option>
-          <option value="score">Hoogste score</option>
+          <option value="score">Hoogste IMDb-score</option>
           <option value="year">Nieuwste eerst</option>
           <option value="runtime">Kortste eerst</option>
           <option value="title">Titel A–Z</option>
@@ -284,7 +284,7 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px
 </main>
 
 <footer>
-  <div class="wrap">Streamingaanbod: JustWatch, via TMDB. Deze app gebruikt de TMDB API maar is niet goedgekeurd of gecertificeerd door TMDB. De titels komen van je eigen IMDb-lijsten; alle overige filmgegevens van TMDB.</div>
+  <div class="wrap">Streamingaanbod: JustWatch, via TMDB. Deze app gebruikt de TMDB API maar is niet goedgekeurd of gecertificeerd door TMDB. IMDb-scores: Information courtesy of IMDb (<a href="https://www.imdb.com" target="_blank" rel="noopener">https://www.imdb.com</a>). Used with permission. De titels komen van je eigen IMDb-lijsten; alle overige filmgegevens van TMDB.</div>
 </footer>
 
 <dialog id="dlg" aria-label="Details"></dialog>
@@ -416,7 +416,7 @@ function renderList() {
   });
   const sorters = {
     added: (x, y) => y.w.pos - x.w.pos,
-    score: (x, y) => (y.w.vote || 0) - (x.w.vote || 0),
+    score: (x, y) => scoreOf(y.w) - scoreOf(x.w),
     year: (x, y) => (y.w.year || 0) - (x.w.year || 0),
     runtime: (x, y) => (x.w.runtime || 1e9) - (y.w.runtime || 1e9),
     title: (x, y) => x.w.title.localeCompare(y.w.title, "nl")
@@ -425,7 +425,9 @@ function renderList() {
   $("grid").innerHTML = list.length ? list.map(r => cardHtml(r, mine)).join("")
     : `<div class="empty" style="grid-column:1/-1"><h2>Geen titels gevonden</h2><p>Pas je filters aan of wis je zoekopdracht.</p></div>`;
 }
-const subLine = x => [x.year || "", x.t === "tv" ? (x.seasons ? x.seasons + (x.seasons === 1 ? " seizoen" : " seizoenen") : "Serie") : fmtRuntime(x.runtime), x.vote ? "★ " + fmt1(x.vote) : ""].filter(Boolean).join(" · ");
+const scoreLabel = x => x.ir ? "IMDb " + fmt1(x.ir) : x.vote ? "TMDB " + fmt1(x.vote) : "";
+const scoreOf = x => x.ir || x.vote || 0;
+const subLine = x => [x.year || "", x.t === "tv" ? (x.seasons ? x.seasons + (x.seasons === 1 ? " seizoen" : " seizoenen") : "Serie") : fmtRuntime(x.runtime), scoreLabel(x)].filter(Boolean).join(" · ");
 function cardHtml(r, mine) {
   const w = r.w, a = r.a;
   return `<article class="card s-${a.code}" tabindex="0" role="button" data-open="${esc(w.imdb)}" aria-label="${esc(w.title)}: ${esc(STATUS[a.code])}">
@@ -464,7 +466,7 @@ function renderTips() {
     <article class="card s-${a.code}" tabindex="0" role="button" data-tip="${esc(tipKey(c))}" aria-label="${esc(c.title)}: ${esc(STATUS[a.code])}">
       <div class="poster">${posterHtml(c.poster, c.title)}<span class="pill">${STATUS[a.code]}</span></div>
       <h3>${esc(c.title)}</h3>
-      <p class="sub">${esc([c.year || "", c.t === "tv" ? "Serie" : "Film", c.vote ? "★ " + fmt1(c.vote) : ""].filter(Boolean).join(" · "))}</p>
+      <p class="sub">${esc([c.year || "", c.t === "tv" ? "Serie" : "Film", scoreLabel(c)].filter(Boolean).join(" · "))}</p>
       <p class="why">${whyText(c)}</p>
       <div class="logos">${offerLogos(a, mine)}</div>
     </article>`).join("")
@@ -499,6 +501,13 @@ function offersHtml(o, mine) {
   return rows.length ? `<div class="offers">${rows.join("")}</div>` : `<p class="sub">In dit land is deze titel nu nergens te streamen, huren of kopen.</p>`;
 }
 function openDetail(html) { const d = $("dlg"); d.innerHTML = `<button class="btn ghost close" type="button" data-close>Sluiten</button>` + html; if (!d.open) d.showModal(); d.scrollTop = 0; }
+const fmtVotes = n => n >= 1e6 ? fmt1(n / 1e6) + " mln" : n >= 1e3 ? Math.round(n / 1e3).toLocaleString("nl-NL") + "k" : String(n);
+function scoresLine(x) {
+  const parts = [];
+  if (x.ir) parts.push(`IMDb ${fmt1(x.ir)}${x.iv ? " (" + fmtVotes(x.iv) + " stemmen)" : ""}`);
+  if (x.vote) parts.push(`TMDB ${fmt1(x.vote)}`);
+  return parts.length ? `<p class="sub">${esc(parts.join(" · "))}</p>` : "";
+}
 function detailHtml(x, extra, actions) {
   const mine = mineSet();
   const meta = [(x.genres || []).join(", "), x.directors && x.directors.length ? (x.t === "tv" ? "Gemaakt door " : "Regie: ") + x.directors.join(", ") : ""].filter(Boolean).join(" · ");
@@ -506,8 +515,9 @@ function detailHtml(x, extra, actions) {
     <div class="poster">${posterHtml(x.poster, x.title)}</div>
     <div class="body">
       <h2>${esc(x.title)}</h2>
-      <p class="sub">${esc(subLine(x))}${x.orig && norm(x.orig) !== norm(x.title) ? " · " + esc(x.orig) : ""}</p>
+      <p class="sub">${esc(subLine({ ...x, ir: 0, vote: 0 }))}${x.orig && norm(x.orig) !== norm(x.title) ? " · " + esc(x.orig) : ""}</p>
       ${meta ? `<p class="sub">${esc(meta)}</p>` : ""}
+      ${scoresLine(x)}
       ${extra || ""}
       ${x.overview ? `<p class="overview">${esc(x.overview)}</p>` : ""}
       ${x.found === false ? `<p class="sub">Deze titel is niet gevonden bij TMDB, dus er is geen aanbod bekend.</p>` : offersHtml(x.offers, mine)}
@@ -524,7 +534,7 @@ function openWatchlistItem(id) {
 function openTip(key) {
   const c = D.tips.find(x => tipKey(x) === key); if (!c) return;
   openDetail(detailHtml(c, `<p class="sub">${whyText(c)}</p>`,
-    `<a class="btn" href="https://www.imdb.com/find/?q=${encodeURIComponent(c.orig || c.title)}" target="_blank" rel="noopener">Zoek op IMDb</a>
+    `${c.imdb ? `<a class="btn" href="https://www.imdb.com/title/${esc(c.imdb)}/" target="_blank" rel="noopener">Open op IMDb</a>` : `<a class="btn" href="https://www.imdb.com/find/?q=${encodeURIComponent(c.orig || c.title)}" target="_blank" rel="noopener">Zoek op IMDb</a>`}
      <button class="btn" type="button" data-hide-tip="${esc(key)}">Niet interessant</button>`));
 }
 
