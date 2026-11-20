@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-20T14:42:43.536Z",
+ "generatedAt": "2026-11-20T23:58:16.965Z",
  "region": "NL",
  "nick": "denniskramer-490-543377",
  "stats": {
@@ -331,7 +331,7 @@
   },
   "2243": {
    "name": "Apple TV Amazon Channel",
-   "logo": "/rerVCu9auZrgxTTiZu1criqrQzg.png"
+   "logo": "/giKLP7saeUA0WykEPRyZUcOVv92.png"
   },
   "2266": {
    "name": "Qello Concerts by Stingray Amazon Channel",
@@ -5742,7 +5742,8 @@
     ],
     "buy": [
      71,
-     2
+     2,
+     10
     ]
    },
    "ir": 5.6,
